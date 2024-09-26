@@ -98,10 +98,11 @@
           </svg>
 
           <div
-            class="animate__animated animate__fadeInDown p-5"
+            class="animate__animated animate__fadeInDown w-50 m-3 p-3"
             data-il8n="task"
+            style="background-color: #00000011"
           >
-            <h1>{{ $t('headerTitle') }}</h1>
+            <h1 class="mt-5 w-100">{{ $t('headerTitle') }}</h1>
             <p class="text mt-4">
               {{ $t('headerText') }}
             </p>
@@ -978,7 +979,7 @@ export default {
 .about button {
   background-color: #df8317;
   color: #e5e7f2;
-  padding: 14px 5%;
+  padding: 14px 15%;
   border-radius: 10px;
   border: none;
   transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s,
