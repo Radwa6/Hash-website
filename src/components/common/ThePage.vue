@@ -2,7 +2,7 @@
   <div class="ThePage" :dir="isRTL ? 'rtl' : 'ltr'">
     <div class="navbarHeader pt-5">
       <section class="header">
-        <div class="container d-flex align-items-center">
+        <div class="d-flex align-items-center m-5">
           <svg
             width="17"
             height="236"
@@ -98,11 +98,11 @@
           </svg>
 
           <div
-            class="animate__animated animate__fadeInDown w-50 m-3 p-3"
+            class="animate__animated animate__fadeInDown w-50 m-5 p-3"
             data-il8n="task"
             style="background-color: #00000011"
           >
-            <h1 class="mt-5 w-100">{{ $t('headerTitle') }}</h1>
+            <h1 class="w-100">{{ $t('headerTitle') }}</h1>
             <p class="text mt-4">
               {{ $t('headerText') }}
             </p>

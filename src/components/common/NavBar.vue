@@ -346,7 +346,7 @@ a :hover {
 }
 .menu-area button {
   background-color: #df8317;
-  padding: 10px;
+  padding: 10px 5%;
   border-radius: 10px;
   border: none;
   transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s;

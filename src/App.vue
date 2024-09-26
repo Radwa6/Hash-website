@@ -35,7 +35,7 @@
   </div>
   <div v-else>
     <div id="app">
-      <div class="" v-if="!isContactPage">
+      <div class="">
         <NavBar />
       </div>
       <div class="row">
@@ -67,12 +67,6 @@ export default {
     setTimeout(() => {
       this.isLoading = false
     }, 200)
-  },
-
-  computed: {
-    isContactPage() {
-      return this.$route.name === 'Contact'
-    },
   },
 }
 </script>
