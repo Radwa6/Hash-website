@@ -133,27 +133,27 @@
 
           <div class="menu-area" :class="{ show: mobileMenu }">
             <ul class="">
-              <router-link to="/ThePage" active-class="active-link">
+              <router-link to="/ThePage" exact-active-class="active-link">
                 <li class="text-dark">{{ $t('home') }}</li>
               </router-link>
 
               <router-link
                 :to="{ path: '/ThePage', hash: '#system-section' }"
-                active-class="active-link"
+                exact-active-class="active-link"
               >
                 <li class="text-dark">{{ $t('about') }}</li>
               </router-link>
 
               <router-link
                 :to="{ path: '/ThePage', hash: '#servies-section' }"
-                active-class="active-link"
+                exact-active-class="active-link"
               >
                 <li class="text-dark">{{ $t('services') }}</li>
               </router-link>
 
               <router-link
                 :to="{ path: '/ThePage', hash: '#advantages-section' }"
-                active-class="active-link"
+                exact-active-class="active-link"
               >
                 <li class="text-dark">{{ $t('projects') }}</li>
               </router-link>
@@ -259,7 +259,13 @@ nav {
   background-color: transparent;
   transition: background-color 0.3s ease;
 }
+.active-link {
+  color: #df8317 !important;
+}
 
+li:hover {
+  color: #df8317 !important;
+}
 .navbarr.scrolled {
   background-color: white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -460,6 +466,7 @@ a :hover {
 .mega-menu li {
   display: block;
 }
+
 .mega-menu li a {
   display: inline-block;
   padding: 8px 0;

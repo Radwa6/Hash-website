@@ -18,7 +18,7 @@ const messages = {
     headerTitle: 'Transform Your Vision into Reality With Data Ways',
     headerText:
       "We transform ideas into reality with custom software solutions, delivering scalable, high-quality applications. From concept to deployment, we ensure your vision's success.",
-    getInTouch: 'Get in Touch',
+    SeeMore: 'See More',
     viewPortfolio: 'View Portfolio',
 
     pages: 'Pages',
@@ -131,7 +131,7 @@ const messages = {
     headerTitle: 'حوّل رؤيتك إلى واقع مع Data Ways',
     headerText:
       'نحوّل الأفكار إلى واقع من خلال حلول البرمجيات المخصصة، ونقدم تطبيقات قابلة للتوسع وعالية الجودة. من الفكرة إلى النشر، نضمن نجاح رؤيتك.',
-    getInTouch: 'تواصل معنا',
+    SeeMore: 'انظر المزيد ',
     viewPortfolio: 'عرض المحفظة',
     pages: 'الصفحات',
     about_us: 'من نحن',
