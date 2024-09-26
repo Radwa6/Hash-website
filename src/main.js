@@ -19,10 +19,12 @@ const messages = {
     headerText:
       'Convert your idea to reality with Hash Studio Inc through our customized solution.',
     SeeMore: 'See More',
+    WatchVideo: 'Watch Video',
+
     viewPortfolio: 'View Portfolio',
 
     pages: 'Pages',
-    about_us: 'About Us',
+    about_us: 'ABOUT US',
     projects: 'Projects',
     others: 'Others',
     process: 'Process',
@@ -32,9 +34,9 @@ const messages = {
     contact_info: 'Contact Information',
     footer: 'Copyright ⓒ  Hash Studio Inc , 2024. All rights reserved.',
     aboutinfo:
-      ' With more than 10 years of MENA & Gulf markets ’ experiences & bremarkable success records, we are competent to empower our clientsat wide variable industries with custom solution to implement efficient & effective tactics enabling them to achieve their strategic goals..',
-    abouth: 'Designing the Future with ',
-    DataWays: 'Data Ways',
+      'Hash studio is a premier software agency offering integrated services, including business identity design, web solutions, programming, and hosting. With over 10 years of experience, our talented team of marketers, designers, and developers is dedicated to excellence and innovation.',
+    abouth: 'Custom Software Built ',
+    abouthh: 'for You !',
     OurProcess: 'Our Process',
     ViewProcess: 'View Our Process',
     Planing: 'Planing',
@@ -58,21 +60,22 @@ const messages = {
     MachineLearning: 'Machine Learning',
     imgeSlider: 'Trusted by thousands of employees in the Middle East.',
     Jointhem: 'Join them',
-    servicesinfo: 'Services We Can Offer You!',
+    servicesinfo: 'Services That We Can ',
+    servicesinfoo: 'Provider !',
     offering: 'What We Are ',
     Offering: 'Offering',
     description:
-      'We provide full digital services to empower our clients with advanced customized solutions.',
+      'we providing full digital services to empower our clients with advanced customized solution.',
     descriptionof: 'We offer high-quality services in various fields.',
-    web_development: 'Web Development',
+    web_development: 'Websites',
     web_development_description:
-      'We Create Scalable Web Applications Which Fits All Needs.',
+      'We initially make planning on the full project visualization.',
     mobile_apps: 'Mobile Apps',
     mobile_apps_description:
       'We Create Stable and Secure Mobile Applications For All Needs.',
     ui_ux_design: 'UI/UX Design',
     ui_ux_design_description:
-      'We Are Professional In Graphics We Can Create Logos, Motion Graphics, brochures And Other Graphic Stuff For.',
+      'We Are Professional In Graphics We Can Create Logos, Motion Graphics.',
 
     TeamMember: 'Team Member',
     View: 'View',
@@ -133,6 +136,8 @@ const messages = {
     headerText:
       'قم بتحويل فكرتك إلى حقيقة مع Hash Studio Inc من خلال الحل المخصص لدينا.',
     SeeMore: 'انظر المزيد ',
+    WatchVideo: 'شاهد الفيديو ',
+
     viewPortfolio: 'عرض المحفظة',
     pages: 'الصفحات',
     about_us: 'من نحن',
@@ -146,9 +151,10 @@ const messages = {
     footer:
       ' لحقوق الطبع والنشر ⓒ  Hash Studio Inc ، 2024 جميع الحقوق محفوظة. ',
     aboutinfo:
-      'مع أكثر من 10 سنوات من الخبرة في أسواق الشرق الأوسط والخليج وسجلات النجاح البارزة، نحن قادرون على تمكين عملائنا في مجموعة متنوعة من الصناعات من خلال حلول مخصصة لتنفيذ استراتيجيات فعالة وفعّالة، مما يمكنهم من تحقيق أهدافهم الاستراتيجية.',
-    abouth: 'تصميم المستقبل مع ',
-    DataWays: 'داتا وايز',
+      'Hash studio هي وكالة برمجيات رائدة تقدم خدمات متكاملة، بما في ذلك تصميم هوية الأعمال وحلول الويب والبرمجة والاستضافة. مع أكثر من 10 سنوات من الخبرة، يكرس فريقنا الموهوب من المسوقين والمصممين والمطورين جهودهم للتميز والإبداع.',
+    abouth: '  تم إنشاء برنامج مخصص ',
+    abouthh: 'لك  !',
+
     OurProcess: 'عمليتنا ',
     ViewProcess: 'تعرف على عمليتنا',
     Planing: 'التخطيط',
@@ -173,15 +179,15 @@ const messages = {
     offering: 'ما الذي ',
     Offering: 'نقدمه ',
     description: 'نقدم خدمات عالية الجودة في مجالات متنوعة.',
-    web_development: 'تطوير الويب',
+    web_development: ' المواقع',
     web_development_description:
-      'نقوم بإنشاء تطبيقات ويب قابلة للتوسع لتناسب جميع الاحتياجات.',
+      'نحن نقوم في البداية بالتخطيط لتصور المشروع الكامل.',
     mobile_apps: 'تطبيقات الجوال',
     mobile_apps_description:
       'نقوم بإنشاء تطبيقات جوال مستقرة وآمنة لتناسب جميع الاحتياجات.',
     ui_ux_design: 'تصميم واجهة وتجربة المستخدم',
     ui_ux_design_description:
-      'نحن محترفون في تصميم الرسوميات، يمكننا إنشاء الشعارات، الرسوم المتحركة، الكتيبات وغيرها من الأعمال الرسومية.',
+      ' محترفون في تصميم الرسوميات، وإنشاء الشعارات، الرسوم المتحركة',
     TeamMember: 'عضو الفريق',
     View: 'عرض',
     'Our Creative Team Members': 'أعضاء فريقنا المبدعين',

@@ -120,45 +120,60 @@
       <div
         class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
       >
-        <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
-          <img :src="imageUrl1" alt="image" class="img-fluid" />
-        </div>
         <div
           class="col-6 p-4 position-relative justify-content-center"
           data-aos="fade-right"
           data-aos-duration="2000"
         >
-          <p style="color: #df8317; font-weight: bold">
-            <svg
-              width="144"
-              height="2"
-              viewBox="0 0 144 2"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <line
-                x1="1.5"
-                y1="1"
-                x2="142.5"
-                y2="1.00001"
-                stroke="#8C3597"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-            {{ $t('about') }}
+          <p
+            style="
+              color: #df8317;
+              background-color: #fee6c963;
+              width: 20%;
+              padding: 3px 20px;
+              border-radius: 50px;
+            "
+          >
+            {{ $t('about_us') }}
           </p>
           <h1 style="font-weight: bold" class="mt-4">
             {{ $t('abouth') }}
-            <span style="color: #df8317">{{ $t('DataWays') }}</span>
+            <span style="color: #df8317">{{ $t('abouthh') }}</span>
           </h1>
           <p class="mt-4">{{ $t('aboutinfo') }}</p>
           <router-link to="/Contact">
-            <button class="mt-4">{{ $t('getInTouch') }}</button>
+            <button class="mt-4">{{ $t('SeeMore') }}</button>
           </router-link>
+          <router-link to="/">
+            <button
+              class="mt-4"
+              style="background-color: transparent; color: #404852"
+            >
+              <svg
+                width="21"
+                height="20"
+                viewBox="0 0 21 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.5 0C16.0116 0 20.5 4.48625 20.5 10.0058C20.5 15.5137 16.0116 20 10.5 20C4.98842 20 0.5 15.5137 0.5 10.0058C0.5 4.48625 4.98842 0 10.5 0ZM9.361 6.02991C9.14865 6.02991 8.94595 6.07815 8.7529 6.17463C8.51158 6.3097 8.31853 6.52195 8.21236 6.77279C8.14479 6.94645 8.03861 7.46744 8.03861 7.47709C7.93243 8.04631 7.87452 8.9725 7.87452 9.99518C7.87452 10.9706 7.93243 11.8572 8.01931 12.4361C8.02896 12.4457 8.13514 13.0921 8.25097 13.314C8.46332 13.7192 8.87838 13.9701 9.32239 13.9701H9.361C9.65058 13.9604 10.2587 13.7096 10.2587 13.7C11.2819 13.2754 13.2992 11.9537 14.11 11.0757L14.168 11.0178C14.2741 10.9117 14.4093 10.7477 14.4382 10.7091C14.5927 10.5065 14.6699 10.2557 14.6699 10.0058C14.6699 9.72504 14.583 9.46454 14.4189 9.25229C14.3803 9.2137 14.2355 9.04969 14.1004 8.91462C13.3089 8.06561 11.2432 6.67631 10.1622 6.25181C9.99807 6.18524 9.58301 6.03956 9.361 6.02991Z"
+                  fill="#404852"
+                />
+              </svg>
+
+              {{ $t('WatchVideo') }}
+            </button>
+          </router-link>
+        </div>
+        <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+          <img :src="imageUrl1" alt="image" class="img-fluid" />
         </div>
       </div>
     </div>
+
+    <SlickSlider id="servies-section" />
+
     <div class="Process" data-aos="fade-up" data-aos-duration="3000">
       <div class="container" id="Process-section">
         <div
@@ -168,41 +183,7 @@
           data-aos="fade-up"
           data-aos-delay="100"
         >
-          <svg
-            width="50"
-            height="2"
-            viewBox="0 0 50 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="1"
-              y1="1"
-              x2="49"
-              y2="1.00001"
-              stroke="#773280"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-          </svg>
           {{ $t('OurProcess') }}
-          <svg
-            width="50"
-            height="2"
-            viewBox="0 0 50 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="1"
-              y1="1"
-              x2="49"
-              y2="1.00001"
-              stroke="#773280"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-          </svg>
         </div>
         <h1 style="color: #fff; font-weight: bold" class="mt-5 mb-5">
           {{ $t('ViewProcess') }}
@@ -589,8 +570,6 @@
       </div>
     </div>
 
-    <SlickSlider id="servies-section" />
-
     <div class="m-5" id="partners-section">
       <p class="text-center" style="font-weight: bold">
         {{ $t('imgeSlider') }}
@@ -845,7 +824,7 @@ export default {
       mobileMenu: false,
       currentLanguage: 'English',
       imageUrl: require('@/assets/logo.png'),
-      imageUrl1: require('@/assets/Group 1261152778.png'),
+      imageUrl1: require('@/assets/Group 1261152760.png'),
       imageUrl2: require('@/assets/Frame 1.png'),
       imageUrl3: require('@/assets/Frame 2.png'),
       imageUrl4: require('@/assets/Frame 3.png'),

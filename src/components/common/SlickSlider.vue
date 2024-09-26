@@ -1,108 +1,50 @@
 <template>
-  <div class="Services">
-    <div class="row text-white">
-      <div
-        class="col-6 Offering p-5 container d-flex flex-column justify-content-center"
-        style="background-color: #211b2a; border-radius: 6px"
-      >
-        <p>
-          <svg
-            width="53"
-            height="2"
-            viewBox="0 0 143 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="1"
-              y1="1"
-              x2="142"
-              y2="1.00001"
-              stroke="#D8D8D8"
-              stroke-width="2"
-              stroke-linecap="round"
-            />
-          </svg>
-          {{ $t('offering') }}
-          <span style="color: #8c3597"> {{ $t('Offering') }} </span>
-        </p>
-        <h1>{{ $t('servicesinfo') }}</h1>
-        <p>{{ $t('description') }}</p>
-        <div class="d-flex justify-content-start mt-3">
-          <button
-            class="btn btn-prev m-1"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev"
-            style="background-color: #8c3597; border-radius: 50%; color: #fff"
-          >
-            <i class="fa-solid fa-angle-left"></i>
-          </button>
-          <button
-            class="btn btn-next m-1"
-            type="button"
-            data-bs-target="#carouselExampleControls"
-            data-bs-slide="next"
-            style="background-color: #fff; border-radius: 50%; color: #8c3597"
-          >
-            <i class="fa-solid fa-angle-right"></i>
-          </button>
-        </div>
-      </div>
-
-      <div class="col-6">
-        <div class="pt-5 pb-5" style="margin: 0 -10%">
-          <div
-            id="carouselExampleControls"
-            class="carousel carousel-dark slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
+  <div>
+    <div
+      class="Services text-center"
+      style="padding: 4% 10% 12%"
+      data-aos="fade-right"
+      data-aos-duration="2000"
+    >
+      <h1 style="font-weight: bold">
+        {{ $t('servicesinfo') }}
+        <span style="color: #df8317">{{ $t('servicesinfoo') }} </span>
+      </h1>
+      <p>{{ $t('description') }}</p>
+    </div>
+    <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
+      <div class="" style="margin: -10% -10% 0">
+        <div
+          id="carouselExampleControls"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div
+              class="carousel-item"
+              v-for="(slide, index) in slides"
+              :key="index"
+              :class="{ active: index === 0 }"
+            >
               <div
-                class="carousel-item"
-                v-for="(slide, index) in slides"
-                :key="index"
-                :class="{ active: index === 0 }"
+                class="card-wrapper container-sm d-flex justify-content-around"
               >
                 <div
-                  class="card-wrapper container-sm d-flex justify-content-around"
+                  v-for="(card, cardIndex) in slide.cards"
+                  :key="cardIndex"
+                  class="m-2 card"
+                  style="width: 18rem"
                 >
-                  <div
-                    v-for="(card, cardIndex) in slide.cards"
-                    :key="cardIndex"
-                    class="m-2"
-                    style="width: 18rem"
-                  >
-                    <div
-                      class="image-container"
-                      style="
-                        position: relative;
-                        width: 18rem;
-                        height: 350px;
-                        background-size: cover;
-                        background-position: center;
-                        border-radius: 6px;
-                      "
-                      :style="{ backgroundImage: 'url(' + card.imgSrc + ')' }"
-                    >
-                      <div
-                        class="card-title"
-                        style="
-                          position: absolute;
-                          bottom: 0;
-                          left: 0;
-                          width: 100%;
-                          padding: 10px;
-                          color: white;
-                          z-index: 1;
-                        "
-                      >
-                        <h5 style="font-weight: bold">
-                          {{ $t(card.title) }}
-                        </h5>
-                        <p style="font-size: 14px">{{ $t(card.text) }}</p>
-                      </div>
-                    </div>
+                  <img
+                    :src="card.imgSrc"
+                    alt="Card image"
+                    class="card-img-top"
+                    style="height: 200px; object-fit: cover"
+                  />
+
+                  <div class="card-body text-start">
+                    <h5 class="card-title">{{ $t(card.title) }}</h5>
+                    <p class="card-text">{{ $t(card.text) }}</p>
                   </div>
                 </div>
               </div>
@@ -122,36 +64,22 @@ export default {
         {
           cards: [
             {
-              imgSrc: require('@/assets/uae.png'),
+              imgSrc: require('@/assets/Frame 2147223649.png'),
               title: 'web_development',
               text: 'web_development_description',
             },
             {
-              imgSrc: require('@/assets/uae1.png'),
+              imgSrc: require('@/assets/Frame 2147223649 (1).png'),
               title: 'mobile_apps',
               text: 'mobile_apps_description',
             },
             {
-              imgSrc: require('@/assets/uae.png'),
+              imgSrc: require('@/assets/Frame 2147223649 (2).png'),
               title: 'ui_ux_design',
               text: 'ui_ux_design_description',
             },
-          ],
-        },
-        {
-          cards: [
             {
-              imgSrc: require('@/assets/uae.png'),
-              title: 'web_development',
-              text: 'web_development_description',
-            },
-            {
-              imgSrc: require('@/assets/uae1.png'),
-              title: 'mobile_apps',
-              text: 'mobile_apps_description',
-            },
-            {
-              imgSrc: require('@/assets/uae.png'),
+              imgSrc: require('@/assets/Frame 2147223649 (3).png'),
               title: 'ui_ux_design',
               text: 'ui_ux_design_description',
             },
@@ -164,13 +92,17 @@ export default {
 </script>
 
 <style scoped>
+.Services {
+  background-image: url('@/assets/Frame 2147223656.png');
+}
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
-
+.card:hover .card-body {
+}
 .image-container {
   flex: 1;
   overflow: hidden;
