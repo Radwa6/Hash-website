@@ -17,7 +17,7 @@ const messages = {
     contact: 'Contact Us',
     headerTitle: 'Transform Your Vision into Reality With Data Ways',
     headerText:
-      "We transform ideas into reality with custom software solutions, delivering scalable, high-quality applications. From concept to deployment, we ensure your vision's success.",
+      'Convert your idea to reality with Hash Studio Inc through our customized solution.',
     SeeMore: 'See More',
     viewPortfolio: 'View Portfolio',
 
@@ -30,7 +30,7 @@ const messages = {
     members: 'Members',
     feedback: 'Feedback',
     contact_info: 'Contact Information',
-    footer: 'Copyright ⓒ Data Ways, 2024. All rights reserved.',
+    footer: 'Copyright ⓒ  Hash Studio Inc , 2024. All rights reserved.',
     aboutinfo:
       ' With more than 10 years of MENA & Gulf markets ’ experiences & bremarkable success records, we are competent to empower our clientsat wide variable industries with custom solution to implement efficient & effective tactics enabling them to achieve their strategic goals..',
     abouth: 'Designing the Future with ',
@@ -121,6 +121,7 @@ const messages = {
     Gadawel: 'Gadawel',
     Gadawelinfo:
       'It is a system that allows companies to manage all aspects oftheir business on a single platform, including: inventory,finance, planning, logistics and operations. An ERP inventory management system provides real-time inventory information for theentire organization. This is an important ability for companies that plan to expand, have complex workflows or supply chains, need advanced automation, operate in a “just in time” mode, sell multiple products or simply want to increase their inventory investment.',
+    Contact: 'For Contact',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -130,7 +131,7 @@ const messages = {
     contact: 'اتصل بنا',
     headerTitle: 'حوّل رؤيتك إلى واقع مع Data Ways',
     headerText:
-      'نحوّل الأفكار إلى واقع من خلال حلول البرمجيات المخصصة، ونقدم تطبيقات قابلة للتوسع وعالية الجودة. من الفكرة إلى النشر، نضمن نجاح رؤيتك.',
+      'قم بتحويل فكرتك إلى حقيقة مع Hash Studio Inc من خلال الحل المخصص لدينا.',
     SeeMore: 'انظر المزيد ',
     viewPortfolio: 'عرض المحفظة',
     pages: 'الصفحات',
@@ -142,7 +143,8 @@ const messages = {
     members: 'الأعضاء',
     feedback: 'التغذية الراجعة',
     contact_info: 'معلومات الاتصال',
-    footer: ' لحقوق الطبع والنشر ⓒ Data Ways، 2024 جميع الحقوق محفوظة. ',
+    footer:
+      ' لحقوق الطبع والنشر ⓒ  Hash Studio Inc ، 2024 جميع الحقوق محفوظة. ',
     aboutinfo:
       'مع أكثر من 10 سنوات من الخبرة في أسواق الشرق الأوسط والخليج وسجلات النجاح البارزة، نحن قادرون على تمكين عملائنا في مجموعة متنوعة من الصناعات من خلال حلول مخصصة لتنفيذ استراتيجيات فعالة وفعّالة، مما يمكنهم من تحقيق أهدافهم الاستراتيجية.',
     abouth: 'تصميم المستقبل مع ',
@@ -220,6 +222,7 @@ const messages = {
     Gadawel: 'جداول',
     Gadawelinfo:
       'هو نظام يسمح للشركات بإدارة جميع جوانب أعمالها على منصة واحدة، بما في ذلك: المخزون، والمالية، والتخطيط، والخدمات اللوجستية، والعمليات. يوفر نظام إدارة المخزون ERP معلومات لحظية حول المخزون لجميع أجزاء المؤسسة. هذه القدرة مهمة للشركات التي تخطط للتوسع، أو لديها سير عمل معقد أو سلاسل توريد، أو تحتاج إلى أتمتة متقدمة، أو تعمل بنظام "الوقت المناسب"، أو تبيع العديد من المنتجات، أو ببساطة ترغب في زيادة استثماراتها في المخزون.',
+    Contact: 'للتواصل',
   },
 }
 
