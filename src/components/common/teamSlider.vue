@@ -41,8 +41,7 @@
               :alt="member.name"
               class="img-fluid"
               width="94%"
-              height="auto"
-              style="border-radius: 50%; margin-left: -14px"
+              :style="{ width: '94%', height: '200px', borderRadius: '50%' }"
             />
           </div>
 
@@ -71,48 +70,56 @@ export default {
       team: [
         {
           id: 1,
-          name: 'Ahmed',
-          role: 'Developer',
-          image: require('@/assets/Group 19.png'),
+          name: 'Abdelalim Mohammed',
+          role: 'Full Stack Developer',
+          image: require('@/assets/bakend.jpg'),
           fill: '#D6D6D6',
           background: '#D6D6D6',
         },
         {
           id: 2,
-          name: 'Sara',
-          role: 'Designer',
+          name: 'Aya Amer',
+          role: 'Software Tester',
           image: require('@/assets/Group 19.png'),
           fill: '#DF8317',
           background: '#DF8317',
         },
         {
           id: 3,
-          name: 'Ali',
-          role: 'Project Manager',
-          image: require('@/assets/Group 19.png'),
+          name: 'Amira AbdElhak',
+          role: 'Graphic Designer',
+          image: require('@/assets/WhatsApp Image 2024-09-29 at 4.44.31 PM.jpeg'),
           fill: '#D6D6D6',
           background: '#D6D6D6',
         },
         {
           id: 4,
-          name: 'Mona',
-          role: 'Marketing',
-          image: require('@/assets/Group 19.png'),
+          name: 'Mohamed Sultan',
+          role: 'Full Stack Developer',
+          image: require('@/assets/WhatsApp Image 2024-09-29 at 4.48.08 PM.jpeg'),
           fill: '#DF8317',
           background: '#DF8317',
         },
         {
           id: 5,
-          name: 'Hassan',
-          role: 'Sales',
+          name: 'Nada Nasr',
+          role: 'Full Stack Developer',
           image: require('@/assets/Group 19.png'),
           fill: '#D6D6D6',
           background: '#D6D6D6',
         },
         {
           id: 6,
-          name: 'Laila',
-          role: 'HR Manager',
+          name: 'Radwa Emam',
+          role: 'Frontend Developer',
+          image: require('@/assets/Group 19.png'),
+          fill: '#DF8317',
+          background: '#DF8317',
+        },
+        {
+          id: 7,
+          name: 'Yosra Allam ',
+          role: 'Product Manger',
           image: require('@/assets/Group 19.png'),
           fill: '#DF8317',
           background: '#DF8317',
