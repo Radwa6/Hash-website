@@ -13,7 +13,7 @@
       <p>{{ $t('description') }}</p>
     </div>
     <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
-      <div class="" style="margin: -10% -10% 0">
+      <div class="" style="margin: -10% -10% 8%">
         <div
           id="carouselExampleControls"
           class="carousel carousel-dark slide"
@@ -42,7 +42,7 @@
                     style="height: 200px; object-fit: cover"
                   />
 
-                  <div class="card-body text-start">
+                  <div class="card-body">
                     <h5 class="card-title">{{ $t(card.title) }}</h5>
                     <p class="card-text">{{ $t(card.text) }}</p>
                   </div>

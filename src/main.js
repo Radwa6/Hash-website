@@ -37,8 +37,11 @@ const messages = {
       'Hash studio is a premier software agency offering integrated services, including business identity design, web solutions, programming, and hosting. With over 10 years of experience, our talented team of marketers, designers, and developers is dedicated to excellence and innovation.',
     abouth: 'Custom Software Built ',
     abouthh: 'for You !',
-    OurProcess: 'Our Process',
-    ViewProcess: 'View Our Process',
+
+    OurrPortofolio: 'Our',
+    OurPortofolio: 'Portofolio',
+    ViewPortofolio: 'See All',
+
     Planing: 'Planing',
     Planinginfo:
       'We initially make planning on the full project visualization.',
@@ -125,6 +128,19 @@ const messages = {
     Gadawelinfo:
       'It is a system that allows companies to manage all aspects oftheir business on a single platform, including: inventory,finance, planning, logistics and operations. An ERP inventory management system provides real-time inventory information for theentire organization. This is an important ability for companies that plan to expand, have complex workflows or supply chains, need advanced automation, operate in a “just in time” mode, sell multiple products or simply want to increase their inventory investment.',
     Contact: 'For Contact',
+    processinfo: 'Our process covers ',
+    processinfoo: 'everything!',
+    processdescription:
+      'Each step of our process is on delivering high-quality results, with attention to every detail.',
+    process1: 'Analysis & Design',
+    process2: 'Implementation',
+    process3: 'Review and Closure',
+    processp1:
+      ' Review this perception with the client and make the necessary adjustments',
+    processp2:
+      'Implementation phase and duration varies depending on the size of the project',
+    processp3:
+      'The stage of delivering the final structure of the project and reviewing it ',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -155,7 +171,11 @@ const messages = {
     abouth: '  تم إنشاء برنامج مخصص ',
     abouthh: 'لك  !',
 
-    OurProcess: 'عمليتنا ',
+    OurPortofolio: 'نا ',
+    OurrPortofolio: 'مشاريع',
+
+    ViewPortofolio: 'عرض المزيد  ',
+
     ViewProcess: 'تعرف على عمليتنا',
     Planing: 'التخطيط',
     Planinginfo: 'نقوم في البداية بالتخطيط لرؤية كاملة للمشروع.',
@@ -175,7 +195,9 @@ const messages = {
     MachineLearning: 'التعلم الآلي',
     imgeSlider: 'موثوق من قبل آلاف الموظفين في الشرق الأوسط.',
     Jointhem: 'انضم إليهم',
-    servicesinfo: 'الخدمات التي يمكن أن نقدمها!',
+    servicesinfo: 'الخدمات التي يمكن أن ',
+    servicesinfoo: 'نقدمها!',
+
     offering: 'ما الذي ',
     Offering: 'نقدمه ',
     description: 'نقدم خدمات عالية الجودة في مجالات متنوعة.',
@@ -229,6 +251,16 @@ const messages = {
     Gadawelinfo:
       'هو نظام يسمح للشركات بإدارة جميع جوانب أعمالها على منصة واحدة، بما في ذلك: المخزون، والمالية، والتخطيط، والخدمات اللوجستية، والعمليات. يوفر نظام إدارة المخزون ERP معلومات لحظية حول المخزون لجميع أجزاء المؤسسة. هذه القدرة مهمة للشركات التي تخطط للتوسع، أو لديها سير عمل معقد أو سلاسل توريد، أو تحتاج إلى أتمتة متقدمة، أو تعمل بنظام "الوقت المناسب"، أو تبيع العديد من المنتجات، أو ببساطة ترغب في زيادة استثماراتها في المخزون.',
     Contact: 'للتواصل',
+    processinfo: 'عمليتنا تغطي',
+    processinfoo: 'كل شيء!',
+    processdescription:
+      'كل خطوة من خطوات عمليتنا تركز على تقديم نتائج عالية الجودة مع الانتباه إلى كل تفصيل.',
+    process1: 'التحليل والتصميم',
+    process2: 'التنفيذ',
+    process3: 'المراجعة والإغلاق',
+    processp1: 'راجع هذا التصور مع العميل وقم بالتعديلات اللازمة',
+    processp2: 'مرحلة التنفيذ ومدتها تختلف بناءً على حجم المشروع',
+    processp3: 'مرحلة تسليم الهيكل النهائي للمشروع ومراجعته',
   },
 }
 

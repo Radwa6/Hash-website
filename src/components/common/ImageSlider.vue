@@ -1,5 +1,5 @@
 <template>
-  <div class="carousel-wrapper mb-5" :dir="isRTL ? 'rtl' : 'ltr'">
+  <div class="carousel-wrapper" :dir="isRTL ? 'rtl' : 'ltr'">
     <div class="carousel">
       <div class="carousel-inner">
         <div class="carousel-content">
@@ -80,7 +80,6 @@ export default {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 120px;
 }
 .carousel {
   width: 100%;
