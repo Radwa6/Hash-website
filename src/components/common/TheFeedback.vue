@@ -38,7 +38,7 @@
           />
         </svg>
         <h1 class="m-4" style="font-weight: bold">
-          <span style="color: #8c3597">{{ $t('WhatOur') }}</span>
+          <span style="color: #df8317">{{ $t('WhatOur') }}</span>
           {{ $t('ClientSayaboutUs') }}
         </h1>
       </div>
@@ -66,7 +66,7 @@
               class="rounded-circle shadow-1-strong mb-4 mt-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #8c3597; padding: 3px"
+              style="width: 70px; border: 4px solid #df8317; padding: 3px"
             />
           </div>
 
@@ -85,7 +85,7 @@
               class="rounded-circle shadow-1-strong mb-4 mt-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #8c3597; padding: 3px"
+              style="width: 70px; border: 4px solid #df8317; padding: 3px"
             />
           </div>
 
@@ -104,7 +104,7 @@
               class="rounded-circle shadow-1-strong mb-4 mt-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #8c3597; padding: 3px"
+              style="width: 70px; border: 4px solid #df8317; padding: 3px"
             />
           </div>
         </div>

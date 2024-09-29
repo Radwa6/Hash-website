@@ -363,8 +363,10 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">VPN Mobile App</h5>
-                <p class="card-text">Mobile App</p>
+                <h5 class="card-title">
+                  {{ $t('VPNMobile') }}
+                </h5>
+                <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>
             </div>
           </div>
@@ -380,8 +382,10 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Streaming Mobile App</h5>
-                <p class="card-text">Mobile App</p>
+                <h5 class="card-title">
+                  {{ $t('StreamingMobile') }}
+                </h5>
+                <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>
             </div>
           </div>
@@ -397,8 +401,10 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Creative Digital Agency</h5>
-                <p class="card-text">Landing Page</p>
+                <h5 class="card-title">
+                  {{ $t('CreativeDigitalAgency') }}
+                </h5>
+                <p class="card-text">{{ $t('LandingPage') }}</p>
               </div>
             </div>
           </div>
@@ -415,8 +421,10 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Podcast Mobile App</h5>
-                <p class="card-text">Mobile App</p>
+                <h5 class="card-title">
+                  {{ $t('PodcastMobile') }}
+                </h5>
+                <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>
             </div>
           </div>
@@ -432,8 +440,10 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Multimedia Design Platf...</h5>
-                <p class="card-text">Web Design</p>
+                <h5 class="card-title">
+                  {{ $t('MultimediaDesign') }}
+                </h5>
+                <p class="card-text">{{ $t('WebDesign') }}</p>
               </div>
             </div>
           </div>
@@ -449,8 +459,10 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <h5 class="card-title">Parking Mobile App</h5>
-                <p class="card-text">Mobile App</p>
+                <h5 class="card-title">
+                  {{ $t('ParkingMobile') }}
+                </h5>
+                <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>
             </div>
           </div>
@@ -759,13 +771,16 @@
       </div>
     </div>
 
-    <div class="m-5" id="partners-section">
-      <p class="text-center mb-5" style="font-weight: bold">
-        {{ $t('imgeSlider') }}
+    <teamSlider />
 
-        <span style="color: #df8317">{{ $t('Jointhem') }}</span>
-      </p>
-      <ImageSlider />
+    <div class="text-center m-5" id="partners-section">
+      <h1 style="font-weight: bold">
+        <span style="color: #df8317">{{ $t('Our') }}</span>
+
+        {{ $t('partners') }}
+      </h1>
+      <p style="color: #696984">Over 20 Companies Working with us..</p>
+      <ImageSlider class="mt-5" />
     </div>
 
     <Feedback
@@ -779,6 +794,8 @@
 <script>
 import ScrollReveal from 'scrollreveal'
 import ImageSlider from '../common/ImageSlider.vue'
+import teamSlider from '../common/teamSlider.vue'
+
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
@@ -790,7 +807,7 @@ import { onMounted, nextTick } from 'vue'
 
 export default {
   name: 'ThePage',
-  components: { ImageSlider, SlickSlider, Feedback },
+  components: { ImageSlider, SlickSlider, Feedback, teamSlider },
 
   data() {
     return {

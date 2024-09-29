@@ -24,11 +24,11 @@ const messages = {
     viewPortfolio: 'View Portfolio',
 
     pages: 'Pages',
+
     about_us: 'ABOUT US',
     projects: 'Projects',
     others: 'Others',
     process: 'Process',
-    partners: 'Partners',
     members: 'Members',
     feedback: 'Feedback',
     contact_info: 'Contact Information',
@@ -38,9 +38,20 @@ const messages = {
     abouth: 'Custom Software Built ',
     abouthh: 'for You !',
 
+    //Portofolio
     OurrPortofolio: 'Our',
     OurPortofolio: 'Portofolio',
     ViewPortofolio: 'See All',
+
+    VPNMobile: 'VPN Mobile App',
+    MobileApp: 'Mobile App',
+    StreamingMobile: 'Streaming Mobile App',
+    CreativeDigitalAgency: 'Creative Digital Agency',
+    LandingPage: 'Landing Page',
+    PodcastMobile: 'Podcast Mobile App',
+    MultimediaDesign: 'MultimediaDesign Platf...',
+    WebDesign: 'Web Design',
+    ParkingMobile: 'Parking Mobile App',
 
     Planing: 'Planing',
     Planinginfo:
@@ -61,8 +72,7 @@ const messages = {
     UIUXDesign: 'UI/UX Design',
     GraphicDesign: 'Graphic Design',
     MachineLearning: 'Machine Learning',
-    imgeSlider: 'Trusted by thousands of employees in the Middle East.',
-    Jointhem: 'Join them',
+    partners: 'Sucess partners.',
     servicesinfo: 'Services That We Can ',
     servicesinfoo: 'Provider !',
     offering: 'What We Are ',
@@ -160,7 +170,7 @@ const messages = {
     projects: 'المشاريع',
     others: 'أخرى',
     process: 'عملية',
-    partners: 'الشركاء',
+    partners: 'شركاء النجاح',
     members: 'الأعضاء',
     feedback: 'التغذية الراجعة',
     contact_info: 'معلومات الاتصال',
@@ -171,12 +181,21 @@ const messages = {
     abouth: '  تم إنشاء برنامج مخصص ',
     abouthh: 'لك  !',
 
+    //Portofolio
     OurPortofolio: 'نا ',
     OurrPortofolio: 'مشاريع',
-
     ViewPortofolio: 'عرض المزيد  ',
+    VPNMobile: 'تطبيق VPN موبايل',
+    MobileApp: 'تطبيق موبايل',
+    StreamingMobile: 'تطبيق البث المباشر للموبايل',
+    CreativeDigitalAgency: 'وكالة إبداعية رقمية',
+    LandingPage: 'صفحة الهبوط',
+    PodcastMobile: 'تطبيق البودكاست للموبايل',
+    MultimediaDesign: 'منصة التصميم المتعدد الوسائط',
+    WebDesign: 'تصميم الويب',
+    ParkingMobile: 'تطبيق ركن السيارات للموبايل',
+    Our: '',
 
-    ViewProcess: 'تعرف على عمليتنا',
     Planing: 'التخطيط',
     Planinginfo: 'نقوم في البداية بالتخطيط لرؤية كاملة للمشروع.',
     Analysis: 'التحليل',
@@ -193,8 +212,6 @@ const messages = {
     UIUXDesign: 'تصميم واجهة المستخدم وتجربة المستخدم',
     GraphicDesign: 'التصميم الجرافيكي',
     MachineLearning: 'التعلم الآلي',
-    imgeSlider: 'موثوق من قبل آلاف الموظفين في الشرق الأوسط.',
-    Jointhem: 'انضم إليهم',
     servicesinfo: 'الخدمات التي يمكن أن ',
     servicesinfoo: 'نقدمها!',
 
