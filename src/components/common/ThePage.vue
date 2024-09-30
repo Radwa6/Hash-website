@@ -1,6 +1,6 @@
 <template>
   <div class="ThePage" :dir="isRTL ? 'rtl' : 'ltr'">
-    <div class="navbarHeader pt-5">
+    <div class="navbarHeader pt-5" :class="['navbarHeader', { rtl: isRTL }]">
       <section class="header">
         <div class="d-flex align-items-center m-5">
           <div
@@ -544,7 +544,9 @@ export default {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-
+.navbarHeader.rtl {
+  background-image: url('/src/assets/header bg mirrored.png');
+}
 .header {
   position: relative;
   z-index: 2;

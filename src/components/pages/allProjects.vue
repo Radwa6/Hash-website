@@ -35,7 +35,7 @@
   </div>
   <div v-else>
     <div class="allProjects">
-      <img src="/src/assets/" alt="" />
+      <h1 class="pt-5 pb-5" style="color: #fff">Projects</h1>
     </div>
   </div>
 </template>
@@ -47,4 +47,9 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.allProjects {
+  background-image: url('@/assets/Rectangle.png');
+  padding: 80px 0;
+}
+</style>

@@ -170,28 +170,28 @@
           <div class="menu-area" :class="{ show: mobileMenu }">
             <ul class="">
               <router-link to="/ThePage" exact-active-class="active-link">
-                <li class="text-dark">{{ $t('home') }}</li>
+                <li>{{ $t('home') }}</li>
               </router-link>
 
               <router-link
                 :to="{ path: '/aboutUs' }"
                 exact-active-class="active-link"
               >
-                <li class="text-dark">{{ $t('about') }}</li>
+                <li>{{ $t('about') }}</li>
               </router-link>
 
               <router-link
                 :to="{ path: '/ThePage', hash: '#servies-section' }"
                 exact-active-class="active-link"
               >
-                <li class="text-dark">{{ $t('services') }}</li>
+                <li>{{ $t('services') }}</li>
               </router-link>
 
               <router-link
                 :to="{ path: '/allProjects' }"
                 exact-active-class="active-link"
               >
-                <li class="text-dark">{{ $t('projects') }}</li>
+                <li>{{ $t('projects') }}</li>
               </router-link>
 
               <router-link to="/Contact">
@@ -389,6 +389,7 @@ a :hover {
 }
 .menu-area li {
   display: inline-block;
+  color: #000 !important;
 }
 .menu-area li a {
   display: inline-block;
