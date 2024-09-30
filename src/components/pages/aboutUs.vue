@@ -105,91 +105,188 @@
         </h1>
         <p>{{ $t('processdescription') }}</p>
       </div>
-      <div class="row d-flex justify-content-center text-center mt-5">
+      <div class="row d-flex justify-content-center text-start mt-5">
         <div class="col-sm-4">
-          <div
-            class="svg text-center justify-content-center"
-            style="
-              background-color: #202020;
-              color: #fff;
-              padding: 10px;
-              border-radius: 50%;
-              width: 40px;
-              height: 40px;
-              z-index: 999;
-              position: absolute;
-              margin: 0 16%;
-            "
-          >
-            1
-          </div>
-          <img
-            :src="imageUrl2"
-            alt=""
-            style="margin: -6% 0 0; z-index: 0; position: relative"
-          />
+          <div class="Us p-4">
+            <svg
+              width="116"
+              height="117"
+              viewBox="0 0 116 117"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M84.3739 44.7732C93.0015 61.3176 88.9914 80.4346 75.0952 87.6439C61.3733 94.754 33.5187 92.0248 24.8911 75.4804C16.2634 58.9361 37.3538 46.9444 45.2063 32.6772C56.1977 12.8197 75.7462 28.2288 84.3739 44.7732Z"
+                fill="url(#paint0_linear_251_410)"
+              />
+              <path
+                d="M46.1992 69.4363L46.2872 60.6263L48.9259 60.651C48.8492 64.515 53.4579 63.9723 53.4506 60.6997L55.6986 60.7203L55.6672 63.8417C58.4886 62.843 58.9679 67.4063 55.6419 66.4257L55.6106 69.531L46.1992 69.4363Z"
+                fill="white"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M66.7055 70.053L57.8948 69.891L57.8928 67.4204C61.7568 67.455 61.1621 62.8524 57.8895 62.8957L57.8875 60.647L61.0088 60.6444C59.9801 57.8344 64.5381 57.3064 63.5935 60.6424L66.6981 60.6404L66.7055 70.053ZM70.0035 50.3157L65.3895 57.8217L63.1161 56.3597C65.1728 53.0877 60.9908 51.3404 59.3115 54.1497L57.3715 52.8924L59.0062 50.2337C56.0735 49.6357 58.0135 45.4777 60.3595 48.0317L61.9861 45.3864L70.0035 50.3157ZM46.7715 48.4764L55.5828 48.4764L55.5828 51.115C51.7182 51.077 52.3095 55.6804 55.5828 55.6397L55.5828 57.8884L52.4615 57.8884C53.4882 60.6997 48.9302 61.2244 49.8768 57.8884L46.7722 57.8884L46.7715 48.4764Z"
+                fill="white"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_251_410"
+                  x1="67.0728"
+                  y1="25.1275"
+                  x2="49.2227"
+                  y2="90.8874"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#232220" />
+                  <stop offset="1" stop-color="#202020" />
+                </linearGradient>
+              </defs>
+            </svg>
 
-          <h3>{{ $t('process1') }}</h3>
-          <p>
-            {{ $t('processp1') }}
-          </p>
+            <h3>Comprehensive Features</h3>
+            <p>
+              we can provides flexible tools for easy creation, customization,
+              and management of services.
+            </p>
+          </div>
         </div>
 
         <div class="col-sm-4">
-          <div
-            class="svg text-center justify-content-center"
-            style="
-              background-color: #df8317;
-              color: #fff;
-              padding: 10px;
-              border-radius: 50%;
-              width: 40px;
-              height: 40px;
-              z-index: 999;
-              position: absolute;
-              margin: 0 16%;
-            "
-          >
-            2
+          <div class="Uss p-4">
+            <svg
+              width="116"
+              height="117"
+              viewBox="0 0 116 117"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M84.3739 44.7732C93.0015 61.3176 88.9914 80.4346 75.0952 87.6439C61.3733 94.754 33.5187 92.0248 24.8911 75.4804C16.2634 58.9361 37.3538 46.9444 45.2063 32.6772C56.1977 12.8197 75.7462 28.2288 84.3739 44.7732Z"
+                fill="white"
+              />
+              <path
+                d="M46.1992 69.4363L46.2872 60.6263L48.9259 60.651C48.8492 64.515 53.4579 63.9723 53.4506 60.6997L55.6986 60.7203L55.6672 63.8417C58.4886 62.843 58.9679 67.4063 55.6419 66.4257L55.6106 69.531L46.1992 69.4363Z"
+                fill="url(#paint0_linear_221_732)"
+                stroke="url(#paint1_linear_221_732)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M66.7055 70.053L57.8948 69.891L57.8928 67.4204C61.7568 67.455 61.1621 62.8524 57.8895 62.8957L57.8875 60.647L61.0088 60.6444C59.9801 57.8344 64.5381 57.3064 63.5935 60.6424L66.6981 60.6404L66.7055 70.053ZM70.0035 50.3157L65.3895 57.8217L63.1161 56.3597C65.1728 53.0877 60.9908 51.3404 59.3115 54.1497L57.3715 52.8924L59.0062 50.2337C56.0735 49.6357 58.0135 45.4777 60.3595 48.0317L61.9861 45.3864L70.0035 50.3157ZM46.7715 48.4764L55.5828 48.4764L55.5828 51.115C51.7182 51.077 52.3095 55.6804 55.5828 55.6397L55.5828 57.8884L52.4615 57.8884C53.4882 60.6997 48.9302 61.2244 49.8768 57.8884L46.7722 57.8884L46.7715 48.4764Z"
+                fill="url(#paint2_linear_221_732)"
+                stroke="url(#paint3_linear_221_732)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_221_732"
+                  x1="52.0811"
+                  y1="60.6263"
+                  x2="52.0811"
+                  y2="69.531"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#232220" />
+                  <stop offset="1" stop-color="#202020" />
+                </linearGradient>
+                <linearGradient
+                  id="paint1_linear_221_732"
+                  x1="52.0811"
+                  y1="60.6263"
+                  x2="52.0811"
+                  y2="69.531"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#232220" />
+                  <stop offset="1" stop-color="#202020" />
+                </linearGradient>
+                <linearGradient
+                  id="paint2_linear_221_732"
+                  x1="58.3875"
+                  y1="45.3864"
+                  x2="58.3875"
+                  y2="70.053"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#232220" />
+                  <stop offset="1" stop-color="#202020" />
+                </linearGradient>
+                <linearGradient
+                  id="paint3_linear_221_732"
+                  x1="58.3875"
+                  y1="45.3864"
+                  x2="58.3875"
+                  y2="70.053"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#232220" />
+                  <stop offset="1" stop-color="#202020" />
+                </linearGradient>
+              </defs>
+            </svg>
+
+            <h3>Cost-Effective Solutions</h3>
+            <p>
+              users access high-quality service creation at competitive prices,
+              saving time and money.
+            </p>
           </div>
-          <img
-            :src="imageUrl3"
-            alt=""
-            style="margin: -6% 0 0; z-index: 0; position: relative"
-          />
-          <h3>{{ $t('process2') }}</h3>
-          <p>
-            {{ $t('processp2') }}
-          </p>
         </div>
 
         <div class="col-sm-4">
-          <div
-            class="svg text-center justify-content-center"
-            style="
-              background-color: #202020;
-              color: #fff;
-              padding: 10px;
-              border-radius: 50%;
-              width: 40px;
-              height: 40px;
-              z-index: 999;
-              position: absolute;
-              margin: 0 16%;
-            "
-          >
-            3
-          </div>
-          <img
-            :src="imageUrl4"
-            alt=""
-            style="margin: -6% 0 0; z-index: 0; position: relative"
-          />
+          <div class="Us p-4">
+            <svg
+              width="116"
+              height="117"
+              viewBox="0 0 116 117"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M84.3739 44.7732C93.0015 61.3176 88.9914 80.4346 75.0952 87.6439C61.3733 94.754 33.5187 92.0248 24.8911 75.4804C16.2634 58.9361 37.3538 46.9444 45.2063 32.6772C56.1977 12.8197 75.7462 28.2288 84.3739 44.7732Z"
+                fill="url(#paint0_linear_251_410)"
+              />
+              <path
+                d="M46.1992 69.4363L46.2872 60.6263L48.9259 60.651C48.8492 64.515 53.4579 63.9723 53.4506 60.6997L55.6986 60.7203L55.6672 63.8417C58.4886 62.843 58.9679 67.4063 55.6419 66.4257L55.6106 69.531L46.1992 69.4363Z"
+                fill="white"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M66.7055 70.053L57.8948 69.891L57.8928 67.4204C61.7568 67.455 61.1621 62.8524 57.8895 62.8957L57.8875 60.647L61.0088 60.6444C59.9801 57.8344 64.5381 57.3064 63.5935 60.6424L66.6981 60.6404L66.7055 70.053ZM70.0035 50.3157L65.3895 57.8217L63.1161 56.3597C65.1728 53.0877 60.9908 51.3404 59.3115 54.1497L57.3715 52.8924L59.0062 50.2337C56.0735 49.6357 58.0135 45.4777 60.3595 48.0317L61.9861 45.3864L70.0035 50.3157ZM46.7715 48.4764L55.5828 48.4764L55.5828 51.115C51.7182 51.077 52.3095 55.6804 55.5828 55.6397L55.5828 57.8884L52.4615 57.8884C53.4882 60.6997 48.9302 61.2244 49.8768 57.8884L46.7722 57.8884L46.7715 48.4764Z"
+                fill="white"
+                stroke="white"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_251_410"
+                  x1="67.0728"
+                  y1="25.1275"
+                  x2="49.2227"
+                  y2="90.8874"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#232220" />
+                  <stop offset="1" stop-color="#202020" />
+                </linearGradient>
+              </defs>
+            </svg>
 
-          <h3>{{ $t('process3') }}</h3>
-          <p>
-            {{ $t('processp3') }}
-          </p>
+            <h3>Expert Support</h3>
+            <p>
+              It provides dedicated support and guidance, ensuring users receive
+              help at every step for successful service
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -236,5 +333,15 @@ export default {
   border: none;
   transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s,
     background-color 0.5s, color 0.5s;
+}
+.Us {
+  box-shadow: 0px 0px 15px rgba(49, 49, 49, 0.2);
+  border-radius: 10px;
+}
+.Uss {
+  box-shadow: 0px 0px 15px rgba(49, 49, 49, 0.2);
+  border-radius: 10px;
+  background-color: #202020;
+  color: #fff;
 }
 </style>
