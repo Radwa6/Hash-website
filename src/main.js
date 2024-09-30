@@ -73,6 +73,7 @@ const messages = {
     GraphicDesign: 'Graphic Design',
     MachineLearning: 'Machine Learning',
     partners: 'Sucess partners.',
+    partner: 'Over 20 Companies Working with us..',
     servicesinfo: 'Services That We Can ',
     servicesinfoo: 'Provider !',
     offering: 'What We Are ',
@@ -171,6 +172,8 @@ const messages = {
     others: 'أخرى',
     process: 'عملية',
     partners: 'شركاء النجاح',
+    partner: 'أكثر من 20 شركة تعمل معنا..',
+
     members: 'الأعضاء',
     feedback: 'التغذية الراجعة',
     contact_info: 'معلومات الاتصال',

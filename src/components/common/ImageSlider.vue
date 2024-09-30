@@ -18,6 +18,7 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   data() {
@@ -30,46 +31,7 @@ export default {
         require('@/assets/fTbIM.png'),
         require('@/assets/384fd.png'),
         require('@/assets/74hxb.png'),
-        require('@/assets/nB83P.png'),
-        require('@/assets/zkJ3j.png'),
-        require('@/assets/lonSZ.png'),
-        require('@/assets/JodXv.png'),
-        require('@/assets/fTbIM.png'),
-        require('@/assets/384fd.png'),
-
-        require('@/assets/74hxb.png'),
-        require('@/assets/nB83P.png'),
-        require('@/assets/zkJ3j.png'),
-        require('@/assets/lonSZ.png'),
-        require('@/assets/JodXv.png'),
-        require('@/assets/fTbIM.png'),
-        require('@/assets/384fd.png'),
-
-        require('@/assets/74hxb.png'),
-        require('@/assets/nB83P.png'),
-        require('@/assets/zkJ3j.png'),
-        require('@/assets/lonSZ.png'),
-        require('@/assets/JodXv.png'),
-        require('@/assets/fTbIM.png'),
-        require('@/assets/384fd.png'),
-
-        require('@/assets/74hxb.png'),
-        require('@/assets/nB83P.png'),
-        require('@/assets/zkJ3j.png'),
-        require('@/assets/lonSZ.png'),
-        require('@/assets/JodXv.png'),
-        require('@/assets/fTbIM.png'),
-        require('@/assets/384fd.png'),
-
-        require('@/assets/74hxb.png'),
-        require('@/assets/nB83P.png'),
-        require('@/assets/zkJ3j.png'),
-        require('@/assets/lonSZ.png'),
-        require('@/assets/JodXv.png'),
-        require('@/assets/fTbIM.png'),
-        require('@/assets/384fd.png'),
-
-        require('@/assets/74hxb.png'),
+        // يمكنك إضافة المزيد من الصور حسب حاجتك
       ],
     }
   },
@@ -80,6 +42,7 @@ export default {
   },
 }
 </script>
+
 <style scoped>
 .carousel-wrapper {
   overflow: hidden;
@@ -100,7 +63,7 @@ export default {
   display: flex;
   width: calc(100% * 2);
   height: 100%;
-  animation: scroll 20s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 .slide {
   flex: 0 0 auto;
@@ -112,15 +75,15 @@ export default {
   margin-right: 20px;
 }
 .slide img {
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 @keyframes scroll {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(60%);
+    transform: translateX(-50%);
   }
 }
 @media (max-width: 768px) {
@@ -133,10 +96,10 @@ export default {
   }
   @keyframes scroll {
     0% {
-      transform: translateX(0);
+      transform: translateX(0%);
     }
     100% {
-      transform: translateX(-60%);
+      transform: translateX(-50%);
     }
   }
 }
@@ -150,10 +113,10 @@ export default {
   }
   @keyframes scroll {
     0% {
-      transform: translateX(50%);
+      transform: translateX(0%);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(-50%);
     }
   }
 }

@@ -437,7 +437,7 @@
 
         {{ $t('partners') }}
       </h1>
-      <p style="color: #696984">Over 20 Companies Working with us..</p>
+      <p style="color: #696984">{{ $t('partner') }}</p>
       <ImageSlider class="mt-5" />
     </div>
 
