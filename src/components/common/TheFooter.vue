@@ -333,7 +333,6 @@ export default {
     return {
       mobileMenu: false,
       currentLanguage: 'English',
-      imageUrl: require('@/assets/logo.png'),
     }
   },
   methods: {

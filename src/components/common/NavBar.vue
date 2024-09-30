@@ -174,7 +174,7 @@
               </router-link>
 
               <router-link
-                :to="{ path: '/ThePage', hash: '#system-section' }"
+                :to="{ path: '/aboutUs' }"
                 exact-active-class="active-link"
               >
                 <li class="text-dark">{{ $t('about') }}</li>
@@ -188,7 +188,7 @@
               </router-link>
 
               <router-link
-                :to="{ path: '/ThePage', hash: '#advantages-section' }"
+                :to="{ path: '/allProjects' }"
                 exact-active-class="active-link"
               >
                 <li class="text-dark">{{ $t('projects') }}</li>
@@ -222,7 +222,6 @@ export default {
       isScrolled: false,
       mobileMenu: false,
       currentLanguage: 'English',
-      imageUrl: require('@/assets/logo.png'),
     }
   },
   mounted() {

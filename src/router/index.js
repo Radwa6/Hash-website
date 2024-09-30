@@ -2,8 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import PageHome from '@/components/PageHome.vue'
 import ThePage from '@/components/common/ThePage.vue'
-import projectDetails from '@/components/common/projectDetails.vue'
 import ContactPage from '@/components/user/Contact.vue'
+import aboutUs from '@/components/pages/aboutUs.vue'
+import allProjects from '@/components/pages/allProjects.vue'
 
 Vue.use(Router)
 
@@ -18,15 +19,21 @@ const routes = [
     name: 'ThePage',
     component: ThePage,
   },
-  {
-    path: '/projectDetails',
-    name: 'projectDetails',
-    component: projectDetails,
-  },
+
   {
     path: '/Contact',
     name: 'Contact',
     component: ContactPage,
+  },
+  {
+    path: '/aboutUs',
+    name: 'aboutUs',
+    component: aboutUs,
+  },
+  {
+    path: '/allProjects',
+    name: 'allProjects',
+    component: allProjects,
   },
 ]
 

@@ -441,11 +441,11 @@
       <ImageSlider class="mt-5" />
     </div>
 
-    <Feedback
+    <!-- <Feedback
       id="feedback-section"
       data-aos="fade-up"
       data-aos-duration="2000"
-    />
+    /> -->
   </div>
 </template>
 
@@ -458,20 +458,19 @@ import Swiper from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
 import SlickSlider from './SlickSlider.vue'
-import Feedback from './TheFeedback.vue'
+// import Feedback from './TheFeedback.vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { onMounted, nextTick } from 'vue'
 
 export default {
   name: 'ThePage',
-  components: { ImageSlider, SlickSlider, Feedback, teamSlider },
+  components: { ImageSlider, SlickSlider, teamSlider },
 
   data() {
     return {
       mobileMenu: false,
       currentLanguage: 'English',
-      imageUrl: require('@/assets/logo.png'),
       imageUrl1: require('@/assets/Group 1261152760.png'),
       imageUrl2: require('@/assets/process3.png'),
       imageUrl3: require('@/assets/process2.png'),
@@ -482,11 +481,6 @@ export default {
       imageUrl8: require('@/assets/Portofolio4.png'),
       imageUrl9: require('@/assets/Portofolio5.png'),
       imageUrl10: require('@/assets/Portofolio6.png'),
-
-      imageUrl12: require('@/assets/Group 19 (1).png'),
-      imageUrl13: require('@/assets/Ellipse 5.png'),
-      imageUrl14: require('@/assets/Group 19 (2).png'),
-      imageUrl15: require('@/assets/Group 19.png'),
     }
   },
   mounted() {
@@ -551,31 +545,19 @@ export default {
   overflow: hidden;
 }
 
-.background-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-}
-
 .header {
   position: relative;
   z-index: 2;
-  padding: 20px;
   color: white;
+  padding: 80px 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .ThePage {
   text-align: start;
   overflow: hidden;
   width: 100%;
-}
-.header {
-  padding: 80px 0;
-  width: 100%;
-  z-index: 1;
 }
 
 .header .row {
@@ -587,7 +569,6 @@ export default {
   font-weight: bold;
   font-size: 52px;
   width: 70%;
-
   color: #ffffff;
 }
 
@@ -597,30 +578,12 @@ export default {
   width: 70%;
   margin-top: 30px;
 }
-.header button,
-.about button {
-  background-color: #df8317;
-  color: #e5e7f2;
-  padding: 12px 5%;
-  border-radius: 10px;
-  border: none;
-  transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s;
-}
+
 .header button,
 .about button {
   background-color: #df8317;
   color: #e5e7f2;
   padding: 14px 15%;
-  border-radius: 10px;
-  border: none;
-  transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s,
-    background-color 0.5s, color 0.5s;
-}
-
-.header .View {
-  color: #df8317;
-  background-color: #ffffff;
-  padding: 14px 5%;
   border-radius: 10px;
   border: none;
   transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s,
@@ -673,11 +636,6 @@ button:hover {
     padding: 8px 24px;
     font-size: 10px;
   }
-  .View {
-    padding: 8px 24px;
-    font-size: 10px;
-    margin-bottom: 40px;
-  }
 }
 @media (max-width: 768px) {
   .img-fluid {
@@ -701,91 +659,7 @@ button:hover {
     width: 30%;
   }
 }
-.Process {
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 80px;
-}
-@media (max-width: 768px) {
-  .text-center h1 {
-    font-size: 1.5rem;
-  }
-  .Process {
-    padding: 40px;
-  }
-  .Planing,
-  .Analysis,
-  .Devlopment,
-  .Review {
-    height: 26vh !important;
-  }
 
-  .Planing h2,
-  .Analysis h2,
-  .Devlopment h2,
-  .Review h2 {
-    font-size: 16px;
-  }
-
-  .Planing p,
-  .Analysis p,
-  .Devlopment p,
-  .Review p {
-    font-size: 10px !important;
-  }
-}
-
-.Review {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-image: url(../../assets/Review.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 4px;
-  transition: 0.2s ease-in-out;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.Devlopment {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-image: url(../../assets/Devlopment.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 4px;
-  transition: 0.2s ease-in-out;
-  height: 100%;
-  height: 400px;
-  overflow: hidden;
-}
-.Analysis {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-image: url(../../assets/Analysis.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 4px;
-  transition: 0.2s ease-in-out;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
 @media (max-width: 1368px) {
   .Portfolio span {
     padding: 0 10px !important;

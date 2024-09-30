@@ -308,7 +308,6 @@ export default {
       isScrolled: false,
       mobileMenu: false,
       currentLanguage: 'English',
-      imageUrl: require('@/assets/dataways (1) 1.png'),
     }
   },
   mounted() {
