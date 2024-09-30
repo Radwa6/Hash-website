@@ -103,8 +103,9 @@ const messages = {
     name4: 'Abduliam Allam',
     role4: 'Ceo & Technical Director',
     OurFeedback: 'Our Feedback',
-    WhatOur: 'What Our',
-    ClientSayaboutUs: 'Let’s hear What they says',
+    ClientSayaboutUs: 'Let’s hear What ',
+    WhatOur: 'they says! ',
+
     namemember1: 'Maria Kate',
     rolee1: 'Photographer',
     feedback1:
