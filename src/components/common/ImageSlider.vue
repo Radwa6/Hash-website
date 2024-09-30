@@ -6,7 +6,7 @@
           <div class="slide" v-for="(image, index) in images" :key="index">
             <img :src="image" alt="Image Slide" />
           </div>
-          <!-- تكرار الصور -->
+
           <div
             class="slide"
             v-for="(image, index) in images"
