@@ -34,7 +34,10 @@
     </div>
   </div>
   <div v-else>
-    <div class="allProjects">
+    <div
+      class="allProjects"
+      :class="['menu-area', { allProjects: isProjectPage }]"
+    >
       <h1 class="pt-5 pb-5" style="color: #fff">Projects</h1>
     </div>
   </div>
@@ -44,6 +47,11 @@
 import ScrollReveal from 'scrollreveal'
 export default {
   name: 'allProjects',
+  computed: {
+    isProjectPage() {
+      return this.$route.name === 'allProjects' // تحقق من اسم الصفحة (تأكد أن هذا يتوافق مع مسار صفحة البروجكت)
+    },
+  },
 }
 </script>
 

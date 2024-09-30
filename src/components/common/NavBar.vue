@@ -167,7 +167,10 @@
             </svg>
           </button>
 
-          <div class="menu-area" :class="{ show: mobileMenu }">
+          <div
+            class="menu-area"
+            :class="{ show: mobileMenu, allProjects: isProjectPage }"
+          >
             <ul class="">
               <router-link to="/ThePage" exact-active-class="active-link">
                 <li>{{ $t('home') }}</li>
@@ -258,6 +261,9 @@ export default {
     },
   },
   computed: {
+    isProjectPage() {
+      return this.$route.path === '/allProjects' // تحقق من المسار
+    },
     isContactPage() {
       return this.$route.name === 'Contact'
     },
@@ -392,16 +398,30 @@ a :hover {
   color: #000 !important;
 }
 .menu-area li a {
+  color: #000;
   display: inline-block;
   padding: 10px 5px;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
-  color: #000;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+.menu-area.allProjects li {
+  color: #fff !important;
+}
+.menu-area.allProjects a {
+  color: #fff !important;
+}
+
+.navbarr.scrolled li {
+  color: black !important;
+}
+.navbarr.scrolled a {
+  color: black !important;
+}
+
 .menu-area a {
   font-size: 18px;
 }
