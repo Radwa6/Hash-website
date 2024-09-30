@@ -6,6 +6,7 @@
           <div class="slide" v-for="(image, index) in images" :key="index">
             <img :src="image" alt="Image Slide" />
           </div>
+          <!-- تكرار الصور -->
           <div
             class="slide"
             v-for="(image, index) in images"
@@ -31,14 +32,8 @@ export default {
         require('@/assets/fTbIM.png'),
         require('@/assets/384fd.png'),
         require('@/assets/74hxb.png'),
-        // يمكنك إضافة المزيد من الصور حسب حاجتك
       ],
     }
-  },
-  computed: {
-    isRTL() {
-      return this.$i18n.locale === 'en'
-    },
   },
 }
 </script>
@@ -48,76 +43,60 @@ export default {
   overflow: hidden;
   position: relative;
   width: 100%;
+  height: 200px; /* يمكنك تعديل هذا لتناسب حجم السلايدر */
 }
-.carousel {
-  width: 100%;
-  height: 100%;
-}
+
 .carousel-inner {
   width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
 }
+
 .carousel-content {
   display: flex;
-  width: calc(100% * 2);
-  height: 100%;
-  animation: scroll 30s linear infinite;
+  width: calc(100% * 2); /* عرض مضاعف ليتناسب مع تكرار الصور */
+  animation: scroll 20s linear infinite; /* تكرار الحركة */
 }
+
 .slide {
-  flex: 0 0 auto;
+  flex: 0 0 auto; /* يجعل العناصر تأخذ المساحة اللازمة */
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
-  height: 100%;
-  margin-right: 20px;
+  width: 160px; /* عرض الصورة */
+  margin-right: 20px; /* مساحة بين الصور */
 }
+
 .slide img {
   width: 100%;
-  height: auto;
+  height: auto; /* الحفاظ على النسبة الأصلية للصورة */
 }
+
 @keyframes scroll {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0); /* بدء الحركة */
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-50%); /* الانتقال لنصف العرض */
   }
 }
+
 @media (max-width: 768px) {
+  .carousel-wrapper {
+    height: 150px;
+  }
+  .slide {
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
   .carousel-wrapper {
     height: 100px;
   }
   .slide {
-    width: 120px;
-    margin-right: 10px;
-  }
-  @keyframes scroll {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-}
-@media (max-width: 480px) {
-  .carousel-wrapper {
-    height: 80px;
-  }
-  .slide {
     width: 100px;
-    margin-right: 25px;
-  }
-  @keyframes scroll {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
   }
 }
 </style>
