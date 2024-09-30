@@ -104,7 +104,7 @@ const messages = {
     role4: 'Ceo & Technical Director',
     OurFeedback: 'Our Feedback',
     WhatOur: 'What Our',
-    ClientSayaboutUs: 'Client Say about Us',
+    ClientSayaboutUs: 'Let’s hear What they says',
     namemember1: 'Maria Kate',
     rolee1: 'Photographer',
     feedback1:

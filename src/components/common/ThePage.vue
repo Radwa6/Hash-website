@@ -440,12 +440,6 @@
       <p style="color: #696984">{{ $t('partner') }}</p>
       <ImageSlider class="mt-5" />
     </div>
-
-    <!-- <Feedback
-      id="feedback-section"
-      data-aos="fade-up"
-      data-aos-duration="2000"
-    /> -->
   </div>
 </template>
 
@@ -458,7 +452,6 @@ import Swiper from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
 import SlickSlider from './SlickSlider.vue'
-// import Feedback from './TheFeedback.vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { onMounted, nextTick } from 'vue'

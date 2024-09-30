@@ -47,6 +47,7 @@
 import ScrollReveal from 'scrollreveal'
 export default {
   name: 'allProjects',
+
   computed: {
     isProjectPage() {
       return this.$route.name === 'allProjects' // تحقق من اسم الصفحة (تأكد أن هذا يتوافق مع مسار صفحة البروجكت)
