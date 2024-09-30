@@ -661,35 +661,9 @@ button:hover {
 }
 
 @media (max-width: 1368px) {
-  .Portfolio span {
-    padding: 0 10px !important;
-    font-size: 12px !important;
-    margin: 1px !important;
-  }
-
   .navbarHeader {
     height: 60vh;
     background-size: cover;
-  }
-}
-@media (max-width: 576px) {
-  .Portfolio {
-    padding: 0 40px;
-  }
-  .Portfolio svg {
-    width: 20%;
-  }
-  .Portfolio p {
-    font-size: 10px !important;
-  }
-  .Portfolio span {
-    padding: 0 2px !important;
-    font-size: 7px !important;
-    margin: 1px !important;
-  }
-  .Portfolio h1 {
-    font-size: 18px;
-    margin: 5px !important;
   }
 }
 
