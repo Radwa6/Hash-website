@@ -673,22 +673,4 @@ button:hover {
 .card-title {
   font-weight: bold;
 }
-
-.image-container {
-  position: relative;
-}
-
-.image-container img {
-  width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.image-container:hover img {
-  opacity: 0.3;
-}
-
-.image-container:hover .overlay {
-  opacity: 1;
-}
 </style>
