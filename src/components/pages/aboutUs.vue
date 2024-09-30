@@ -348,7 +348,7 @@ export default {
   },
   computed: {
     isProjectPage() {
-      return this.$route.name === 'allProjects' // تحقق من اسم الصفحة (تأكد أن هذا يتوافق مع مسار صفحة البروجكت)
+      return this.$route.name === 'allProjects'
     },
     isRTL() {
       return this.$i18n.locale === 'ar'
