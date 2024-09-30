@@ -33,13 +33,13 @@
       <div class="loader"></div>
     </div>
   </div>
-  <div v-else>
+  <div v-else :dir="isRTL ? 'rtl' : 'ltr'">
     <div class="aboutUs" :class="['menu-area', { allProjects: isProjectPage }]">
       <h1 class="pt-5 pb-5" style="color: #fff">About Us</h1>
     </div>
     <div class="about container" id="system-section">
       <div
-        class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
+        class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center text-start"
       >
         <div
           class="col-6 p-4 position-relative justify-content-center"
@@ -291,6 +291,39 @@
       </div>
     </div>
 
+    <div class="about container" id="system-section">
+      <div
+        class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center text-start"
+      >
+        <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+          <img :src="imageUrl11" alt="image" class="img-fluid" />
+        </div>
+
+        <div
+          class="col-6 p-4 position-relative justify-content-center"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
+          <p
+            style="
+              color: #df8317;
+              background-color: #fee6c963;
+              width: 20%;
+              padding: 3px 20px;
+              border-radius: 50px;
+            "
+          >
+            {{ $t('about_us') }}
+          </p>
+          <h1 style="font-weight: bold" class="mt-4">
+            {{ $t('abouth') }}
+            <span style="color: #df8317">{{ $t('abouthh') }}</span>
+          </h1>
+          <p class="mt-4">{{ $t('aboutinfo') }}</p>
+        </div>
+      </div>
+    </div>
+
     <Feedback
       id="feedback-section"
       data-aos="fade-up"
@@ -310,11 +343,15 @@ export default {
   data() {
     return {
       imageUrl1: require('@/assets/Group 1261152760.png'),
+      imageUrl11: require('@/assets/Images.png'),
     }
   },
   computed: {
     isProjectPage() {
       return this.$route.name === 'allProjects' // تحقق من اسم الصفحة (تأكد أن هذا يتوافق مع مسار صفحة البروجكت)
+    },
+    isRTL() {
+      return this.$i18n.locale === 'ar'
     },
   },
 }

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="Feedback container text-center pt-5 pb-5">
+    <div class="Feedback text-center pt-5 pb-5">
       <div style="font-weight: bold">
         <h1 class="m-4" style="font-weight: bold">
           {{ $t('ClientSayaboutUs') }}
@@ -188,6 +188,9 @@ export default {}
 </script>
 
 <style scoped>
+.Feedback {
+  background-color: #dfdfdf26;
+}
 @media (max-width: 1368px) {
   .carousel-control-prev,
   .carousel-control-next {
