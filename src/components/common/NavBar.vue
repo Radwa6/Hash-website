@@ -262,8 +262,11 @@ export default {
   },
   computed: {
     isProjectPage() {
-      return this.$route.path === '/allProjects' // تحقق من المسار
+      return (
+        this.$route.path === '/allProjects' || this.$route.path === '/aboutUs'
+      )
     },
+
     isContactPage() {
       return this.$route.name === 'Contact'
     },
@@ -412,6 +415,13 @@ a :hover {
   color: #fff !important;
 }
 .menu-area.allProjects a {
+  color: #fff !important;
+}
+
+.menu-area.aboutUs li {
+  color: #fff !important;
+}
+.menu-area.aboutUs a {
   color: #fff !important;
 }
 

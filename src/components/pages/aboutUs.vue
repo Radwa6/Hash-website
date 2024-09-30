@@ -34,8 +34,8 @@
     </div>
   </div>
   <div v-else>
-    <div class="aboutUs">
-      <img src="/src/assets/" alt="" />
+    <div class="aboutUs" :class="['menu-area', { allProjects: isProjectPage }]">
+      <h1 class="pt-5 pb-5" style="color: #fff">About Us</h1>
     </div>
   </div>
 </template>
@@ -44,7 +44,17 @@
 import ScrollReveal from 'scrollreveal'
 export default {
   name: 'aboutUs',
+  computed: {
+    isProjectPage() {
+      return this.$route.name === 'allProjects' // تحقق من اسم الصفحة (تأكد أن هذا يتوافق مع مسار صفحة البروجكت)
+    },
+  },
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.aboutUs {
+  background-image: url('@/assets/Rectangle.png');
+  padding: 80px 0;
+}
+</style>
