@@ -470,7 +470,60 @@
       </div>
     </div>
 
-    <teamSlider />
+    <div
+      class="Member container text-center pt-5 pb-5"
+      id="members-section"
+      data-aos="fade-right"
+      data-aos-duration="2000"
+    >
+      <div
+        style="font-weight: bold"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+      >
+        <svg
+          width="164"
+          height="2"
+          viewBox="0 0 164 2"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="1.5"
+            y1="1"
+            x2="162.5"
+            y2="1.00001"
+            stroke="#D8D8D8"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+        {{ $t('TeamMember') }}
+        <svg
+          width="164"
+          height="2"
+          viewBox="0 0 164 2"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="1.5"
+            y1="1"
+            x2="162.5"
+            y2="1.00001"
+            stroke="#D8D8D8"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+        <h1 class="m-4" style="font-weight: bold">
+          <span style="color: #df8317">{{ $t('View') }}</span>
+          {{ $t('Our Creative Team Members') }}
+        </h1>
+      </div>
+
+      <teamSlider />
+    </div>
 
     <div class="text-center m-5" id="partners-section">
       <h1 style="font-weight: bold">

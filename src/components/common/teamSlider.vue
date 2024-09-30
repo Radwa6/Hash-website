@@ -41,7 +41,7 @@
               :alt="member.name"
               class="img-fluid"
               width="94%"
-              :style="{ width: '94%', height: '200px', borderRadius: '50%' }"
+              :style="{ width: '170px', height: '170px', borderRadius: '50%' }"
             />
           </div>
 
@@ -70,25 +70,17 @@ export default {
       team: [
         {
           id: 1,
-          name: 'Abdelalim Mohammed',
-          role: 'Full Stack Developer',
-          image: require('@/assets/bakend.jpg'),
-          fill: '#D6D6D6',
-          background: '#D6D6D6',
-        },
-        {
-          id: 2,
-          name: 'Aya Amer',
-          role: 'Software Tester',
-          image: require('@/assets/Group 19.png'),
+          name: 'Abdelalim Allam',
+          role: 'CEO & Technical Director',
+          image: require('@/assets/JHAnm.png'),
           fill: '#DF8317',
           background: '#DF8317',
         },
         {
-          id: 3,
-          name: 'Amira AbdElhak',
-          role: 'Graphic Designer',
-          image: require('@/assets/WhatsApp Image 2024-09-29 at 4.44.31 PM.jpeg'),
+          id: 1,
+          name: 'Abdelalim Mohammed',
+          role: 'Full Stack Developer',
+          image: require('@/assets/bakend.jpg'),
           fill: '#D6D6D6',
           background: '#D6D6D6',
         },
@@ -104,7 +96,7 @@ export default {
           id: 5,
           name: 'Nada Nasr',
           role: 'Full Stack Developer',
-          image: require('@/assets/Group 19.png'),
+          image: require('@/assets/WhatsApp Image 2024-09-30 at 10.12.21 AM.jpeg'),
           fill: '#D6D6D6',
           background: '#D6D6D6',
         },
@@ -112,17 +104,35 @@ export default {
           id: 6,
           name: 'Radwa Emam',
           role: 'Frontend Developer',
-          image: require('@/assets/Group 19.png'),
+          image: require('@/assets/WhatsApp Image 2024-08-14 at 13.20.18_65035045.jpg'),
           fill: '#DF8317',
           background: '#DF8317',
         },
+
         {
           id: 7,
           name: 'Yosra Allam ',
           role: 'Product Manger',
-          image: require('@/assets/Group 19.png'),
+          image: require('@/assets/WhatsApp Image 2024-09-30 at 10.25.46 AM.jpeg'),
+          fill: '#D6D6D6',
+          background: '#D6D6D6',
+        },
+        {
+          id: 2,
+          name: 'Aya Amer',
+          role: 'Software Tester',
+          image: require('@/assets/Aya.jpeg'),
           fill: '#DF8317',
           background: '#DF8317',
+        },
+
+        {
+          id: 3,
+          name: 'Amira AbdElhak',
+          role: 'Graphic Designer',
+          image: require('@/assets/WhatsApp Image 2024-09-29 at 4.44.31 PM.jpeg'),
+          fill: '#D6D6D6',
+          background: '#D6D6D6',
         },
       ],
     }
@@ -139,9 +149,9 @@ export default {
 }
 .memberdesign {
   border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  margin-top: -18%;
+  width: 180px;
+  height: 180px;
+  margin-top: -24%;
   position: relative;
   z-index: 1;
 }
@@ -154,7 +164,7 @@ export default {
 }
 
 .team-slider {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -207,7 +217,7 @@ export default {
 }
 
 .memberdesignsvg {
-  margin: 8% 70% 0;
+  margin: 9% 70% 0;
   position: relative;
 
   z-index: 999;
