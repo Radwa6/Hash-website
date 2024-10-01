@@ -41,10 +41,14 @@
       <h1 class="pt-5 pb-5" style="color: #fff">{{ $t('Projects') }}</h1>
     </div>
     <div class="Projects p-5">
-      <div class="Projects" data-aos="fade-up" data-aos-duration="3000">
+      <div class="Projects">
         <div class="container">
           <div class="row mt-5 mb-5">
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project1 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -136,7 +140,11 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project2 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -227,7 +235,11 @@
                 </div>
               </router-link>
             </div>
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project3 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -319,7 +331,11 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project4 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -411,7 +427,11 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project5 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -503,7 +523,11 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project6 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -595,7 +619,11 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project7 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -687,7 +715,11 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project8 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -779,97 +811,107 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
-              <div
-                class="Project9 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
-              >
-                <div class="overlay"></div>
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <router-link to="/" style="text-decoration: none">
+                <div
+                  class="Project9 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                >
+                  <div class="overlay"></div>
 
-                <div class="textBox">
-                  <h2>{{ $t('Projectname9') }}</h2>
-                  <p>
-                    <svg
-                      width="46"
-                      height="43"
-                      viewBox="0 0 46 43"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g filter="url(#filter0_d_214_297)">
-                        <rect
-                          x="6"
-                          y="6"
-                          width="34"
-                          height="31"
-                          rx="15.5"
-                          fill="#E18C28"
-                        />
-                        <path
-                          d="M16 21.5H30"
-                          stroke="white"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                        <path
-                          d="M23 14.5L30 21.5L23 28.5"
-                          stroke="white"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </g>
-                      <defs>
-                        <filter
-                          id="filter0_d_214_297"
-                          x="0"
-                          y="0"
-                          width="46"
-                          height="43"
-                          filterUnits="userSpaceOnUse"
-                          color-interpolation-filters="sRGB"
-                        >
-                          <feFlood
-                            flood-opacity="0"
-                            result="BackgroundImageFix"
+                  <div class="textBox">
+                    <h2>{{ $t('Projectname9') }}</h2>
+                    <p>
+                      <svg
+                        width="46"
+                        height="43"
+                        viewBox="0 0 46 43"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_214_297)">
+                          <rect
+                            x="6"
+                            y="6"
+                            width="34"
+                            height="31"
+                            rx="15.5"
+                            fill="#E18C28"
                           />
-                          <feColorMatrix
-                            in="SourceAlpha"
-                            type="matrix"
-                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                            result="hardAlpha"
+                          <path
+                            d="M16 21.5H30"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
                           />
-                          <feMorphology
-                            radius="6"
-                            operator="dilate"
-                            in="SourceAlpha"
-                            result="effect1_dropShadow_214_297"
+                          <path
+                            d="M23 14.5L30 21.5L23 28.5"
+                            stroke="white"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
                           />
-                          <feOffset />
-                          <feColorMatrix
-                            type="matrix"
-                            values="0 0 0 0 0.498039 0 0 0 0 0.341176 0 0 0 0 0.945098 0 0 0 0.25 0"
-                          />
-                          <feBlend
-                            mode="normal"
-                            in2="BackgroundImageFix"
-                            result="effect1_dropShadow_214_297"
-                          />
-                          <feBlend
-                            mode="normal"
-                            in="SourceGraphic"
-                            in2="effect1_dropShadow_214_297"
-                            result="shape"
-                          />
-                        </filter>
-                      </defs>
-                    </svg>
-                  </p>
+                        </g>
+                        <defs>
+                          <filter
+                            id="filter0_d_214_297"
+                            x="0"
+                            y="0"
+                            width="46"
+                            height="43"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feMorphology
+                              radius="6"
+                              operator="dilate"
+                              in="SourceAlpha"
+                              result="effect1_dropShadow_214_297"
+                            />
+                            <feOffset />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.498039 0 0 0 0 0.341176 0 0 0 0 0.945098 0 0 0 0.25 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_214_297"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_214_297"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project10 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -961,7 +1003,11 @@
               </router-link>
             </div>
 
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project11 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
@@ -1052,7 +1098,11 @@
                 </div>
               </router-link>
             </div>
-            <div class="col-sm-4 col-6 mt-2 mb-2">
+            <div
+              class="col-sm-4 col-6 mt-2 mb-2"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <router-link to="/" style="text-decoration: none">
                 <div
                   class="Project12 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
