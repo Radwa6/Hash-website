@@ -321,12 +321,15 @@
       data-aos="fade-up"
       data-aos-duration="2000"
     />
+
+    <RecentEvents />
   </div>
 </template>
 
 <script>
 import ScrollReveal from 'scrollreveal'
 import Feedback from '../common/TheFeedback.vue'
+import RecentEvents from './RecentEvents.vue'
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 import { onMounted, nextTick } from 'vue'
@@ -336,7 +339,7 @@ import 'aos/dist/aos.css'
 
 export default {
   name: 'aboutUs',
-  components: { Feedback },
+  components: { Feedback, RecentEvents },
 
   data() {
     return {
