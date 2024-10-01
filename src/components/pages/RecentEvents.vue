@@ -1,7 +1,8 @@
 <template>
   <div class="Events-slider p-5 mb-5">
     <h1 class="mb-4" style="font-weight: bold">
-      Recent <span style="color: #df8317">Events!</span>
+      {{ $t('Recent') }}
+      <span style="color: #df8317">{{ $t('Events') }}</span>
     </h1>
 
     <VueSlickCarousel
@@ -34,7 +35,7 @@
         },
       ]"
     >
-      <div v-for="event in team" :key="event.id">
+      <div v-for="event in translatedEvents" :key="event.id">
         <div class="border-0 m-2">
           <div>
             <img :src="event.image" :alt="event.name" class="img-fluid" />
@@ -60,46 +61,55 @@ export default {
   },
   data() {
     return {
-      team: [
+      events: [
         {
           id: 1,
           name: 'Saudi Flag Day',
-          role: 'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354, in which he approved the size and shape of the Saudi flag that we see today.',
+          role: 'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354...',
           image: require('@/assets/event.png'),
         },
         {
           id: 2,
           name: 'Saudi National Day',
-          role: 'The Kingdom of Saudi Arabia celebrates the National Day for the Unification of the Kingdom on September 23 of every year. This history goes back to the royal decree issued by King Abdulaziz',
+          role: 'The Kingdom of Saudi Arabia celebrates the National Day for the Unification of the Kingdom...',
           image: require('@/assets/event1.png'),
         },
         {
           id: 3,
-          name: 'Anniversary of the pledge of allegiance ',
-          role: 'Prince Mohammed bin Salman was pledged as Crown Prince on June 21, 2017, to assume the position as successor to Prince Mohammed bin Nayef Al Saud, after he had been Deputy Crown Prince.',
+          name: 'Anniversary of the pledge of allegiance',
+          role: 'Prince Mohammed bin Salman was pledged as Crown Prince on June 21, 2017...',
           image: require('@/assets/event2.png'),
         },
         {
-          id: 4,
+          id: 1,
           name: 'Saudi Flag Day',
-          role: 'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354, in which he approved the size and shape of the Saudi flag that we see today.',
+          role: 'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354...',
           image: require('@/assets/event.png'),
         },
         {
-          id: 5,
-          name: 'Saudi Flag Day',
-          role: 'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354, in which he approved the size and shape of the Saudi flag that we see today.',
-          image: require('@/assets/event.png'),
+          id: 2,
+          name: 'Saudi National Day',
+          role: 'The Kingdom of Saudi Arabia celebrates the National Day for the Unification of the Kingdom...',
+          image: require('@/assets/event1.png'),
         },
-
         {
-          id: 6,
-          name: 'Saudi Flag Day',
-          role: 'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354, in which he approved the size and shape of the Saudi flag that we see today.',
+          id: 3,
+          name: 'Anniversary of the pledge of allegiance',
+          role: 'Prince Mohammed bin Salman was pledged as Crown Prince on June 21, 2017...',
           image: require('@/assets/event2.png'),
         },
       ],
     }
+  },
+  computed: {
+    translatedEvents() {
+      return this.events.map((event) => ({
+        id: event.id,
+        name: this.$t(event.name),
+        role: this.$t(event.role),
+        image: event.image,
+      }))
+    },
   },
 }
 </script>

@@ -160,6 +160,8 @@ const messages = {
     VALUEe: 'Reality !',
     VALUEinfo:
       'We transform ideas into reality with custom software solutions, delivering scalable, high-quality applications. From concept to deployment, we ensure your visions success',
+    Recent: 'Recent',
+    Events: 'Events!',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -298,6 +300,19 @@ const messages = {
     VALUEe: 'واقع !',
     VALUEinfo:
       'نحوّل الأفكار إلى واقع من خلال حلول البرمجيات المخصصة، مقدّمين تطبيقات عالية الجودة وقابلة للتوسع. من الفكرة إلى النشر، نضمن نجاح رؤيتك.',
+
+    Events: 'فعاليات',
+    Recent: 'حديثه!',
+
+    'Saudi Flag Day': 'يوم العلم السعودي',
+    'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354...':
+      'في 11 مارس 1937، أصدر الملك عبد العزيز أمره بالموافقة على قرار مجلس الشورى رقم 354...',
+    'Saudi National Day': 'اليوم الوطني السعودي',
+    'The Kingdom of Saudi Arabia celebrates the National Day for the Unification of the Kingdom...':
+      'تحتفل المملكة العربية السعودية باليوم الوطني لتوحيد المملكة في 23 سبتمبر من كل عام...',
+    'Anniversary of the pledge of allegiance': 'ذكرى البيعة',
+    'Prince Mohammed bin Salman was pledged as Crown Prince on June 21, 2017...':
+      'تمت البيعة للأمير محمد بن سلمان كولي للعهد في 21 يونيو 2017...',
   },
 }
 
