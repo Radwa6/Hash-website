@@ -1,10 +1,10 @@
 <template>
   <div class="ThePage" :dir="isRTL ? 'rtl' : 'ltr'">
     <div class="navbarHeader pt-5" :class="['navbarHeader', { rtl: isRTL }]">
-      <section class="header">
-        <div class="d-flex align-items-center m-5">
+      <section class="header m-5">
+        <div class="d-flex align-items-center">
           <div
-            class="animate__animated animate__fadeInDown w-50 m-5 p-3"
+            class="animate__animated animate__fadeInDown w-50 p-3"
             data-il8n="task"
             style="background-color: #00000011"
           >
@@ -50,17 +50,22 @@
           <router-link to="/Contact">
             <button class="mt-4">{{ $t('SeeMore') }}</button>
           </router-link>
-          <router-link to="/">
-            <button
-              class="mt-4"
-              style="background-color: transparent; color: #404852"
-            >
+          <router-link
+            to="/"
+            style="
+              background-color: transparent;
+              color: #404852;
+              text-decoration: none;
+            "
+          >
+            <a class="mt-4 no-underline">
               <svg
                 width="21"
                 height="20"
                 viewBox="0 0 21 20"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                style="width: 5%; margin: 0 10px"
               >
                 <path
                   d="M10.5 0C16.0116 0 20.5 4.48625 20.5 10.0058C20.5 15.5137 16.0116 20 10.5 20C4.98842 20 0.5 15.5137 0.5 10.0058C0.5 4.48625 4.98842 0 10.5 0ZM9.361 6.02991C9.14865 6.02991 8.94595 6.07815 8.7529 6.17463C8.51158 6.3097 8.31853 6.52195 8.21236 6.77279C8.14479 6.94645 8.03861 7.46744 8.03861 7.47709C7.93243 8.04631 7.87452 8.9725 7.87452 9.99518C7.87452 10.9706 7.93243 11.8572 8.01931 12.4361C8.02896 12.4457 8.13514 13.0921 8.25097 13.314C8.46332 13.7192 8.87838 13.9701 9.32239 13.9701H9.361C9.65058 13.9604 10.2587 13.7096 10.2587 13.7C11.2819 13.2754 13.2992 11.9537 14.11 11.0757L14.168 11.0178C14.2741 10.9117 14.4093 10.7477 14.4382 10.7091C14.5927 10.5065 14.6699 10.2557 14.6699 10.0058C14.6699 9.72504 14.583 9.46454 14.4189 9.25229C14.3803 9.2137 14.2355 9.04969 14.1004 8.91462C13.3089 8.06561 11.2432 6.67631 10.1622 6.25181C9.99807 6.18524 9.58301 6.03956 9.361 6.02991Z"
@@ -69,7 +74,7 @@
               </svg>
 
               {{ $t('WatchVideo') }}
-            </button>
+            </a>
           </router-link>
         </div>
         <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -486,13 +491,15 @@ button:hover {
     margin: 80px 0;
   }
 
-  .header h1 {
+  .header h1,
+  h5 {
     font-size: 18px;
     font-weight: bold;
   }
 
   .header p,
-  .header .text {
+  .header .text,
+  p {
     font-size: 12px;
   }
 
@@ -502,6 +509,10 @@ button:hover {
   }
 }
 @media (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 10px;
+  }
   .img-fluid {
     max-width: 100%;
     height: auto;
@@ -513,6 +524,15 @@ button:hover {
 
   p {
     font-size: 10px;
+  }
+  .header h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .header p,
+  .header .text {
+    font-size: 12px;
   }
 
   .btn {

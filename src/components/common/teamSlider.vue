@@ -9,6 +9,29 @@
       :arrows="true"
       prevArrow="<button class='slick-prev'>‹</button>"
       nextArrow="<button class='slick-next'>›</button>"
+      :responsive="[
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+      ]"
     >
       <div v-for="member in team" :key="member.id" class="team-member">
         <div class="border-0 m-2">
@@ -40,7 +63,6 @@
               :src="member.image"
               :alt="member.name"
               class="img-fluid"
-              width="94%"
               :style="{ width: '170px', height: '170px', borderRadius: '50%' }"
             />
           </div>
@@ -155,13 +177,6 @@ export default {
   position: relative;
   z-index: 1;
 }
-.memberdesignn {
-  background-color: #df8317;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
 
 .team-slider {
   width: 90%;
@@ -221,5 +236,69 @@ export default {
   position: relative;
 
   z-index: 999;
+}
+
+@media (max-width: 540px) {
+  .team-member {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .memberdesign {
+    width: 130px !important;
+    height: 130px !important;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 8px;
+  }
+}
+@media (max-width: 912px) {
+  .team-member {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 130px !important;
+    height: 130px !important;
+  }
+  .memberdesign {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 8px;
+  }
+}
+@media (max-width: 1400px) {
+  .team-member {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 130px !important;
+    height: 130px !important;
+  }
+  .memberdesign {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 8px;
+  }
 }
 </style>

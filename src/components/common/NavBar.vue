@@ -399,6 +399,7 @@ a :hover {
 .menu-area li {
   display: inline-block;
   color: #000 !important;
+  padding: 0 10px;
 }
 .menu-area li a {
   color: #000;
@@ -552,7 +553,7 @@ a :hover {
     font-weight: 600;
   }
   .header-area {
-    padding: 10px 40px;
+    padding: 0px;
   }
   .mobilebtn {
     display: block;
@@ -687,7 +688,7 @@ a :hover {
 }
 @media (max-width: 991.98px) {
   .header-area {
-    padding: 10px 40px;
+    padding: 0px;
   }
   .mega-item {
     width: 50%;
@@ -699,7 +700,7 @@ a :hover {
 }
 @media (max-width: 767.98px) {
   .header-area {
-    padding: 10px 40px;
+    padding: 0px;
   }
   .mega-item {
     width: 100%;
@@ -707,7 +708,7 @@ a :hover {
 }
 a {
   color: white;
-  padding: 10px 12px;
+  padding: 0px;
   border-radius: 5px;
   text-decoration: none;
   margin: 0 5px;
