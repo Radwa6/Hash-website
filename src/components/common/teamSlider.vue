@@ -101,7 +101,7 @@ export default {
         {
           id: 1,
           name: 'Abdelalim Mohammed',
-          role: 'Full Stack Developer',
+          role: 'Senior Full Stack Developer',
           image: require('@/assets/bakend.jpg'),
           fill: '#D6D6D6',
           background: '#D6D6D6',
@@ -142,7 +142,7 @@ export default {
         {
           id: 2,
           name: 'Aya Amer',
-          role: 'Software Tester',
+          role: 'Quality Control Engineer',
           image: require('@/assets/Aya.jpeg'),
           fill: '#DF8317',
           background: '#DF8317',

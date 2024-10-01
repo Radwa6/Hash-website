@@ -137,7 +137,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Project1 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project2 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname2') }}</h2>
@@ -226,7 +226,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Project1 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project3 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname3') }}</h2>
@@ -316,7 +316,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Analysis d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project4 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname4') }}</h2>
@@ -406,7 +406,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Devlopment d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project5 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname5') }}</h2>
@@ -496,7 +496,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Review d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project6 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname6') }}</h2>
@@ -586,7 +586,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Review d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project7 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname7') }}</h2>
@@ -676,7 +676,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Analysis d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project8 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname8') }}</h2>
@@ -765,7 +765,7 @@
 
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <div
-                class="Devlopment d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                class="Project9 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
               >
                 <div class="textBox">
                   <h2>{{ $t('Projectname9') }}</h2>
@@ -854,7 +854,7 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Analysis d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project10 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname10') }}</h2>
@@ -944,100 +944,10 @@
             <div class="col-sm-4 col-6 mt-2 mb-2">
               <router-link to="/" style="text-decoration: none">
                 <div
-                  class="Devlopment d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
+                  class="Project11 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
                     <h2>{{ $t('Projectname11') }}</h2>
-                    <p>
-                      <svg
-                        width="46"
-                        height="43"
-                        viewBox="0 0 46 43"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <g filter="url(#filter0_d_214_297)">
-                          <rect
-                            x="6"
-                            y="6"
-                            width="34"
-                            height="31"
-                            rx="15.5"
-                            fill="#E18C28"
-                          />
-                          <path
-                            d="M16 21.5H30"
-                            stroke="white"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                          <path
-                            d="M23 14.5L30 21.5L23 28.5"
-                            stroke="white"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </g>
-                        <defs>
-                          <filter
-                            id="filter0_d_214_297"
-                            x="0"
-                            y="0"
-                            width="46"
-                            height="43"
-                            filterUnits="userSpaceOnUse"
-                            color-interpolation-filters="sRGB"
-                          >
-                            <feFlood
-                              flood-opacity="0"
-                              result="BackgroundImageFix"
-                            />
-                            <feColorMatrix
-                              in="SourceAlpha"
-                              type="matrix"
-                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                              result="hardAlpha"
-                            />
-                            <feMorphology
-                              radius="6"
-                              operator="dilate"
-                              in="SourceAlpha"
-                              result="effect1_dropShadow_214_297"
-                            />
-                            <feOffset />
-                            <feColorMatrix
-                              type="matrix"
-                              values="0 0 0 0 0.498039 0 0 0 0 0.341176 0 0 0 0 0.945098 0 0 0 0.25 0"
-                            />
-                            <feBlend
-                              mode="normal"
-                              in2="BackgroundImageFix"
-                              result="effect1_dropShadow_214_297"
-                            />
-                            <feBlend
-                              mode="normal"
-                              in="SourceGraphic"
-                              in2="effect1_dropShadow_214_297"
-                              result="shape"
-                            />
-                          </filter>
-                        </defs>
-                      </svg>
-                    </p>
-                  </div>
-                </div>
-              </router-link>
-            </div>
-
-            <div class="col-sm-4 col-6 mt-2 mb-2">
-              <router-link to="/" style="text-decoration: none">
-                <div
-                  class="Review d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
-                >
-                  <div class="textBox">
-                    <h2>{{ $t('Projectname12') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -1187,14 +1097,29 @@ export default {
   background-image: url('@/assets/Rectangle.png');
   padding: 80px 0;
 }
-.Review {
+.Project4 {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: url('../../assets/Image 2.png');
+  background-image: url('../../assets/Feedbaky.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+.Project3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Itmain.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1203,30 +1128,14 @@ export default {
 
   overflow: hidden;
 }
-.Devlopment {
+.Project2 {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: url('../../assets/Image 2.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 4px;
-  transition: 0.2s ease-in-out;
-
-  overflow: hidden;
-}
-.Analysis {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-image: url('../../assets/Image 2.png');
+  background-image: url('../../assets/RASAEL.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1242,7 +1151,7 @@ export default {
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: url('../../assets/Image 2.png');
+  background-image: url('../../assets/TADWEEN.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1251,10 +1160,124 @@ export default {
 
   overflow: hidden;
 }
+.Project5 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Claimizer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+.Project6 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Check.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+.Project7 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Gadawel.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+.Project8 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Market.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+.Project9 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Afaak.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+.Project10 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Nartaki.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+.Project11 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Transportation.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+
 .Project1 .textBox,
-.Analysis .textBox,
-.Devlopment .textBox,
-.Review .textBox {
+.Project2 .textBox,
+.Project3 .textBox,
+.Project4 .textBox,
+.Project5 .textBox,
+.Project6 .textBox,
+.Project7 .textBox,
+.Project8 .textBox,
+.Project9 .textBox,
+.Project10 .textBox,
+.Project11 .textBox,
+.Project12 .textBox {
   opacity: 0;
   display: flex;
   flex-direction: column;
@@ -1265,32 +1288,64 @@ export default {
 }
 
 .Project1 .textBox > h2,
-.Analysis .textBox > h2,
-.Devlopment .textBox > h2,
-.Review .textBox > h2 {
+.Project2 .textBox > h2,
+.Project3 .textBox > h2,
+.Project4 .textBox > h2,
+.Project5 .textBox > h2,
+.Project6 .textBox > h2,
+.Project7 .textBox > h2,
+.Project8 .textBox > h2,
+.Project9 .textBox > h2,
+.Project10 .textBox > h2,
+.Project11 .textBox > h2,
+.Project12 .textBox > h2 {
   font-size: 24px;
   font-weight: bold;
 }
 
 .Project1 .textBox > p,
-.Analysis .textBox > p,
-.Devlopment .textBox > p,
-.Review .textBox > p {
+.Project2 .textBox > p,
+.Project3 .textBox > p,
+.Project4 .textBox > p,
+.Project5 .textBox > p,
+.Project6 .textBox > p,
+.Project7 .textBox > p,
+.Project8 .textBox > p,
+.Project9 .textBox > p,
+.Project10 .textBox > p,
+.Project11 .textBox > p,
+.Project12 .textBox > p {
   font-size: 16px;
   color: rgb(228, 228, 228);
 }
 
 .Project1:hover > .textBox,
-.Analysis:hover > .textBox,
-.Devlopment:hover > .textBox,
-.Review:hover > .textBox {
+.Project2:hover > .textBox,
+.Project3:hover > .textBox,
+.Project4:hover > .textBox,
+.Project5:hover > .textBox,
+.Project6:hover > .textBox,
+.Project7:hover > .textBox,
+.Project8:hover > .textBox,
+.Project9:hover > .textBox,
+.Project10:hover > .textBox,
+.Project11:hover > .textBox,
+.Project12:hover > .textBox {
   opacity: 1;
 }
 
 .Project1:hover,
-.Analysis:hover,
-.Devlopment:hover,
-.Review:hover {
+.Project2:hover,
+.Project3:hover,
+.Project4:hover,
+.Project5:hover,
+.Project6:hover,
+.Project7:hover,
+.Project8:hover,
+.Project9:hover,
+.Project10:hover,
+.Project11:hover,
+.Project12:hover {
   transform: scale(1.04) rotate(-2deg);
 }
 </style>

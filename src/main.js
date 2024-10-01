@@ -162,6 +162,18 @@ const messages = {
       'We transform ideas into reality with custom software solutions, delivering scalable, high-quality applications. From concept to deployment, we ensure your visions success',
     Recent: 'Recent',
     Events: 'Events!',
+
+    Projectname1: 'TADWEEN',
+    Projectname2: 'RASAEL',
+    Projectname3: 'Etamen',
+    Projectname4: 'Feedbaky App',
+    Projectname5: 'Claimizer',
+    Projectname6: 'Check in',
+    Projectname7: 'Gadawel',
+    Projectname8: 'Hash Market',
+    Projectname9: 'Afaak',
+    Projectname10: 'Nartaki',
+    Projectname11: 'Transportation App',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
