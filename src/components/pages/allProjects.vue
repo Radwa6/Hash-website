@@ -49,6 +49,8 @@
                 <div
                   class="Project1 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname1') }}</h2>
                     <p>
@@ -139,6 +141,8 @@
                 <div
                   class="Project2 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname2') }}</h2>
                     <p>
@@ -228,6 +232,8 @@
                 <div
                   class="Project3 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname3') }}</h2>
                     <p>
@@ -318,6 +324,8 @@
                 <div
                   class="Project4 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname4') }}</h2>
                     <p>
@@ -408,6 +416,8 @@
                 <div
                   class="Project5 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname5') }}</h2>
                     <p>
@@ -498,6 +508,8 @@
                 <div
                   class="Project6 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname6') }}</h2>
                     <p>
@@ -588,6 +600,8 @@
                 <div
                   class="Project7 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname7') }}</h2>
                     <p>
@@ -678,6 +692,8 @@
                 <div
                   class="Project8 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname8') }}</h2>
                     <p>
@@ -767,6 +783,8 @@
               <div
                 class="Project9 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
               >
+                <div class="overlay"></div>
+
                 <div class="textBox">
                   <h2>{{ $t('Projectname9') }}</h2>
                   <p>
@@ -856,6 +874,8 @@
                 <div
                   class="Project10 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname10') }}</h2>
                     <p>
@@ -946,6 +966,8 @@
                 <div
                   class="Project11 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
+                  <div class="overlay"></div>
+
                   <div class="textBox">
                     <h2>{{ $t('Projectname11') }}</h2>
                     <p>
@@ -1097,35 +1119,19 @@ export default {
   background-image: url('@/assets/Rectangle.png');
   padding: 80px 0;
 }
-.Project4 {
+.Project1 {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: url('../../assets/Feedbaky.png');
+  background-image: url('../../assets/TADWEEN.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 4px;
   transition: 0.2s ease-in-out;
-  overflow: hidden;
-}
-.Project3 {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-image: url('../../assets/Itmain.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 4px;
-  transition: 0.2s ease-in-out;
-
   overflow: hidden;
 }
 .Project2 {
@@ -1144,14 +1150,14 @@ export default {
 
   overflow: hidden;
 }
-.Project1 {
+.Project3 {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: url('../../assets/TADWEEN.png');
+  background-image: url('../../assets/Itmain.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1160,6 +1166,22 @@ export default {
 
   overflow: hidden;
 }
+.Project4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../../assets/Feedbaky.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+}
+
 .Project5 {
   position: relative;
   display: flex;
@@ -1347,5 +1369,36 @@ export default {
 .Project11:hover,
 .Project12:hover {
   transform: scale(1.04) rotate(-2deg);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* لون overlay نصف شفاف */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.Project1:hover .overlay,
+.Project2:hover .overlay,
+.Project3:hover .overlay,
+.Project4:hover .overlay,
+.Project5:hover .overlay,
+.Project6:hover .overlay,
+.Project7:hover .overlay,
+.Project8:hover .overlay,
+.Project9:hover .overlay,
+.Project10:hover .overlay,
+.Project11:hover .overlay,
+.Project12:hover .overlay {
+  opacity: 1; /* إظهار الـ overlay عند التحويم */
+}
+.textBox {
+  position: relative;
+  z-index: 2; /* التأكد من أن النص يبقى فوق الـ overlay */
+  color: white; /* جعل النص أبيض ليتناسب مع الـ overlay */
 }
 </style>
