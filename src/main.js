@@ -140,19 +140,26 @@ const messages = {
     Gadawelinfo:
       'It is a system that allows companies to manage all aspects oftheir business on a single platform, including: inventory,finance, planning, logistics and operations. An ERP inventory management system provides real-time inventory information for theentire organization. This is an important ability for companies that plan to expand, have complex workflows or supply chains, need advanced automation, operate in a “just in time” mode, sell multiple products or simply want to increase their inventory investment.',
     Contact: 'For Contact',
-    processinfo: 'Our process covers ',
-    processinfoo: 'everything!',
-    processdescription:
+    Chooseinfo: 'Why You Should  ',
+    Chooseinfoo: 'Choosing Us!',
+    Choosedescription:
       'Each step of our process is on delivering high-quality results, with attention to every detail.',
-    process1: 'Analysis & Design',
-    process2: 'Implementation',
-    process3: 'Review and Closure',
-    processp1:
-      ' Review this perception with the client and make the necessary adjustments',
-    processp2:
-      'Implementation phase and duration varies depending on the size of the project',
-    processp3:
-      'The stage of delivering the final structure of the project and reviewing it ',
+
+    Ustitle: 'Comprehensive Features',
+    Uspragraph:
+      ' we can provides flexible tools for easy creation, customization, and management of services.',
+    Usstitle: 'Cost-Effective Solutions',
+    Usspragraph:
+      'users access high-quality service creation at competitive prices, saving time and money.',
+    Ustitlee: 'Expert Support',
+    Uspragraphh:
+      ' It provides dedicated support and guidance, ensuring users receive help at every step for successful service',
+
+    OURVALUE: 'OUR VALUE',
+    VALUE: 'Convert Dream To ',
+    VALUEe: 'Reality !',
+    VALUEinfo:
+      'We transform ideas into reality with custom software solutions, delivering scalable, high-quality applications. From concept to deployment, we ensure your visions success',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -272,16 +279,25 @@ const messages = {
     Gadawelinfo:
       'هو نظام يسمح للشركات بإدارة جميع جوانب أعمالها على منصة واحدة، بما في ذلك: المخزون، والمالية، والتخطيط، والخدمات اللوجستية، والعمليات. يوفر نظام إدارة المخزون ERP معلومات لحظية حول المخزون لجميع أجزاء المؤسسة. هذه القدرة مهمة للشركات التي تخطط للتوسع، أو لديها سير عمل معقد أو سلاسل توريد، أو تحتاج إلى أتمتة متقدمة، أو تعمل بنظام "الوقت المناسب"، أو تبيع العديد من المنتجات، أو ببساطة ترغب في زيادة استثماراتها في المخزون.',
     Contact: 'للتواصل',
-    processinfo: 'عمليتنا تغطي',
-    processinfoo: 'كل شيء!',
-    processdescription:
-      'كل خطوة من خطوات عمليتنا تركز على تقديم نتائج عالية الجودة مع الانتباه إلى كل تفصيل.',
-    process1: 'التحليل والتصميم',
-    process2: 'التنفيذ',
-    process3: 'المراجعة والإغلاق',
-    processp1: 'راجع هذا التصور مع العميل وقم بالتعديلات اللازمة',
-    processp2: 'مرحلة التنفيذ ومدتها تختلف بناءً على حجم المشروع',
-    processp3: 'مرحلة تسليم الهيكل النهائي للمشروع ومراجعته',
+
+    Chooseinfo: 'لماذا يجب عليك ',
+    Chooseinfoo: 'اختيارنا!',
+    Choosedescription:
+      'كل خطوة في عمليتنا تركز على تقديم نتائج عالية الجودة مع الاهتمام بكل التفاصيل.',
+    Ustitle: 'ميزات شاملة',
+    Uspragraph: 'نوفر أدوات مرنة لإنشاء وتخصيص وإدارة الخدمات بسهولة.',
+    Usstitle: 'حلول فعّالة من حيث التكلفة',
+    Usspragraph:
+      'يمكن للمستخدمين الوصول إلى إنشاء خدمات عالية الجودة بأسعار تنافسية، مما يوفر الوقت والمال.',
+    Ustitlee: 'دعم خبراء',
+    Uspragraphh:
+      'يوفر الدعم والإرشاد المخصص، مما يضمن حصول المستخدمين على المساعدة في كل خطوة لتحقيق النجاح في الخدمة.',
+
+    OURVALUE: 'قيمتنا',
+    VALUE: 'حوّل الحلم إلى ',
+    VALUEe: 'واقع !',
+    VALUEinfo:
+      'نحوّل الأفكار إلى واقع من خلال حلول البرمجيات المخصصة، مقدّمين تطبيقات عالية الجودة وقابلة للتوسع. من الفكرة إلى النشر، نضمن نجاح رؤيتك.',
   },
 }
 

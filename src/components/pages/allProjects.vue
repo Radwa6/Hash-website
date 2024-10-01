@@ -45,6 +45,13 @@
 
 <script>
 import ScrollReveal from 'scrollreveal'
+import Swiper from 'swiper'
+import 'swiper/swiper-bundle.min.css'
+import { onMounted, nextTick } from 'vue'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 export default {
   name: 'allProjects',
 
@@ -56,10 +63,42 @@ export default {
       return this.$i18n.locale === 'ar'
     },
   },
+  mounted() {
+    AOS.init({
+      once: true,
+      duration: 800,
+    })
+    this.$nextTick(() => {
+      AOS.refresh()
+    })
+    new Swiper('.swiper-container', {})
+    const scrollReveal = ScrollReveal({
+      reset: true,
+      mobile: true,
+      easing: 'ease-in-out',
+      duration: 800,
+      delay: 0,
+    })
+    scrollReveal.reveal('.hidden-section', {
+      origin: 'bottom',
+      distance: '50%',
+      duration: 1000,
+      opacity: 0,
+    })
+  },
+  watch: {
+    $route() {
+      nextTick(() => {
+        AOS.refresh()
+      })
+    },
+  },
 }
 </script>
 
 <style scoped>
+@import 'aos/dist/aos.css';
+
 .allProjects {
   background-image: url('@/assets/Rectangle.png');
   padding: 80px 0;

@@ -33,16 +33,19 @@
       <div class="loader"></div>
     </div>
   </div>
-  <div v-else :dir="isRTL ? 'rtl' : 'ltr'">
-    <div class="aboutUs" :class="['menu-area', { allProjects: isProjectPage }]">
-      <h1 class="pt-5 pb-5" style="color: #fff">About Us</h1>
+  <div v-else :dir="isRTL ? 'rtl' : 'ltr'" style="text-align: start">
+    <div
+      class="aboutUs text-center"
+      :class="['menu-area', { allProjects: isProjectPage }]"
+    >
+      <h1 class="pt-5 pb-5" style="color: #fff">{{ $t('about_us') }}</h1>
     </div>
-    <div class="about container" id="system-section">
+    <div class="about container">
       <div
-        class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center text-start"
+        class="row pt-5 pb-5 d-flex justify-content-center align-items-center"
       >
         <div
-          class="col-6 p-4 position-relative justify-content-center"
+          class="col-6 p-4 justify-content-center"
           data-aos="fade-right"
           data-aos-duration="2000"
         >
@@ -93,19 +96,15 @@
       </div>
     </div>
 
-    <div class="data container hidden-section mt-5 mb-5" data-il8n="egyption">
-      <div
-        class="process text-center"
-        data-aos="fade-down"
-        data-aos-duration="2000"
-      >
+    <div class="Choose container hidden-section mt-5 mb-5" data-il8n="egyption">
+      <div class="text-center" data-aos="fade-down" data-aos-duration="2000">
         <h1 style="font-weight: bold">
-          {{ $t('processinfo') }}
-          <span style="color: #df8317">{{ $t('processinfoo') }} </span>
+          {{ $t('Chooseinfo') }}
+          <span style="color: #df8317">{{ $t('Chooseinfoo') }} </span>
         </h1>
-        <p>{{ $t('processdescription') }}</p>
+        <p>{{ $t('Choosedescription') }}</p>
       </div>
-      <div class="row d-flex justify-content-center text-start mt-5">
+      <div class="row d-flex justify-content-center mt-5">
         <div class="col-sm-4">
           <div class="Us p-4">
             <svg
@@ -148,11 +147,8 @@
               </defs>
             </svg>
 
-            <h3>Comprehensive Features</h3>
-            <p>
-              we can provides flexible tools for easy creation, customization,
-              and management of services.
-            </p>
+            <h3>{{ $t('Ustitle') }}</h3>
+            <p>{{ $t('Uspragraph') }}</p>
           </div>
         </div>
 
@@ -231,10 +227,9 @@
               </defs>
             </svg>
 
-            <h3>Cost-Effective Solutions</h3>
+            <h3>{{ $t('Usstitle') }}</h3>
             <p>
-              users access high-quality service creation at competitive prices,
-              saving time and money.
+              {{ $t('Usspragraph') }}
             </p>
           </div>
         </div>
@@ -281,26 +276,23 @@
               </defs>
             </svg>
 
-            <h3>Expert Support</h3>
-            <p>
-              It provides dedicated support and guidance, ensuring users receive
-              help at every step for successful service
-            </p>
+            <h3>{{ $t('Ustitlee') }}Expert Support</h3>
+            <p>{{ $t('Uspragraphh') }}</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="about container" id="system-section">
+    <div class="value container">
       <div
-        class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center text-start"
+        class="row pt-5 pb-5 d-flex justify-content-center align-items-center"
       >
         <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
           <img :src="imageUrl11" alt="image" class="img-fluid" />
         </div>
 
         <div
-          class="col-6 p-4 position-relative justify-content-center"
+          class="col-6 p-4 justify-content-center"
           data-aos="fade-right"
           data-aos-duration="2000"
         >
@@ -313,13 +305,13 @@
               border-radius: 50px;
             "
           >
-            {{ $t('about_us') }}
+            {{ $t('OURVALUE') }}
           </p>
           <h1 style="font-weight: bold" class="mt-4">
-            {{ $t('abouth') }}
-            <span style="color: #df8317">{{ $t('abouthh') }}</span>
+            {{ $t('VALUE') }}
+            <span style="color: #df8317">{{ $t('VALUEe') }}</span>
           </h1>
-          <p class="mt-4">{{ $t('aboutinfo') }}</p>
+          <p class="mt-4">{{ $t('VALUEinfo') }}</p>
         </div>
       </div>
     </div>
@@ -335,6 +327,12 @@
 <script>
 import ScrollReveal from 'scrollreveal'
 import Feedback from '../common/TheFeedback.vue'
+import Swiper from 'swiper'
+import 'swiper/swiper-bundle.min.css'
+import { onMounted, nextTick } from 'vue'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default {
   name: 'aboutUs',
@@ -354,10 +352,42 @@ export default {
       return this.$i18n.locale === 'ar'
     },
   },
+  mounted() {
+    AOS.init({
+      once: true,
+      duration: 800,
+    })
+    this.$nextTick(() => {
+      AOS.refresh()
+    })
+    new Swiper('.swiper-container', {})
+    const scrollReveal = ScrollReveal({
+      reset: true,
+      mobile: true,
+      easing: 'ease-in-out',
+      duration: 800,
+      delay: 0,
+    })
+    scrollReveal.reveal('.hidden-section', {
+      origin: 'bottom',
+      distance: '50%',
+      duration: 1000,
+      opacity: 0,
+    })
+  },
+  watch: {
+    $route() {
+      nextTick(() => {
+        AOS.refresh()
+      })
+    },
+  },
 }
 </script>
 
 <style scoped>
+@import 'aos/dist/aos.css';
+
 .aboutUs {
   background-image: url('@/assets/Rectangle.png');
   padding: 80px 0;
