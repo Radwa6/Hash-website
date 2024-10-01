@@ -174,6 +174,7 @@ const messages = {
     Projectname9: 'Afaak',
     Projectname10: 'Nartaki',
     Projectname11: 'Transportation App',
+    Projectname12: 'Pasma',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
