@@ -140,7 +140,7 @@
                   class="Project1 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname2') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -229,7 +229,7 @@
                   class="Project1 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname3') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -319,7 +319,7 @@
                   class="Analysis d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname4') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -409,7 +409,7 @@
                   class="Devlopment d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname5') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -499,7 +499,7 @@
                   class="Review d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname6') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -589,7 +589,7 @@
                   class="Review d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname7') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -679,7 +679,7 @@
                   class="Analysis d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname8') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -768,7 +768,7 @@
                 class="Devlopment d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
               >
                 <div class="textBox">
-                  <h2>{{ $t('Projectname1') }}</h2>
+                  <h2>{{ $t('Projectname9') }}</h2>
                   <p>
                     <svg
                       width="46"
@@ -857,7 +857,7 @@
                   class="Analysis d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname10') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -947,7 +947,7 @@
                   class="Devlopment d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname11') }}</h2>
                     <p>
                       <svg
                         width="46"
@@ -1037,7 +1037,7 @@
                   class="Review d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
                   <div class="textBox">
-                    <h2>{{ $t('Projectname1') }}</h2>
+                    <h2>{{ $t('Projectname12') }}</h2>
                     <p>
                       <svg
                         width="46"
