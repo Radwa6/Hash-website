@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="Feedback text-center pt-5 pb-5">
+    <div class="Feedback text-center p-5">
       <div style="font-weight: bold">
         <h1 class="m-4" style="font-weight: bold">
           {{ $t('ClientSayaboutUs') }}
@@ -191,47 +191,16 @@ export default {}
 .Feedback {
   background-color: #dfdfdf26;
 }
-@media (max-width: 1368px) {
-  .carousel-control-prev,
-  .carousel-control-next {
-    margin-top: 200px !important;
-  }
-  .carousel-control-prev {
-    margin-left: 30% !important;
-  }
-  .carousel-control-next {
-    margin-right: 30% !important;
-  }
-}
+
 @media (max-width: 768px) {
   svg {
     width: 3rem;
-  }
-  .carousel-control-prev,
-  .carousel-control-next {
-    margin-top: 260px !important;
-  }
-  .carousel-control-prev {
-    margin-left: 20% !important;
-  }
-  .carousel-control-next {
-    margin-right: 20% !important;
   }
 }
 
 @media (max-width: 576px) {
   svg {
     width: 3rem;
-  }
-  .carousel-control-prev,
-  .carousel-control-next {
-    margin-top: 260px !important;
-  }
-  .carousel-control-prev {
-    margin-left: 20% !important;
-  }
-  .carousel-control-next {
-    margin-right: 20% !important;
   }
 }
 </style>
