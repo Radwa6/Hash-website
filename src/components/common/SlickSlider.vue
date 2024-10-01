@@ -14,11 +14,7 @@
     </div>
     <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
       <div class="" style="margin: -10% -10% 8%">
-        <div
-          id="carouselExampleControls"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
+        <div>
           <div class="carousel-inner">
             <div
               class="carousel-item"
@@ -80,7 +76,7 @@ export default {
             },
             {
               imgSrc: require('@/assets/Frame 2147223649 (3).png'),
-              title: 'ui_ux_design',
+              title: 'Graphics',
               text: 'ui_ux_design_description',
             },
           ],

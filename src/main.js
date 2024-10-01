@@ -237,7 +237,7 @@ const messages = {
     mobile_apps: 'تطبيقات الجوال',
     mobile_apps_description:
       'نقوم بإنشاء تطبيقات جوال مستقرة وآمنة لتناسب جميع الاحتياجات.',
-    ui_ux_design: 'تصميم واجهة وتجربة المستخدم',
+    ui_ux_design: 'تصميم واجهة المستخدم',
     ui_ux_design_description:
       ' محترفون في تصميم الرسوميات، وإنشاء الشعارات، الرسوم المتحركة',
     TeamMember: 'عضو الفريق',
@@ -313,6 +313,10 @@ const messages = {
     'Anniversary of the pledge of allegiance': 'ذكرى البيعة',
     'Prince Mohammed bin Salman was pledged as Crown Prince on June 21, 2017...':
       'تمت البيعة للأمير محمد بن سلمان كولي للعهد في 21 يونيو 2017...',
+
+    Projects: 'المشاريع',
+
+    Graphics: 'رسوميات',
   },
 }
 
