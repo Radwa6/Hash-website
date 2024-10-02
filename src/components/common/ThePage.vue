@@ -132,7 +132,7 @@
         </div>
 
         <div class="row mt-5 mb-4">
-          <div class="col-sm-4 col-4">
+          <div class="col-sm-4 col-6 mb-4">
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -151,7 +151,7 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-4">
+          <div class="col-sm-4 col-6 mb-4">
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -170,7 +170,7 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-4">
+          <div class="col-sm-4 col-6 mb-4">
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -188,9 +188,8 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-sm-4 col-4">
+
+          <div class="col-sm-4 col-6 mb-4">
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -209,7 +208,7 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-4">
+          <div class="col-sm-4 col-6 mb-4">
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -228,7 +227,7 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-4">
+          <div class="col-sm-4 col-6 mb-4">
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -261,41 +260,8 @@
         data-aos="fade-right"
         data-aos-duration="2000"
       >
-        <svg
-          width="164"
-          height="2"
-          viewBox="0 0 164 2"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line
-            x1="1.5"
-            y1="1"
-            x2="162.5"
-            y2="1.00001"
-            stroke="#D8D8D8"
-            stroke-width="2"
-            stroke-linecap="round"
-          />
-        </svg>
         {{ $t('TeamMember') }}
-        <svg
-          width="164"
-          height="2"
-          viewBox="0 0 164 2"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line
-            x1="1.5"
-            y1="1"
-            x2="162.5"
-            y2="1.00001"
-            stroke="#D8D8D8"
-            stroke-width="2"
-            stroke-linecap="round"
-          />
-        </svg>
+
         <h1 class="m-4" style="font-weight: bold">
           <span style="color: #df8317">{{ $t('View') }}</span>
           {{ $t('Our Creative Team Members') }}
@@ -496,7 +462,13 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
   }
-
+  h5 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .card-body {
+    padding: 6px !important;
+  }
   .header p,
   .header .text,
   p {
