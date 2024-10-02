@@ -2,55 +2,42 @@
   <div>
     <div
       class="Services text-center"
-      style="padding: 4% 10% 12%"
+      style="padding: 4% 0 12%"
       data-aos="fade-right"
       data-aos-duration="2000"
     >
       <h1 style="font-weight: bold">
         {{ $t('servicesinfo') }}
-        <span style="color: #df8317">{{ $t('servicesinfoo') }} </span>
+        <span style="color: #df8317">{{ $t('servicesinfoo') }}</span>
       </h1>
       <p>{{ $t('description') }}</p>
     </div>
-    <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
-      <div class="" style="margin: -10% -10% 8%">
-        <div>
-          <div class="carousel-inner">
-            <div
-              class="carousel-item"
-              v-for="(slide, index) in slides"
-              :key="index"
-              :class="{ active: index === 0 }"
-            >
-              <div
-                class="card-wrapper container-sm d-flex justify-content-around"
-              >
-                <div
-                  v-for="(card, cardIndex) in slide.cards"
-                  :key="cardIndex"
-                  class="m-2 card"
-                  style="width: 18rem"
-                >
-                  <img
-                    :src="card.imgSrc"
-                    alt="Card image"
-                    class="card-img-top"
-                    style="height: 200px; object-fit: cover"
-                  />
 
-                  <div class="card-body pt-4 pb-4">
-                    <div class="d-flex justify-content-end">
-                      <div
-                        class="icon"
-                        v-html="card.svg"
-                        style="margin-top: -16%"
-                      ></div>
-                    </div>
-                    <h5 class="card-title">{{ $t(card.title) }}</h5>
-                    <p class="card-text">{{ $t(card.text) }}</p>
-                  </div>
-                </div>
+    <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
+      <div class="container" style="margin-top: -10%">
+        <div class="card-wrapper d-flex justify-content-around">
+          <div
+            class="m-2 card"
+            v-for="(card, index) in slides[0].cards"
+            :key="index"
+            style="width: 18rem"
+          >
+            <img
+              :src="card.imgSrc"
+              alt="Card image"
+              class="card-img-top"
+              style="height: 20%; object-fit: cover"
+            />
+            <div class="card-body pt-4 pb-4">
+              <div class="d-flex justify-content-end">
+                <div
+                  class="icon"
+                  v-html="card.svg"
+                  style="margin-top: -16%; width: 50px; height: 50px"
+                ></div>
               </div>
+              <h5 class="card-title">{{ $t(card.title) }}</h5>
+              <p class="card-text">{{ $t(card.text) }}</p>
             </div>
           </div>
         </div>
@@ -58,7 +45,6 @@
     </div>
   </div>
 </template>
-
 <script>
 export default {
   data() {
@@ -69,8 +55,7 @@ export default {
             {
               imgSrc: require('@/assets/web.png'),
               svg: `<svg
-                        width="41"
-                        height="41"
+                       
                         viewBox="0 0 31 31"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -102,8 +87,7 @@ export default {
             },
             {
               svg: `<svg
-                        width="41"
-                        height="41"
+                       
                         viewBox="0 0 31 31"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -148,8 +132,7 @@ export default {
 
             {
               svg: `<svg
-                        width="41"
-                        height="41"
+                      
                         viewBox="0 0 31 31"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -180,8 +163,7 @@ export default {
             },
             {
               svg: `<svg
-                        width="41"
-                        height="41"
+                       
                         viewBox="0 0 31 31"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -231,7 +213,12 @@ export default {
 }
 @media (max-width: 820px) {
   .icon {
-    margin-top: -32% !important;
+    margin-top: -24% !important;
+    height: 20px !important;
+    width: 20px !important;
+  }
+  .card-body {
+    padding: 3px !important;
   }
 }
 @media (max-width: 420px) {
