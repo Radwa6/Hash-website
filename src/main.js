@@ -106,18 +106,23 @@ const messages = {
     ClientSayaboutUs: 'Let’s hear What ',
     WhatOur: 'they says! ',
 
-    namemember1: 'Maria Kate',
-    rolee1: 'Photographer',
+    namemember1: 'Abdulrahman Masoud',
+    rolee1: 'Backend',
     feedback1:
-      'I am very satisfied with the services. Their team is very professional and efficient in completing our project on time and at a very affordable cost. The quality of their work is very good and I highly recommend this company for any construction project.',
-    namemember2: 'John Doe',
-    rolee2: 'Web Developer',
+      'This website saves my whole thought process for me. On the top of that , we operating the website so fast, they are running circles around the industry leader HashStudio definitely looks like the future.',
+    namemember2: 'Amir Mohamed',
+    rolee2: 'Frontend Developer',
     feedback2:
-      'I am very satisfied with the services. Their team is very professional and efficient in completing our project on time and at a very affordable cost. The quality of their work is very good and I highly recommend this company for any construction project.',
-    namemember3: 'Anna Deynah',
-    rolee3: 'UX Designer',
+      'Thank you for developing such a HashStudio product in workspace.One of the best decisions i made as a software engineer was to start following and working with HashStudio as a vehicle to drive my passion.',
+    namemember3: 'Alia Ibrahim',
+    rolee3: 'UI & UX Designer',
     feedback3:
-      'I am very satisfied with the services. Their team is very professional and efficient in completing our project on time and at a very affordable cost. The quality of their work is very good and I highly recommend this company for any construction project.',
+      'Hash Studio is a full-featured, modern, stable, mobile-friendly product that sets a new industry standard.',
+    namemember4: 'Ahmed Galal',
+    rolee4: 'Mobile App',
+    feedback4:
+      'Hash Studio is the most intuitive and easy to use software product I have ever used.',
+
     RequestQuote: 'Request a Quote',
     arealways: 'are always',
     ready: 'ready to help you....',
