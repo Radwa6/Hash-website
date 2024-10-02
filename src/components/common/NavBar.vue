@@ -192,7 +192,7 @@
 
               <router-link
                 :to="{ path: '/allProjects' }"
-                exact-active-class="active-link"
+                active-class="active-link"
               >
                 <li>{{ $t('projects') }}</li>
               </router-link>
@@ -302,9 +302,6 @@ nav {
   z-index: 1000;
   background-color: transparent;
   transition: background-color 0.3s ease;
-}
-.active-link {
-  color: #df8317 !important;
 }
 
 li:hover {

@@ -1267,7 +1267,7 @@ export default {
   align-items: center;
   justify-content: center;
   color: white;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   background-image: url('../../assets/TADWEEN.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -1287,7 +1287,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
 
@@ -1304,7 +1304,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
 
@@ -1321,7 +1321,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1338,7 +1338,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1354,7 +1354,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1370,7 +1370,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1386,7 +1386,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1402,7 +1402,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1418,7 +1418,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1434,7 +1434,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;
@@ -1450,7 +1450,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 1px solid #ece8e8;
+  border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
   overflow: hidden;

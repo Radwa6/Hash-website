@@ -50,6 +50,7 @@
           data-aos-duration="2000"
         >
           <p
+            class="span"
             style="
               color: #df8317;
               background-color: #fee6c963;
@@ -110,7 +111,7 @@
         <p>{{ $t('Choosedescription') }}</p>
       </div>
       <div class="row d-flex justify-content-center mt-5">
-        <div class="col-sm-4">
+        <div class="col-4">
           <div class="Us p-4">
             <svg
               width="116"
@@ -157,7 +158,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-4">
           <div class="Uss p-4">
             <svg
               width="116"
@@ -239,7 +240,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-4">
           <div class="Us p-4">
             <svg
               width="116"
@@ -418,5 +419,59 @@ export default {
   border-radius: 10px;
   background-color: #202020;
   color: #fff;
+}
+@media (max-width: 480px) {
+  .Us,
+  .Uss {
+    padding: 5px !important;
+  }
+  .Us svg,
+  .Uss svg {
+    width: 50% !important;
+    height: 50% !important;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .span {
+    width: 60% !important;
+  }
+  .about a {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .Us,
+  .Uss {
+    padding: 5px !important;
+  }
+  .Us svg,
+  .Uss svg {
+    width: 50% !important;
+    height: 50% !important;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .span {
+    width: 60% !important;
+  }
+  .about a {
+    display: block;
+  }
 }
 </style>
