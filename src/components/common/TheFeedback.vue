@@ -81,7 +81,7 @@
                 </svg>
 
                 <p class="text-muted">
-                  {{ $t('feedback1') }}
+                  {{ $t('feedback2') }}
                 </p>
 
                 <svg
@@ -106,8 +106,8 @@
             />
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
-                <h5>{{ $t('namemember1') }}</h5>
-                <p>{{ $t('role1') }}</p>
+                <h5>{{ $t('namemember2') }}</h5>
+                <p>{{ $t('rolee2') }}</p>
               </div>
             </div>
           </div>
@@ -129,7 +129,7 @@
                 </svg>
 
                 <p class="text-muted">
-                  {{ $t('feedback1') }}
+                  {{ $t('feedback3') }}
                 </p>
 
                 <svg
@@ -154,8 +154,8 @@
             />
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
-                <h5>{{ $t('namemember1') }}</h5>
-                <p>{{ $t('role1') }}</p>
+                <h5>{{ $t('namemember3') }}</h5>
+                <p>{{ $t('role3') }}</p>
               </div>
             </div>
           </div>
