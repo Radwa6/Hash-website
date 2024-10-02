@@ -38,12 +38,12 @@
                     style="height: 200px; object-fit: cover"
                   />
 
-                  <div class="card-body">
+                  <div class="card-body pt-4 pb-4">
                     <div class="d-flex justify-content-end">
                       <div
                         class="icon"
                         v-html="card.svg"
-                        style="margin-top: -12%"
+                        style="margin-top: -16%"
                       ></div>
                     </div>
                     <h5 class="card-title">{{ $t(card.title) }}</h5>
@@ -228,6 +228,16 @@ export default {
 }
 .card:hover .icon {
   fill: #fff !important;
+}
+@media (max-width: 820px) {
+  .icon {
+    margin-top: -32% !important;
+  }
+}
+@media (max-width: 420px) {
+  .icon {
+    margin-top: -32% !important;
+  }
 }
 .image-container {
   flex: 1;
