@@ -303,6 +303,7 @@
           data-aos-duration="2000"
         >
           <p
+            class="span"
             style="
               color: #df8317;
               background-color: #fee6c963;
@@ -445,6 +446,7 @@ export default {
   }
   .about a {
     display: block;
+    font-size: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -472,6 +474,7 @@ export default {
   }
   .about a {
     display: block;
+    font-size: 10px;
   }
 }
 </style>

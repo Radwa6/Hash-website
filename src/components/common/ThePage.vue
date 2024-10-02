@@ -32,6 +32,7 @@
           data-aos-duration="2000"
         >
           <p
+            class="span"
             style="
               color: #df8317;
               background-color: #fee6c963;
@@ -456,7 +457,13 @@ button:hover {
   .header img {
     margin: 80px 0;
   }
-
+  .span {
+    width: 60% !important;
+  }
+  .about a {
+    display: block;
+    font-size: 10px;
+  }
   .header h1,
   h5 {
     font-size: 18px;
@@ -489,7 +496,13 @@ button:hover {
     max-width: 100%;
     height: auto;
   }
-
+  .span {
+    width: 60% !important;
+  }
+  .about a {
+    display: block;
+    font-size: 10px;
+  }
   h1 {
     font-size: 16px;
   }

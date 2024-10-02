@@ -32,7 +32,7 @@
                   />
                 </svg>
 
-                <p class="text-muted">
+                <p class="text-muted text-center w-100">
                   {{ $t('feedback1') }}
                 </p>
 
@@ -80,7 +80,7 @@
                   />
                 </svg>
 
-                <p class="text-muted">
+                <p class="text-muted text-center w-100">
                   {{ $t('feedback2') }}
                 </p>
 
