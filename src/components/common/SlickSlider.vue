@@ -25,8 +25,8 @@
             <img
               :src="card.imgSrc"
               alt="Card image"
-              class="card-img-top"
-              style="height: 20%; object-fit: cover"
+              class="card-img-top img-fluid"
+              style="object-fit: cover"
             />
             <div class="card-body pt-4 pb-4">
               <div class="d-flex justify-content-end">
