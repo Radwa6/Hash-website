@@ -352,6 +352,7 @@ a :hover {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  padding: 0 40px;
 }
 .menu-area {
   display: -webkit-box;
