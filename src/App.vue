@@ -62,6 +62,9 @@
       <div class="row">
         <TheFooter ref="searchComponent"></TheFooter>
       </div>
+      <a href="https://wa.me/1003022897" class="whatsapp-icon" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
     </div>
   </div>
 </template>
@@ -148,5 +151,23 @@ export default {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #df8217da;
+}
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #df8317;
+  color: white;
+  font-size: 30px;
+  padding: 0 10px;
+  border-radius: 50%;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-icon:hover {
+  background-color: #ffffff;
+  color: #25d366;
 }
 </style>
