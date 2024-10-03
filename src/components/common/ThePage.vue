@@ -103,7 +103,9 @@
             {{ $t('OurrPortofolio') }}
             <span style="color: #df8317">{{ $t('OurPortofolio') }}</span>
           </h1>
-          <a href="/" style="color: #df8317; text-decoration: none"
+          <router-link
+            to="/allProjects"
+            style="color: #df8317; text-decoration: none"
             >{{ $t('ViewPortofolio') }}
             <svg
               width="24"
@@ -129,7 +131,7 @@
                 stroke-linejoin="round"
               />
             </svg>
-          </a>
+          </router-link>
         </div>
 
         <div class="row mt-5 mb-4">

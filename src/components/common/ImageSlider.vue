@@ -32,6 +32,20 @@ export default {
         require('@/assets/fTbIM.png'),
         require('@/assets/384fd.png'),
         require('@/assets/74hxb.png'),
+        require('@/assets/nB83P.png'),
+        require('@/assets/zkJ3j.png'),
+        require('@/assets/lonSZ.png'),
+        require('@/assets/JodXv.png'),
+        require('@/assets/fTbIM.png'),
+        require('@/assets/384fd.png'),
+        require('@/assets/74hxb.png'),
+        require('@/assets/nB83P.png'),
+        require('@/assets/zkJ3j.png'),
+        require('@/assets/lonSZ.png'),
+        require('@/assets/JodXv.png'),
+        require('@/assets/fTbIM.png'),
+        require('@/assets/384fd.png'),
+        require('@/assets/74hxb.png'),
       ],
     }
   },
@@ -43,7 +57,7 @@ export default {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 200px; /* يمكنك تعديل هذا لتناسب حجم السلايدر */
+  height: 200px;
 }
 
 .carousel-inner {
@@ -55,30 +69,30 @@ export default {
 
 .carousel-content {
   display: flex;
-  width: calc(100% * 2); /* عرض مضاعف ليتناسب مع تكرار الصور */
-  animation: scroll 20s linear infinite; /* تكرار الحركة */
+  width: calc(100% * 2);
+  animation: scroll 20s linear infinite;
 }
 
 .slide {
-  flex: 0 0 auto; /* يجعل العناصر تأخذ المساحة اللازمة */
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 160px; /* عرض الصورة */
-  margin-right: 20px; /* مساحة بين الصور */
+  width: 160px;
+  margin-right: 20px;
 }
 
 .slide img {
   width: 100%;
-  height: auto; /* الحفاظ على النسبة الأصلية للصورة */
+  height: auto;
 }
 
 @keyframes scroll {
   0% {
-    transform: translateX(0); /* بدء الحركة */
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* الانتقال لنصف العرض */
+    transform: translateX(-50%);
   }
 }
 
