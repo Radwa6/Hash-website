@@ -586,6 +586,7 @@ a :hover {
   .menu-area.show li {
     width: 100%;
     color: #000 !important;
+    padding: 10px 0;
   }
   .menu-area.show {
     display: -webkit-box;
