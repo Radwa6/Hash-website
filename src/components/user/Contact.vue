@@ -388,7 +388,7 @@ button {
   font-size: 16px;
 }
 button:hover {
-  background-color: #6a2e6f;
+  background-color: #df8317 !important;
 }
 .input-with-icon svg {
   height: 1.4rem !important;
