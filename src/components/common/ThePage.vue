@@ -373,7 +373,7 @@ export default {
 .navbarHeader {
   height: 100vh;
   position: relative;
-  background-image: url('/src/assets/header\ bg.png');
+  background-image: url('/src/assets/Hero Section.png');
   background-size: cover;
 
   background-position: center;
@@ -381,7 +381,7 @@ export default {
   overflow: hidden;
 }
 .navbarHeader.rtl {
-  background-image: url('/src/assets/header bg mirrored.png');
+  background-image: url('/src/assets/Hero Sectionn.png');
 }
 .header {
   position: relative;
