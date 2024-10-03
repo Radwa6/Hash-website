@@ -13,7 +13,7 @@
               {{ $t('headerText') }}
             </p>
             <div class="mt-5">
-              <router-link to="/Contact">
+              <router-link to="/aboutUs">
                 <button>{{ $t('SeeMore') }}</button>
               </router-link>
             </div>
