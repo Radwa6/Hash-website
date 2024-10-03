@@ -552,6 +552,9 @@ a :hover {
     font-size: 20px;
     font-weight: 600;
   }
+  .navigation {
+    padding: 0 !important;
+  }
   .header-area {
     padding: 0px;
   }
@@ -696,6 +699,9 @@ a :hover {
   .header-area {
     padding: 0px;
   }
+  .navigation {
+    padding: 0 !important;
+  }
   .mega-item {
     width: 50%;
   }
@@ -707,6 +713,9 @@ a :hover {
 @media (max-width: 767.98px) {
   .header-area {
     padding: 0px;
+  }
+  .navigation {
+    padding: 0 !important;
   }
   .mega-item {
     width: 100%;
