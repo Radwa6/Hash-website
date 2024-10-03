@@ -409,6 +409,7 @@ a :hover {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .menu-area.allProjects li {
   color: #fff !important;
 }
@@ -419,6 +420,7 @@ a :hover {
 .menu-area.aboutUs li {
   color: #fff !important;
 }
+
 .menu-area.aboutUs a {
   color: #fff !important;
 }
@@ -565,9 +567,15 @@ a :hover {
     transition: all 0.3s ease-out;
   }
   .menu-area.show button {
-    width: 100%;
+    width: 90%;
+    margin: 10px 0;
   }
   .menu-area.show a {
+    width: 100%;
+    color: #000 !important;
+    display: block;
+  }
+  .menu-area.show li {
     width: 100%;
     color: #000 !important;
   }
@@ -727,5 +735,8 @@ a {
 }
 .navbarr.scrolled .mobilebtn svg path {
   fill: #df8317;
+}
+.active-link li {
+  color: #df8317 !important;
 }
 </style>

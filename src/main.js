@@ -13,6 +13,7 @@ const messages = {
     welcome: 'Welcome to our website',
     home: 'Home',
     about: 'About',
+    aboutus: 'About Us',
     services: 'Services',
     contact: 'Contact Us',
     headerTitle: 'Transform Your Vision into Reality With Data Ways',
@@ -107,7 +108,7 @@ const messages = {
     WhatOur: 'they says! ',
 
     namemember1: 'Abdulrahman Masoud',
-    rolee1: 'Backend',
+    rolee1: 'Backend Developer',
     feedback1:
       'This website saves my whole thought process for me. On the top of that , we operating the website so fast, they are running circles around the industry leader HashStudio definitely looks like the future.',
     namemember2: 'Amir Mohamed',
@@ -119,7 +120,7 @@ const messages = {
     feedback3:
       'Hash Studio is a full-featured, modern, stable, mobile-friendly product that sets a new industry standard.',
     namemember4: 'Ahmed Galal',
-    rolee4: 'Mobile App',
+    rolee4: 'Mobile Apps',
     feedback4:
       'Hash Studio is the most intuitive and easy to use software product I have ever used.',
 
@@ -185,6 +186,7 @@ const messages = {
     welcome: 'مرحبًا بك في موقعنا',
     home: 'الصفحة الرئيسية',
     about: 'معلومات عنا',
+    aboutus: 'معلومات عنا',
     services: 'الخدمات',
     contact: 'اتصل بنا',
     headerTitle: 'حوّل رؤيتك إلى واقع مع Data Ways',
@@ -272,18 +274,24 @@ const messages = {
     OurFeedback: 'آراؤنا',
     WhatOur: 'ماذا يقول',
     ClientSayaboutUs: 'عملاؤنا عنا',
-    namemember1: 'ماريا كيت',
-    rolee1: 'مصورة',
+
+    namemember1: 'عبدالرحمن مسعود',
+    rolee1: ' مطور الخلفية',
     feedback1:
-      'أنا راضٍ جدًا عن الخدمات. فريقهم محترف جدًا وفعال في إتمام مشروعنا في الوقت المحدد وبتكلفة معقولة جدًا. جودة عملهم ممتازة وأوصي بشدة بهذه الشركة لأي مشروع بناء.',
-    namemember2: 'جون دو',
-    rolee2: 'مطور ويب',
+      'هذا الموقع يحفظ كل أفكاري. بالإضافة إلى ذلك، نحن نشغّل الموقع بسرعة كبيرة، حيث يتفوق على القادة في هذا المجال. HashStudio بالتأكيد يبدو كأنه المستقبل.',
+    namemember2: 'أمير محمد',
+    rolee2: 'مطور الواجهة الأمامية',
     feedback2:
-      'أنا راضٍ جدًا عن الخدمات. فريقهم محترف جدًا وفعال في إتمام مشروعنا في الوقت المحدد وبتكلفة معقولة جدًا. جودة عملهم ممتازة وأوصي بشدة بهذه الشركة لأي مشروع بناء.',
-    namemember3: 'آنا ديناه',
-    rolee3: 'مصممة تجربة المستخدم',
+      'شكرًا على تطوير منتج HashStudio في بيئة العمل. واحدة من أفضل القرارات التي اتخذتها كمهندس برمجيات كانت متابعة والعمل مع HashStudio لتحقيق شغفي.',
+    namemember3: 'عليا إبراهيم',
+    rolee3: 'مصممة واجهات وتجربة مستخدم (UI & UX)',
     feedback3:
-      'أنا راضٍ جدًا عن الخدمات. فريقهم محترف جدًا وفعال في إتمام مشروعنا في الوقت المحدد وبتكلفة معقولة جدًا. جودة عملهم ممتازة وأوصي بشدة بهذه الشركة لأي مشروع بناء.',
+      'Hash Studio هو منتج حديث، متكامل، مستقر، ومتوافق مع الهواتف المحمولة، ويضع معيارًا جديدًا في هذا المجال.',
+    namemember4: 'أحمد جلال',
+    rolee4: 'تطبيقات الهواتف المحمولة',
+    feedback4:
+      'Hash Studio هو أكثر برامج سهولة في الاستخدام وفهمًا التي استخدمتها في حياتي.',
+
     Next: 'التالى',
     Prev: 'السابق',
     projectInfo: 'معلومات المنتج',

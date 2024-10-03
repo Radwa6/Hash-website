@@ -38,7 +38,7 @@
       class="aboutUs text-center"
       :class="['menu-area', { allProjects: isProjectPage }]"
     >
-      <h1 class="pt-5 pb-5" style="color: #fff">{{ $t('about_us') }}</h1>
+      <h1 class="pt-5 pb-5" style="color: #fff">{{ $t('aboutus') }}</h1>
     </div>
     <div class="about container">
       <div
