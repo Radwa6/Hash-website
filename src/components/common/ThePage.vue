@@ -147,9 +147,9 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('VPNMobile') }}
+                  {{ $t('Gadawel') }}
                 </h5>
-                <p class="card-text">{{ $t('MobileApp') }}</p>
+                <p class="card-text">{{ $t('ERP System') }}</p>
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('StreamingMobile') }}
+                  {{ $t('Check in') }}
                 </h5>
                 <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>
@@ -185,7 +185,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('CreativeDigitalAgency') }}
+                  {{ $t('Claimizer') }}
                 </h5>
                 <p class="card-text">{{ $t('LandingPage') }}</p>
               </div>
@@ -204,9 +204,9 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('PodcastMobile') }}
+                  {{ $t('Pasma') }}
                 </h5>
-                <p class="card-text">{{ $t('MobileApp') }}</p>
+                <p class="card-text">{{ $t('WebDesign') }}</p>
               </div>
             </div>
           </div>
@@ -223,7 +223,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('MultimediaDesign') }}
+                  {{ $t('RASAEL') }}
                 </h5>
                 <p class="card-text">{{ $t('WebDesign') }}</p>
               </div>
@@ -242,7 +242,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('ParkingMobile') }}
+                  {{ $t('Etamen') }}
                 </h5>
                 <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>
@@ -311,12 +311,12 @@ export default {
       imageUrl2: require('@/assets/process3.png'),
       imageUrl3: require('@/assets/process2.png'),
       imageUrl4: require('@/assets/process1.png'),
-      imageUrl5: require('@/assets/Portofolio1.png'),
-      imageUrl6: require('@/assets/Portofolio2.png'),
-      imageUrl7: require('@/assets/Portofolio3.png'),
-      imageUrl8: require('@/assets/Portofolio4.png'),
-      imageUrl9: require('@/assets/Portofolio5.png'),
-      imageUrl10: require('@/assets/Portofolio6.png'),
+      imageUrl5: require('@/assets/Gadawel.png'),
+      imageUrl6: require('@/assets/Check.png'),
+      imageUrl7: require('@/assets/Claimizer.png'),
+      imageUrl8: require('@/assets/hrm.png'),
+      imageUrl9: require('@/assets/RASAEL.png'),
+      imageUrl10: require('@/assets/Itmain.png'),
     }
   },
   mounted() {
@@ -543,5 +543,19 @@ button:hover {
 }
 .card-title {
   font-weight: bold;
+}
+.card {
+  min-height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
 }
 </style>
