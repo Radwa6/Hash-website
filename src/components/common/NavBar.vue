@@ -552,6 +552,10 @@ a :hover {
     font-size: 20px;
     font-weight: 600;
   }
+  .logo svg {
+    height: 90% !important;
+    width: 100% !important;
+  }
   .navigation {
     padding: 0 !important;
   }
