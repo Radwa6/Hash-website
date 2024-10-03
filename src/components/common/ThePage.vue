@@ -48,7 +48,7 @@
             <span style="color: #df8317">{{ $t('abouthh') }}</span>
           </h1>
           <p class="mt-4">{{ $t('aboutinfo') }}</p>
-          <router-link to="/Contact">
+          <router-link to="/aboutUs">
             <button class="mt-4">{{ $t('SeeMore') }}</button>
           </router-link>
           <router-link
