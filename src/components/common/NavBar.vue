@@ -588,6 +588,7 @@ a :hover {
     color: #000 !important;
     padding: 10px 0;
   }
+
   .menu-area.show {
     display: -webkit-box;
     display: -ms-flexbox;
