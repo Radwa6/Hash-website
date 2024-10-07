@@ -393,7 +393,7 @@ export default {
 @import 'aos/dist/aos.css';
 
 .navbarHeader {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   background-image: url('/src/assets/Hero Section.png');
   background-size: cover;
@@ -555,7 +555,7 @@ button:hover {
 
 @media (max-width: 1368px) {
   .navbarHeader {
-    height: 60vh;
+    min-height: 60vh;
     background-size: cover;
   }
 }

@@ -547,7 +547,6 @@ a :hover {
 }
 @media (max-width: 1199.98px) {
   .logo {
-    margin-right: -60px;
     width: auto;
     font-size: 20px;
     font-weight: 600;
