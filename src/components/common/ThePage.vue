@@ -135,7 +135,11 @@
         </div>
 
         <div class="row mt-5 mb-4">
-          <div class="col-sm-4 col-6 mb-4">
+          <div
+            class="col-sm-4 col-6 mb-4"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -154,7 +158,11 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-6 mb-4">
+          <div
+            class="col-sm-4 col-6 mb-4"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -173,7 +181,11 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-6 mb-4">
+          <div
+            class="col-sm-4 col-6 mb-4"
+            data-aos="fade-right"
+            data-aos-delay="100"
+          >
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -192,7 +204,11 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-6 mb-4">
+          <div
+            class="col-sm-4 col-6 mb-4"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -211,7 +227,11 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-6 mb-4">
+          <div
+            class="col-sm-4 col-6 mb-4"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
@@ -230,7 +250,11 @@
             </div>
           </div>
 
-          <div class="col-sm-4 col-6 mb-4">
+          <div
+            class="col-sm-4 col-6 mb-4"
+            data-aos="fade-left"
+            data-aos-delay="100"
+          >
             <div
               class="card"
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
