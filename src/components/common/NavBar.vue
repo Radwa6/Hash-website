@@ -567,6 +567,7 @@ a :hover {
   }
 
   .menu-area {
+    padding: 30px 0;
     background-color: #fff;
     display: none;
     -webkit-transition: all 0.3s ease-out;
