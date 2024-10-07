@@ -153,7 +153,7 @@
                 <h5 class="card-title">
                   {{ $t('Gadawel') }}
                 </h5>
-                <p class="card-text">{{ $t('ERP System') }}</p>
+                <p class="card-text">{{ $t('ERPSystem') }}</p>
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('Check in') }}
+                  {{ $t('Projectname6') }}
                 </h5>
                 <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>
@@ -197,7 +197,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('Claimizer') }}
+                  {{ $t('Projectname5') }}
                 </h5>
                 <p class="card-text">{{ $t('LandingPage') }}</p>
               </div>
@@ -220,7 +220,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('Pasma') }}
+                  {{ $t('Projectname12') }}
                 </h5>
                 <p class="card-text">{{ $t('WebDesign') }}</p>
               </div>
@@ -243,7 +243,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('RASAEL') }}
+                  {{ $t('Projectname2') }}
                 </h5>
                 <p class="card-text">{{ $t('WebDesign') }}</p>
               </div>
@@ -266,7 +266,7 @@
               />
               <div class="card-body">
                 <h5 class="card-title">
-                  {{ $t('Etamen') }}
+                  {{ $t('Projectname3') }}
                 </h5>
                 <p class="card-text">{{ $t('MobileApp') }}</p>
               </div>

@@ -343,6 +343,20 @@ const messages = {
     Projects: 'المشاريع',
 
     Graphics: 'رسوميات',
+
+    Projectname1: 'تدوين',
+    Projectname2: 'رسائل',
+    Projectname3: 'اطمئن',
+    Projectname4: 'فيدباكي ',
+    Projectname5: 'كليميزر',
+    Projectname6: 'تشيك ان ',
+    Projectname7: 'جداول',
+    Projectname8: 'Hash Market',
+    Projectname9: 'آفاق',
+    Projectname10: 'نرتقي',
+    Projectname11: 'سكك حديد مصر ',
+    Projectname12: 'بصمه',
+    ERPSystem: 'نظام تخطيط موارد المؤسسات',
   },
 }
 
