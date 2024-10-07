@@ -65,6 +65,23 @@
       <a href="https://wa.me/1003022897" class="whatsapp-icon" target="_blank">
         <i class="fab fa-whatsapp"></i>
       </a>
+
+      <div v-show="isVisible" class="scroll-to-top" @click="scrollToTop">
+        <!-- أيقونة التمرير للأعلى (يمكنك تخصيصها حسب الرغبة) -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="30"
+          height="30"
+          fill="currentColor"
+          class="bi bi-arrow-up"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 12a.5.5 0 0 1-.5-.5V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5a.5.5 0 0 1-.5.5z"
+          />
+        </svg>
+      </div>
     </div>
   </div>
 </template>
@@ -81,15 +98,31 @@ export default {
   },
   data() {
     return {
+      isVisible: false,
+
       isLoading: true,
     }
   },
   mounted() {
+    window.addEventListener('scroll', this.toggleVisibility)
+
     setTimeout(() => {
       this.isLoading = false
     }, 200)
   },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.toggleVisibility)
+  },
   methods: {
+    scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      })
+    },
+    toggleVisibility() {
+      this.isVisible = window.scrollY > 300
+    },
     toggleMenu() {
       this.mobileMenu = !this.mobileMenu
     },
@@ -170,11 +203,11 @@ export default {
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
-  inset-inline-end: 20px; /* بدلاً من right */
+  inset-inline-end: 20px;
   background-color: #df8317;
   color: white;
   font-size: 26px;
-  padding: 0 8px;
+  padding: 0 7px;
   border-radius: 50%;
   z-index: 1000;
   text-align: center;
@@ -184,5 +217,22 @@ export default {
 .whatsapp-icon:hover {
   background-color: #ffffff;
   color: #25d366;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 66px;
+  inset-inline-end: 20px;
+  background-color: #df8317;
+  color: white;
+  padding: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.scroll-to-top:hover {
+  background-color: #ffffff;
+  color: #df8317;
 }
 </style>
