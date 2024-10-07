@@ -145,7 +145,7 @@
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
             >
               <img
-                class="card-img-top img-fluid"
+                class="card-img-top img-fluid fixed-height-image"
                 :src="imageUrl5"
                 alt="Card image cap"
               />
@@ -168,7 +168,7 @@
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
             >
               <img
-                class="card-img-top img-fluid"
+                class="card-img-top img-fluid fixed-height-image"
                 :src="imageUrl6"
                 alt="Card image cap"
               />
@@ -191,7 +191,7 @@
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
             >
               <img
-                class="card-img-top img-fluid"
+                class="card-img-top img-fluid fixed-height-image"
                 :src="imageUrl7"
                 alt="Card image cap"
               />
@@ -214,7 +214,7 @@
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
             >
               <img
-                class="card-img-top img-fluid"
+                class="card-img-top img-fluid fixed-height-image"
                 :src="imageUrl8"
                 alt="Card image cap"
               />
@@ -237,7 +237,7 @@
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
             >
               <img
-                class="card-img-top img-fluid"
+                class="card-img-top img-fluid fixed-height-image"
                 :src="imageUrl9"
                 alt="Card image cap"
               />
@@ -260,7 +260,7 @@
               style="border: none; background-color: #4d4e4e4d; color: #ffffff"
             >
               <img
-                class="card-img-top img-fluid"
+                class="card-img-top img-fluid fixed-height-image"
                 :src="imageUrl10"
                 alt="Card image cap"
               />
@@ -578,6 +578,13 @@ button:hover {
 .card img {
   height: auto;
   max-height: 200px;
+  object-fit: cover;
+}
+.fixed-height-image {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  max-height: 300px;
   object-fit: cover;
 }
 </style>
