@@ -62,12 +62,12 @@
       <div class="row">
         <TheFooter ref="searchComponent"></TheFooter>
       </div>
+
       <a href="https://wa.me/1003022897" class="whatsapp-icon" target="_blank">
         <i class="fab fa-whatsapp"></i>
       </a>
 
       <div v-show="isVisible" class="scroll-to-top" @click="scrollToTop">
-        <!-- أيقونة التمرير للأعلى (يمكنك تخصيصها حسب الرغبة) -->
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"
@@ -200,6 +200,7 @@ export default {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #df8217da;
 }
+
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
