@@ -206,8 +206,8 @@ export default {
   inset-inline-end: 20px;
   background-color: #df8317;
   color: white;
-  font-size: 26px;
-  padding: 0 7px;
+  font-size: 22px;
+  padding: 0 6px;
   border-radius: 50%;
   z-index: 1000;
   text-align: center;
@@ -221,11 +221,10 @@ export default {
 
 .scroll-to-top {
   position: fixed;
-  bottom: 66px;
+  bottom: 60px;
   inset-inline-end: 20px;
   background-color: #df8317;
   color: white;
-  padding: 3px;
   border-radius: 50%;
   cursor: pointer;
   transition: opacity 0.3s;
