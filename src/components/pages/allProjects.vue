@@ -1257,7 +1257,7 @@ export default {
 @import 'aos/dist/aos.css';
 
 .allProjects {
-  background-image: url('@/assets/Rectangle.png');
+  background-image: url('@/assets/bg.png');
   padding: 80px 0;
 }
 .Project1 {

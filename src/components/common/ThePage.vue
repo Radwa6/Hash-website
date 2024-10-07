@@ -331,10 +331,8 @@ export default {
     return {
       mobileMenu: false,
       currentLanguage: 'English',
-      imageUrl1: require('@/assets/Group 1261152760.png'),
-      imageUrl2: require('@/assets/process3.png'),
-      imageUrl3: require('@/assets/process2.png'),
-      imageUrl4: require('@/assets/process1.png'),
+      imageUrl1: require('@/assets/about.png'),
+
       imageUrl5: require('@/assets/Gadawel.png'),
       imageUrl6: require('@/assets/Check.png'),
       imageUrl7: require('@/assets/Claimizer.png'),

@@ -196,7 +196,7 @@ export default {
 
 <style scoped>
 .Services {
-  background-image: url('@/assets/Frame 2147223656.png');
+  background-image: url('@/assets/Services.png');
 }
 .card {
   display: flex;

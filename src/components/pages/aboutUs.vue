@@ -321,7 +321,7 @@ export default {
 
   data() {
     return {
-      imageUrl1: require('@/assets/Group 1261152760.png'),
+      imageUrl1: require('@/assets/about.png'),
       imageUrl11: require('@/assets/Images.png'),
     }
   },
@@ -370,7 +370,7 @@ export default {
 @import 'aos/dist/aos.css';
 
 .aboutUs {
-  background-image: url('@/assets/Rectangle.png');
+  background-image: url('@/assets/bg.png');
   padding: 80px 0;
 }
 .about button {
