@@ -70,8 +70,8 @@
       <div v-show="isVisible" class="scroll-to-top" @click="scrollToTop">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="34"
-          height="34"
+          width="38"
+          height="38"
           fill="currentColor"
           class="bi bi-arrow-up"
           viewBox="0 0 16 16"
@@ -208,7 +208,7 @@ export default {
   background-color: #df8317;
   color: white;
   font-size: 26px;
-  padding: 0 7px;
+  padding: 0 8px;
   border-radius: 50%;
   z-index: 1000;
   text-align: center;
@@ -222,7 +222,7 @@ export default {
 
 .scroll-to-top {
   position: fixed;
-  bottom: 64px;
+  bottom: 66px;
   inset-inline-end: 20px;
   background-color: #df8317;
   color: white;
