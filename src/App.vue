@@ -51,7 +51,7 @@
       <div class="loader"></div>
     </div>
   </div>
-  <div v-else>
+  <div v-else :dir="isRTL ? 'rtl' : 'ltr'">
     <div id="app">
       <div class="">
         <NavBar />
@@ -88,6 +88,21 @@ export default {
     setTimeout(() => {
       this.isLoading = false
     }, 200)
+  },
+  methods: {
+    toggleMenu() {
+      this.mobileMenu = !this.mobileMenu
+    },
+    toggleLanguage() {
+      this.$i18n.locale = this.$i18n.locale === 'en' ? 'ar' : 'en'
+      this.currentLanguage =
+        this.currentLanguage === 'English' ? 'العربية' : 'English'
+    },
+  },
+  computed: {
+    isRTL() {
+      return this.$i18n.locale === 'ar'
+    },
   },
 }
 </script>
@@ -155,11 +170,11 @@ export default {
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  inset-inline-end: 20px; /* بدلاً من right */
   background-color: #df8317;
   color: white;
-  font-size: 30px;
-  padding: 0 10px;
+  font-size: 26px;
+  padding: 0 8px;
   border-radius: 50%;
   z-index: 1000;
   text-align: center;
