@@ -1,25 +1,36 @@
 <template>
   <div class="ThePage" :dir="isRTL ? 'rtl' : 'ltr'">
-    <div class="navbarHeader pt-5" :class="['navbarHeader', { rtl: isRTL }]">
-      <section class="header m-5">
-        <div class="d-flex align-items-center">
-          <div
-            class="animate__animated animate__fadeInDown w-50 p-3"
-            data-il8n="task"
-            style="background-color: #00000011"
-          >
-            <h1 class="w-100">{{ $t('headerTitle') }}</h1>
-            <p class="text mt-4">
-              {{ $t('headerText') }}
-            </p>
-            <div class="mt-5">
-              <router-link to="/aboutUs">
-                <button>{{ $t('SeeMore') }}</button>
-              </router-link>
+    <div class="row navbarHeader" :class="['navbarHeader', { rtl: isRTL }]">
+      <div class="col-6" style="background-color: rgb(32, 32, 32)">
+        <section class="header m-5">
+          <div class="d-flex align-items-center">
+            <div
+              class="animate__animated animate__fadeInDown mt-3"
+              data-il8n="task"
+              style="background-color: #00000011"
+            >
+              <h1 class="w-100">{{ $t('headerTitle') }}</h1>
+              <p class="text mt-4">
+                {{ $t('headerText') }}
+              </p>
+              <div class="mt-5">
+                <router-link to="/aboutUs">
+                  <button>{{ $t('SeeMore') }}</button>
+                </router-link>
+              </div>
             </div>
           </div>
+        </section>
+      </div>
+      <div class="col-6">
+        <div class="bgheader">
+          <img
+            src="../../assets/Main Picture.jpg"
+            alt=""
+            style="height: 80vh; margin: 10% -30%"
+          />
         </div>
-      </section>
+      </div>
     </div>
 
     <div class="about container" id="system-section">
@@ -392,16 +403,33 @@ export default {
 <style scoped>
 @import 'aos/dist/aos.css';
 
-.navbarHeader {
+/* .navbarHeader {
   min-height: 100vh;
   position: relative;
-  background-image: url('/src/assets/Hero Section.png');
+  background-image: url('/src/assets/Main\ Picture.jpg');
   background-size: cover;
 
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+} */
+
+.navbarHeader {
+  min-height: 50vh;
 }
+/* .bgheader {
+  min-height: calc(
+    100vh - 100px
+  );
+  background-image: url('/src/assets/Main Picture.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-top: 150px;
+  padding-bottom: 150px; 
+} */
+
 .navbarHeader.rtl {
   background-image: url('/src/assets/Hero Sectionn.png');
 }
@@ -442,7 +470,7 @@ export default {
 .header button,
 .about button {
   background-color: #df8317;
-  color: #e5e7f2;
+  color: #ffffff;
   padding: 14px 15%;
   border-radius: 10px;
   border: none;
@@ -488,6 +516,10 @@ button:hover {
     display: block;
     font-size: 10px;
   }
+  .header h1 {
+    margin-top: 20%;
+  }
+
   .header h1,
   h5 {
     font-size: 18px;
@@ -535,6 +567,7 @@ button:hover {
     font-size: 10px;
   }
   .header h1 {
+    margin-top: 20%;
     font-size: 18px;
     font-weight: bold;
   }
@@ -555,11 +588,22 @@ button:hover {
 
 @media (max-width: 1368px) {
   .navbarHeader {
-    min-height: 60vh;
-    background-size: cover;
+    min-height: 40vh;
+  }
+  .bgheader img {
+    height: 48vh !important;
+    margin: 30% -30% !important;
   }
 }
-
+@media (min-width: 600px) and (max-width: 1280px) {
+  .navbarHeader {
+    min-height: 30vh;
+  }
+  .bgheader img {
+    height: 80vh !important;
+    margin: 16% -16% !important;
+  }
+}
 .card-text {
   color: #858585;
 }
