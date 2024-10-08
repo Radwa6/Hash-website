@@ -43,11 +43,10 @@
           data-aos-duration="2000"
         >
           <p
-            class="span"
             style="
               color: #df8317;
               background-color: #fee6c963;
-              width: 20%;
+              display: inline-block;
               padding: 3px 20px;
               border-radius: 50px;
             "
@@ -430,9 +429,6 @@ export default {
   padding-bottom: 150px; 
 } */
 
-.navbarHeader.rtl {
-  background-image: url('/src/assets/Hero Sectionn.png');
-}
 .header {
   position: relative;
   z-index: 2;
@@ -509,9 +505,7 @@ button:hover {
   .header img {
     margin: 80px 0;
   }
-  .span {
-    width: 60% !important;
-  }
+
   .about a {
     display: block;
     font-size: 10px;
@@ -552,9 +546,7 @@ button:hover {
     max-width: 100%;
     height: auto;
   }
-  .span {
-    width: 60% !important;
-  }
+
   .about a {
     display: block;
     font-size: 10px;

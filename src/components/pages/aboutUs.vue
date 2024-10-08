@@ -50,11 +50,10 @@
           data-aos-duration="2000"
         >
           <p
-            class="span"
             style="
               color: #df8317;
               background-color: #fee6c963;
-              width: 20%;
+              display: inline-block;
               padding: 3px 20px;
               border-radius: 50px;
             "
@@ -274,11 +273,10 @@
           data-aos-duration="2000"
         >
           <p
-            class="span"
             style="
               color: #df8317;
               background-color: #fee6c963;
-              width: 20%;
+              display: inline-block;
               padding: 3px 20px;
               border-radius: 50px;
             "
@@ -412,9 +410,7 @@ export default {
   p {
     font-size: 10px;
   }
-  .span {
-    width: 60% !important;
-  }
+
   .about a {
     display: block;
     font-size: 10px;
@@ -440,9 +436,7 @@ export default {
   p {
     font-size: 10px;
   }
-  .span {
-    width: 60% !important;
-  }
+
   .about a {
     display: block;
     font-size: 10px;
