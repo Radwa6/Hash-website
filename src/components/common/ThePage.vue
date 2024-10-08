@@ -604,6 +604,7 @@ button:hover {
 }
 .card {
   min-height: 100%;
+  border: none;
 }
 
 .card-body {
