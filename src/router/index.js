@@ -5,6 +5,7 @@ import ThePage from '@/components/common/ThePage.vue'
 import ContactPage from '@/components/user/Contact.vue'
 import aboutUs from '@/components/pages/aboutUs.vue'
 import allProjects from '@/components/pages/allProjects.vue'
+import projectDetails from '@/components/pages/projectDetails.vue'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ const routes = [
     path: '/allProjects',
     name: 'allProjects',
     component: allProjects,
+  },
+  {
+    path: '/projectDetails',
+    name: 'projectDetails',
+    component: projectDetails,
   },
 ]
 

@@ -263,7 +263,9 @@ export default {
   computed: {
     isProjectPage() {
       return (
-        this.$route.path === '/allProjects' || this.$route.path === '/aboutUs'
+        this.$route.path === '/allProjects' ||
+        this.$route.path === '/aboutUs' ||
+        this.$route.path === '/projectDetails'
       )
     },
 
@@ -415,6 +417,13 @@ a :hover {
   color: #fff !important;
 }
 .menu-area.allProjects a {
+  color: #fff !important;
+}
+.menu-area.projectDetails li {
+  color: #fff !important;
+}
+
+.menu-area.projectDetails a {
   color: #fff !important;
 }
 

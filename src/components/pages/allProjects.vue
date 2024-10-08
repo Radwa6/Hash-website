@@ -49,7 +49,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project1 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
