@@ -145,7 +145,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project2 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -240,7 +240,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project3 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -336,7 +336,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project4 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -432,7 +432,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project5 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -528,7 +528,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project6 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -624,7 +624,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project7 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -720,7 +720,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project8 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -816,7 +816,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project9 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -912,7 +912,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project10 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -1008,7 +1008,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project11 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
@@ -1103,7 +1103,7 @@
               data-aos="fade-up"
               data-aos-duration="3000"
             >
-              <router-link to="/" style="text-decoration: none">
+              <router-link to="/projectDetails" style="text-decoration: none">
                 <div
                   class="Project12 d-flex justify-content-center text-center m-1 p-3 pt-5 pb-5"
                 >
