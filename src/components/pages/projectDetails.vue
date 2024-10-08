@@ -211,12 +211,12 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* لون شفاف، يمكنك تغييره */
-  z-index: 1; /* لضمان ظهور overlay فوق الصورة */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .project img {
-  z-index: 0; /* لجعل الصورة أسفل الطبقة */
+  z-index: 0;
 }
 
 .ProductInfo {
