@@ -116,7 +116,15 @@
           <router-link
             to="/allProjects"
             style="color: #df8317; text-decoration: none"
-            >{{ $t('ViewPortofolio') }}
+          >
+            <button>
+              {{ $t('ViewPortofolio') }}
+              <div class="arrow-wrapper">
+                <div class="arrow"></div>
+              </div>
+            </button>
+
+            <!-- {{ $t('ViewPortofolio') }}
             <svg
               width="24"
               height="24"
@@ -140,7 +148,7 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
-            </svg>
+            </svg> -->
           </router-link>
         </div>
 
@@ -706,5 +714,60 @@ button:hover {
   min-height: 200px;
   max-height: 300px;
   object-fit: cover;
+}
+
+/* From Uiverse.io by thewizardofzen */
+.Portofolio button {
+  --primary-color: rgb(32, 32, 32);
+  --secondary-color: #df8317;
+  --arrow-width: 10px;
+  --arrow-stroke: 2px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 50px;
+  color: var(--secondary-color);
+  padding: 1em 1.8em;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  font-weight: bold;
+}
+
+.Portofolio button .arrow-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Portofolio button .arrow {
+  margin-top: 1px;
+  width: var(--arrow-width);
+  background: var(--primary-color);
+  height: var(--arrow-stroke);
+  position: relative;
+  transition: 0.2s;
+}
+
+.Portofolio button .arrow::before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  border: solid var(--secondary-color);
+  border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+  display: inline-block;
+  top: -3px;
+  right: 3px;
+  transition: 0.2s;
+  padding: 3px;
+  transform: rotate(-45deg);
+}
+
+.Portofolio button:hover .arrow {
+  background: var(--secondary-color);
+}
+
+.Portofolio button:hover .arrow:before {
+  right: 0;
 }
 </style>
