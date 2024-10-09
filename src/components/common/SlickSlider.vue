@@ -15,7 +15,9 @@
 
     <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
       <div class="container" style="margin-top: -10%">
-        <div class="card-wrapper d-flex justify-content-around">
+        <div
+          class="card-wrapper d-flex justify-content-around align-items-stretch"
+        >
           <div
             class="m-2 card"
             v-for="(card, index) in slides[0].cards"
@@ -202,8 +204,11 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  /* height: 100%; */
+  display: inline-block;
+  border: none;
 }
+
 .card:hover .card-body {
   background-color: #df8317;
   color: #fff;
@@ -233,7 +238,7 @@ export default {
 
 .card-img-top {
   width: 100%;
-  height: 100%;
+  height: 10rem;
   object-fit: cover;
 }
 
@@ -262,7 +267,9 @@ export default {
     display: flex;
     flex-direction: row;
   }
-
+  .card-img-top {
+    height: 5rem;
+  }
   .btn-prev,
   .btn-next {
     width: 40px;

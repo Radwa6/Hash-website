@@ -227,7 +227,7 @@ export default {
 }
 button {
   background-color: #df8317;
-  color: #e5e7f2;
+  color: #ffffff;
   padding: 14px 5%;
   border-radius: 10px !important;
   border: none;
