@@ -60,11 +60,11 @@
           >
             {{ $t('about_us') }}
           </p>
-          <h1 style="font-weight: bold" class="mt-4">
+          <h1 style="font-weight: bold" class="mt-2 mb-2">
             {{ $t('abouth') }}
             <span style="color: #df8317">{{ $t('abouthh') }}</span>
           </h1>
-          <p class="mt-4">{{ $t('aboutinfo') }}</p>
+          <p>{{ $t('aboutinfo') }}</p>
         </div>
         <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
           <img :src="imageUrl1" alt="image" class="img-fluid" />

@@ -53,11 +53,11 @@
           >
             {{ $t('about_us') }}
           </p>
-          <h1 style="font-weight: bold" class="mt-4">
+          <h1 style="font-weight: bold" class="mt-2 mb-2">
             {{ $t('abouth') }}
             <span style="color: #df8317">{{ $t('abouthh') }}</span>
           </h1>
-          <p class="mt-4">{{ $t('aboutinfo') }}</p>
+          <p>{{ $t('aboutinfo') }}</p>
           <router-link to="/aboutUs">
             <button class="mt-4">{{ $t('SeeMore') }}</button>
           </router-link>
