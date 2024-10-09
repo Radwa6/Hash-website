@@ -383,12 +383,14 @@ export default {
 .Us {
   box-shadow: 0px 0px 15px rgba(49, 49, 49, 0.2);
   border-radius: 10px;
+  min-height: 100%;
 }
 .Uss {
   box-shadow: 0px 0px 15px rgba(49, 49, 49, 0.2);
   border-radius: 10px;
   background-color: #202020;
   color: #fff;
+  min-height: 100%;
 }
 @media (max-width: 480px) {
   .Us,
