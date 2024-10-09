@@ -283,11 +283,11 @@
           >
             {{ $t('OURVALUE') }}
           </p>
-          <h1 style="font-weight: bold" class="mt-4">
+          <h1 style="font-weight: bold" class="mt-2 mb-2">
             {{ $t('VALUE') }}
             <span style="color: #df8317">{{ $t('VALUEe') }}</span>
           </h1>
-          <p class="mt-4">{{ $t('VALUEinfo') }}</p>
+          <p>{{ $t('VALUEinfo') }}</p>
         </div>
       </div>
     </div>

@@ -254,7 +254,7 @@ button {
     margin-top: -18% !important;
   }
   .ProductInfo {
-    text-align: center;
+    text-align: start !important;
     padding: 20px;
   }
 
