@@ -22,7 +22,7 @@
             class="m-2 card"
             v-for="(card, index) in slides[0].cards"
             :key="index"
-            style="width: 18rem"
+            style="width: 18rem; text-align: start"
           >
             <img
               :src="card.imgSrc"

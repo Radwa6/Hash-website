@@ -7,7 +7,7 @@
             <div
               class="animate__animated animate__fadeInDown mt-3"
               data-il8n="task"
-              style="background-color: #00000011"
+              style="background-color: #00000011; text-align: start"
             >
               <h1 class="w-100">{{ $t('headerTitle') }}</h1>
               <p class="text mt-4">
@@ -41,6 +41,7 @@
           class="col-6 p-4 position-relative justify-content-center"
           data-aos="fade-right"
           data-aos-duration="2000"
+          style="text-align: start"
         >
           <p
             style="
@@ -152,7 +153,7 @@
           </router-link>
         </div>
 
-        <div class="row mt-5 mb-4">
+        <div class="row mt-5 mb-4" style="text-align: start">
           <div
             class="col-sm-4 col-6 mb-4"
             data-aos="fade-right"
@@ -292,6 +293,15 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="m-5 p-5 text-center fa-3x">
+      <router-link
+        to="/layoutPage"
+        style="color: #df8317; text-decoration: none"
+      >
+        New
+      </router-link>
     </div>
 
     <div
@@ -447,7 +457,6 @@ export default {
 }
 
 .ThePage {
-  text-align: start;
   overflow: hidden;
   width: 100%;
 }

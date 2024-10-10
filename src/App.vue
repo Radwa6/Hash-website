@@ -53,13 +53,13 @@
   </div>
   <div v-else :dir="isRTL ? 'rtl' : 'ltr'">
     <div id="app">
-      <div class="">
+      <div v-if="$route.name !== 'layoutPage'">
         <NavBar />
       </div>
       <div class="row">
         <router-view></router-view>
       </div>
-      <div class="row">
+      <div v-if="$route.name !== 'layoutPage'" class="row">
         <TheFooter ref="searchComponent"></TheFooter>
       </div>
 
@@ -99,7 +99,6 @@ export default {
   data() {
     return {
       isVisible: false,
-
       isLoading: true,
     }
   },
