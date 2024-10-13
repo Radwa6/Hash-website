@@ -616,10 +616,11 @@
     <!-- End about -->
 
     <!-- ======= Services Section ======= -->
+
     <div class="Services p-5">
       <div class="container">
         <div
-          class="aos-init aos-animate animate__animated animate__fadeInDown d-flex justify-content-between p-5"
+          class="aos-init aos-animate animate__animated animate__fadeInDown d-flex justify-content-between p-5 mt-5"
           data-il8n="Portofolio"
           data-aos="fade-up"
           data-aos-delay="100"
@@ -642,7 +643,7 @@
           </router-link>
         </div>
 
-        <div class="row mt-5 mb-4">
+        <div class="row mt-3 mb-5">
           <div
             class="col-sm-4 col-6 mb-4"
             data-aos="fade-right"
