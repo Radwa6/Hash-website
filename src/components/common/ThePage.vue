@@ -3,8 +3,13 @@
     <!-- ======= Header Section ======= -->
     <div class="row navbarHeader" :class="['navbarHeader', { rtl: isRTL }]">
       <div class="col-6" style="background-color: rgb(32, 32, 32)">
-        <section class="header m-5">
-          <div class="d-flex align-items-center">
+        <section
+          class="header d-flex align-items-center justify-content-center ml-5 mr-5"
+        >
+          <div
+            class="d-flex align-items-center justify-content-center"
+            style="min-height: 60vh"
+          >
             <div
               class="animate__animated animate__fadeInDown mt-3"
               data-il8n="task"
