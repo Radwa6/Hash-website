@@ -1,5 +1,6 @@
 <template>
   <div class="ThePage" :dir="isRTL ? 'rtl' : 'ltr'">
+    <!-- ======= Header Section ======= -->
     <div class="row navbarHeader" :class="['navbarHeader', { rtl: isRTL }]">
       <div class="col-6" style="background-color: rgb(32, 32, 32)">
         <section class="header m-5">
@@ -32,7 +33,9 @@
         </div>
       </div>
     </div>
+    <!-- End Header -->
 
+    <!-- ======= about Section ======= -->
     <div class="about container" id="system-section">
       <div
         class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
@@ -94,9 +97,13 @@
         </div>
       </div>
     </div>
+    <!-- End about -->
 
+    <!-- ======= Services Section ======= -->
     <SlickSlider id="servies-section" />
+    <!-- End Services -->
 
+    <!-- ======= Portofolio Section ======= -->
     <div
       class="Portofolio p-5"
       data-aos="fade-up"
@@ -294,7 +301,9 @@
         </div>
       </div>
     </div>
+    <!-- End Portofolio -->
 
+    <!-- ======= New Layout Section ======= -->
     <div class="m-5 p-5 text-center fa-3x">
       <router-link
         to="/layoutPage"
@@ -303,7 +312,9 @@
         New
       </router-link>
     </div>
+    <!-- End Layout -->
 
+    <!-- ======= Member Section ======= -->
     <div
       class="Member container text-center pt-5 pb-5"
       id="members-section"
@@ -325,7 +336,9 @@
 
       <teamSlider />
     </div>
+    <!-- End Member -->
 
+    <!-- ======= partners Section ======= -->
     <div class="text-center m-5" id="partners-section">
       <h1 style="font-weight: bold">
         <span style="color: #df8317">{{ $t('Our') }}</span>
@@ -335,6 +348,7 @@
       <p style="color: #696984">{{ $t('partner') }}</p>
       <ImageSlider class="mt-5" />
     </div>
+    <!-- End partners -->
   </div>
 </template>
 
