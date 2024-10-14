@@ -108,21 +108,28 @@
     <SlickSlider id="servies-section" />
     <!-- End Services -->
 
+    <!-- ======= process Section ======= -->
     <div
-      class="Member container text-center pt-5 pb-5"
-      id="members-section"
+      class="process container text-center pt-5 pb-5"
       data-aos="fade-right"
       data-aos-duration="2000"
     >
       <div class="text-center" data-aos="fade-right" data-aos-duration="2000">
         <h1 style="font-weight: bold">
-          {{ $t('servicesinfo') }}
-          <span style="color: #df8317">{{ $t('servicesinfoo') }}</span>
+          Our process covers
+          <span style="color: #df8317">everything!</span>
         </h1>
-        <p>{{ $t('description') }}</p>
+        <p>
+          Each step of our process is on delivering high-quality results, with
+          attention to every detail.
+        </p>
       </div>
-      <div class="row mt-5" data-aos="fade-up" data-aos-duration="2000">
-        <div class="col-3">
+      <div
+        class="row mt-5 d-flex justify-content-center align-content-center"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <div class="col-sm-3 mb-4">
           <div class="border-0 m-2">
             <div class="memberdesign">
               <div
@@ -158,7 +165,7 @@
             </div>
           </div>
         </div>
-        <div class="col-1">
+        <div class="col-sm-1 mb-4">
           <svg
             width="71"
             height="19"
@@ -174,7 +181,7 @@
           </svg>
         </div>
 
-        <div class="col-3">
+        <div class="col-sm-3 mb-4">
           <div class="border-0 m-2">
             <div class="memberdesign">
               <div
@@ -210,7 +217,7 @@
             </div>
           </div>
         </div>
-        <div class="col-1">
+        <div class="col-sm-1 mb-4">
           <svg
             width="71"
             height="19"
@@ -226,7 +233,7 @@
           </svg>
         </div>
 
-        <div class="col-3">
+        <div class="col-sm-3 mb-4">
           <div class="border-0 m-2">
             <div class="memberdesign">
               <div
@@ -812,6 +819,13 @@ button:hover {
     padding: 8px 24px;
     font-size: 10px;
   }
+  .process svg {
+    /* transform: rotate(90deg);
+    margin: 0;
+    display: flex;
+    justify-content: center; */
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .header {
@@ -851,6 +865,13 @@ button:hover {
   }
   .about svg {
     width: 30%;
+  }
+  .process svg {
+    /* transform: rotate(90deg);
+    margin: 0;
+    display: flex;
+    justify-content: center; */
+    display: none;
   }
 }
 
