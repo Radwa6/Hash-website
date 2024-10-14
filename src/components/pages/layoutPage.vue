@@ -406,7 +406,7 @@
           class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
         >
           <div
-            class="col-6"
+            class="col-lg-6 col-12"
             data-aos="fade-up"
             data-aos-duration="2000"
             style="text-align: start"
@@ -417,7 +417,7 @@
           </div>
 
           <div
-            class="col-6 p-4 position-relative justify-content-center"
+            class="col-lg-6 col-12 p-4 position-relative justify-content-center"
             style="text-align: start"
           >
             <div class="row" data-aos="fade-right" data-aos-duration="2000">
