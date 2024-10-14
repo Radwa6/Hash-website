@@ -472,17 +472,6 @@
     </div>
     <!-- End Portofolio -->
 
-    <!-- ======= New Layout Section ======= -->
-    <div class="m-5 p-5 text-center fa-3x">
-      <router-link
-        to="/layoutPage"
-        style="color: #df8317; text-decoration: none"
-      >
-        New
-      </router-link>
-    </div>
-    <!-- End Layout -->
-
     <!-- ======= Member Section ======= -->
     <div
       class="Member container text-center pt-5 pb-5"
