@@ -108,6 +108,163 @@
     <SlickSlider id="servies-section" />
     <!-- End Services -->
 
+    <div
+      class="Member container text-center pt-5 pb-5"
+      id="members-section"
+      data-aos="fade-right"
+      data-aos-duration="2000"
+    >
+      <div class="text-center" data-aos="fade-right" data-aos-duration="2000">
+        <h1 style="font-weight: bold">
+          {{ $t('servicesinfo') }}
+          <span style="color: #df8317">{{ $t('servicesinfoo') }}</span>
+        </h1>
+        <p>{{ $t('description') }}</p>
+      </div>
+      <div class="row mt-5" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-3">
+          <div class="border-0 m-2">
+            <div class="memberdesign">
+              <div
+                class="p-3 pt-2 pb-2 d-flex justify-content-end"
+                style="
+                  background-color: #202020;
+                  z-index: 3;
+                  width: 40px;
+                  height: 40px;
+                  color: #fff;
+                  border-radius: 50%;
+                  position: relative;
+                  margin: 0 14% 0;
+                "
+              >
+                1
+              </div>
+              <img
+                src="../../assets/process1.png"
+                alt="image"
+                class="img-fluid"
+                height="auto"
+                style="border-radius: 50%; margin-top: -20%"
+              />
+            </div>
+
+            <div class="card-body text-center mt-4">
+              <h5 class="card-title">Analysis & Design</h5>
+              <p class="card-text mt-1">
+                Review this perception with the client and make the necessary
+                adjustments
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <svg
+            width="71"
+            height="19"
+            viewBox="0 0 71 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="margin-top: 80%"
+          >
+            <path
+              d="M22.0625 4.28175C12.9384 7.43194 3.39493 13.0237 0.858418 17.4456C0.0936503 19.4298 3.50134 17.8834 4.8785 16.7109C10.821 11.6514 14.3515 9.8162 20.9231 7.30584C35.91 1.58081 51.5208 0.60491 62.0047 8.93766C62.8731 9.87872 62.5525 10.1256 60.2989 10.0903C58.3237 10.109 57.7399 10.3976 58.1394 11.2168C58.8053 12.5821 60.2694 12.7425 66.5006 12.3439C70.1425 12.0612 70.6385 11.7865 70.3961 10.2561C69.987 7.67337 65.4935 2.01152 64.3412 2.6843C63.8452 2.95897 63.6913 4.25806 63.976 5.48768C64.2606 6.71731 64.2922 7.48404 63.5742 6.92412C52.634 -0.266099 36.8599 -0.827188 22.0625 4.28175Z"
+              fill="#DF8317"
+            />
+          </svg>
+        </div>
+
+        <div class="col-3">
+          <div class="border-0 m-2">
+            <div class="memberdesign">
+              <div
+                class="p-3 pt-2 pb-2 d-flex justify-content-end"
+                style="
+                  background-color: #df8317;
+                  z-index: 3;
+                  width: 40px;
+                  height: 40px;
+                  color: #fff;
+                  border-radius: 50%;
+                  position: relative;
+                  margin: 0 14% 0;
+                "
+              >
+                2
+              </div>
+              <img
+                src="../../assets/process2.png"
+                alt="image"
+                class="img-fluid"
+                height="auto"
+                style="border-radius: 50%; margin-top: -20%"
+              />
+            </div>
+
+            <div class="card-body text-center mt-4">
+              <h5 class="card-title">Implementation</h5>
+              <p class="card-text mt-1">
+                Implementation phase and duration varies depending on the size
+                of the project
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <svg
+            width="71"
+            height="19"
+            viewBox="0 0 71 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            style="margin-top: 80%"
+          >
+            <path
+              d="M22.0625 4.28175C12.9384 7.43194 3.39493 13.0237 0.858418 17.4456C0.0936503 19.4298 3.50134 17.8834 4.8785 16.7109C10.821 11.6514 14.3515 9.8162 20.9231 7.30584C35.91 1.58081 51.5208 0.60491 62.0047 8.93766C62.8731 9.87872 62.5525 10.1256 60.2989 10.0903C58.3237 10.109 57.7399 10.3976 58.1394 11.2168C58.8053 12.5821 60.2694 12.7425 66.5006 12.3439C70.1425 12.0612 70.6385 11.7865 70.3961 10.2561C69.987 7.67337 65.4935 2.01152 64.3412 2.6843C63.8452 2.95897 63.6913 4.25806 63.976 5.48768C64.2606 6.71731 64.2922 7.48404 63.5742 6.92412C52.634 -0.266099 36.8599 -0.827188 22.0625 4.28175Z"
+              fill="#DF8317"
+            />
+          </svg>
+        </div>
+
+        <div class="col-3">
+          <div class="border-0 m-2">
+            <div class="memberdesign">
+              <div
+                class="p-3 pt-2 pb-2 d-flex justify-content-end"
+                style="
+                  background-color: #202020;
+                  z-index: 3;
+                  width: 40px;
+                  height: 40px;
+                  color: #fff;
+                  border-radius: 50%;
+                  position: relative;
+                  margin: 0 14% 0;
+                "
+              >
+                3
+              </div>
+              <img
+                src="../../assets/process3.png"
+                alt="image"
+                class="img-fluid"
+                height="auto"
+                style="border-radius: 50%; margin-top: -20%"
+              />
+            </div>
+
+            <div class="card-body text-center mt-4">
+              <h5 class="card-title">Review and Closure</h5>
+              <p class="card-text mt-1">
+                The stage of delivering the final structure of the project and
+                reviewing it
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- ======= Portofolio Section ======= -->
     <div
       class="Portofolio p-5"
