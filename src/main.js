@@ -110,7 +110,7 @@ const messages = {
     namemember1: 'Abdulrahman Masoud',
     rolee1: 'Backend Developer',
     feedback1:
-      'This website saves my whole thought process for me. On the top of that , we operating the website so fast, they are running circles around the industry leader HashStudio definitely looks like the future.',
+      'This website saves my whole thought process for me. On the top of that , we operating the website so fast, they are running circles around the industry leader HashStudio definitely looks like the future.This website saves my whole thought process for me. On the top of that , we operating the website so fast, they are running circles around the industry leader HashStudio definitely looks like the future.',
     namemember2: 'Amir Mohamed',
     rolee2: 'Frontend Developer',
     feedback2:

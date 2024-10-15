@@ -18,26 +18,51 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="row d-flex justify-content-center">
-              <div class="feedback col-lg-8 mt-4 p-5">
-                <p class="text-muted text-center w-100 mb-4">
+              <div class="feedback col-lg-8 mt-4 p-5 pb-2">
+                <p class="text-muted text-center w-100 mb-5">
                   {{ $t('feedback1') }}
                 </p>
                 <h5>{{ $t('namemember1') }}</h5>
                 <p style="color: #df8317">{{ $t('rolee1') }}</p>
               </div>
             </div>
+
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 50px"
+            />
             <img
               class="rounded-circle shadow-1-strong mb-4 mt-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 80px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 40px"
             />
           </div>
 
           <div class="carousel-item">
             <div class="row d-flex justify-content-center">
-              <div class="feedback col-lg-8 mt-4 p-5">
-                <p class="text-muted text-center w-100 mb-4">
+              <div class="feedback col-lg-8 mt-4 p-5 pb-2">
+                <p class="text-muted text-center w-100 mb-5">
                   {{ $t('feedback2') }}
                 </p>
                 <h5>{{ $t('namemember2') }}</h5>
@@ -45,17 +70,41 @@
               </div>
             </div>
             <img
-              class="rounded-circle shadow-1-strong mb-4 mt-4"
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong mb-4 mt-4"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 80px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 40px"
             />
           </div>
 
           <div class="carousel-item">
             <div class="row d-flex justify-content-center">
-              <div class="feedback col-lg-8 mt-4 p-5">
-                <p class="text-muted text-center w-100 mb-4">
+              <div class="feedback col-lg-8 mt-4 p-5 pb-2">
+                <p class="text-muted text-center w-100 mb-5">
                   {{ $t('feedback3') }}
                 </p>
                 <h5>{{ $t('namemember3') }}</h5>
@@ -63,17 +112,42 @@
               </div>
             </div>
             <img
-              class="rounded-circle shadow-1-strong mb-4 mt-4"
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              class="rounded-circle shadow-1-strong m-2"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+
+            <img
+              class="rounded-circle shadow-1-strong mb-4 mt-4"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 80px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 40px"
             />
           </div>
 
           <div class="carousel-item">
             <div class="row d-flex justify-content-center">
-              <div class="feedback col-lg-8 mt-4 p-5">
-                <p class="text-muted text-center w-100 mb-4">
+              <div class="feedback col-lg-8 mt-4 p-5 pb-2">
+                <p class="text-muted text-center w-100 mb-5">
                   {{ $t('feedback4') }}
                 </p>
                 <h5>{{ $t('namemember4') }}</h5>
@@ -81,13 +155,80 @@
               </div>
             </div>
             <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
               class="rounded-circle shadow-1-strong mb-4 mt-4"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 80px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 40px"
+            />
+          </div>
+
+          <div class="carousel-item">
+            <div class="row d-flex justify-content-center">
+              <div class="feedback col-lg-8 mt-4 p-5 pb-2">
+                <p class="text-muted text-center w-100 mb-5">
+                  {{ $t('feedback4') }}
+                </p>
+                <h5>{{ $t('namemember4') }}</h5>
+                <p style="color: #df8317">{{ $t('rolee4') }}</p>
+              </div>
+            </div>
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong mb-4 mt-4"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 80px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-2"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 40px"
             />
           </div>
         </div>
+
         <button
           data-mdb-button-init
           class="carousel-control-prev text-black"
@@ -141,10 +282,18 @@ export default {}
 
 <style scoped>
 .LayoutFeedback {
+  background-image: url('../../assets/bg\ \(2\).png');
+  background-size: cover;
 }
 .feedback {
-  background-color: #dfdfdf26;
+  background-image: url('../../assets/Frame%202147223744.png');
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  padding-bottom: 70px !important;
 }
+
 @media (max-width: 768px) {
   svg {
     width: 3rem;
