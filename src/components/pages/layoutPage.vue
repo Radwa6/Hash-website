@@ -2252,7 +2252,7 @@ a :hover {
 .hero-waves {
   display: block;
   width: 100%;
-  height: 140px;
+  height: 100px;
   position: relative;
 }
 .TheFooter {
@@ -2269,9 +2269,9 @@ a :hover {
 .TheFooter .hero-waves {
   display: block;
   width: 100%;
-  height: 140px;
+  height: 100px;
   position: relative;
-  transform: rotate(180deg); /* لقلب الموجة */
+  transform: rotate(180deg);
 }
 
 .wave1 use {
@@ -2402,6 +2402,7 @@ li:hover {
 }
 .Solutions .card {
   background-image: url('../../assets/cardServices.png');
+  min-height: 100%;
 }
 .Solutions .card:hover {
   background-image: url('../../assets/cardServicess.png');
