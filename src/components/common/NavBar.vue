@@ -204,7 +204,6 @@
                 <li>{{ $t('Odoo') }}</li>
               </router-link>
 
-
               <router-link to="/Contact">
                 <button class="button">
                   {{ $t('contact') }}
@@ -848,7 +847,7 @@ a {
   padding: 0px;
   border-radius: 5px;
   text-decoration: none;
-  margin: 0 5px;
+  margin: 0 2px;
   cursor: pointer;
   width: 20%;
   color: #111c55;

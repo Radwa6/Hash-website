@@ -293,7 +293,7 @@
             delivering tailored Odoo solutions that align with your unique needs
             and goals.
           </p>
-          <router-link to="/">
+          <router-link to="/Contact">
             <button>
               <span class="span-mother">
                 <span>c</span>
@@ -2174,7 +2174,7 @@ a :hover {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background-image: url('../../assets/Picture.jpg');
+  background-image: url('../../assets/Picture.png');
   background-size: cover;
   /* background: linear-gradient(0deg, #D76D26, #D76D26 100%); */
   padding: 0;
