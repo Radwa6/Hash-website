@@ -196,107 +196,24 @@
       id="hero"
       class="d-flex flex-column justify-content-end align-items-center m-0"
     >
-      <div
-        id="heroCarousel"
-        data-bs-interval="5000"
-        class="container carousel carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="carousel-container">
-            <h2
-              class="animate__animated animate__fadeInDown"
-              data-il8n="company"
-            >
-              ALTIB Company
-            </h2>
-            <p class="animate__animated animate__fadeInUp" data-il8n="egyption">
-              An Egyptian company founded in 2009, offering innovative and
-              environmentally friendly building products and solutions. It
-              utilizes sustainable solutions and keeps pace with scientific
-              advancements in the construction industry, A Strong Foundation for
-              a Secure Future.
-            </p>
-          </div>
+      <div class="container">
+        <div class="carousel-container">
+          <h2
+            class="animate__animated animate__fadeInDown w-75"
+            data-il8n="company"
+          >
+            Elevate your business begins with a step
+          </h2>
+          <p
+            class="animate__animated animate__fadeInUp w-75"
+            data-il8n="egyption"
+          >
+            Your trusted Odoo partner for seamless implementation and optimized
+            business processes. Our expert team brings extensive experience,
+            delivering tailored Odoo solutions that align with your unique needs
+            and goals.
+          </p>
         </div>
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2 class="animate__animated animate__fadeInDown">
-              Vision of Company
-            </h2>
-            <p
-              class="animate__animated animate__fadeInUp"
-              data-il8n="altibvision"
-            >
-              ALTIB Group of Companies aspires to become a leader in the
-              construction materials industry, providing high-quality products
-              and services, aiming for excellence in performance and innovation,
-              and ensuring the satisfaction of customers, shareholders, and
-              employees alike.
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-              data-il8n="readmore"
-              >Read More</a
-            >
-          </div>
-        </div>
-
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="carousel-container">
-            <h2
-              class="animate__animated animate__fadeInDown"
-              data-il8n="mission"
-            >
-              Mission of Company
-            </h2>
-            <p
-              class="animate__animated animate__fadeInUp"
-              data-il8n="altibmission"
-            >
-              ALTIB Group of Companies is dedicated to delivering high-quality
-              construction products and exceptional services that meet our
-              customers' needs with the highest international standards. We are
-              committed to upholding the highest levels of safety, security,
-              health, and environmental standards, while achieving outstanding
-              performance through innovation, excellence in work, and social
-              responsibility.
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-              data-il8n="readmore"
-              >Read More</a
-            >
-          </div>
-        </div>
-        <a
-          class="carousel-control-prev"
-          href="#heroCarousel"
-          role="button"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon bx bx-chevron-left"
-            aria-hidden="true"
-          ></span>
-        </a>
-
-        <a
-          class="carousel-control-next"
-          href="#heroCarousel"
-          role="button"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon bx bx-chevron-right"
-            aria-hidden="true"
-          ></span>
-        </a>
       </div>
 
       <svg
@@ -346,24 +263,21 @@
           data-aos-duration="2000"
           style="text-align: start"
         >
-          <p
-            style="
-              color: #d76d26;
-              background-color: #fee6c963;
-              display: inline-block;
-              padding: 3px 20px;
-              border-radius: 50px;
-            "
-          >
+          <p style="color: #d76d26; display: inline-block">
             {{ $t('about_us') }}
           </p>
           <h1 style="font-weight: bold" class="mt-2 mb-2">
-            {{ $t('abouth') }}
-            <span style="color: #d76d26">{{ $t('abouthh') }}</span>
+            The Premier Choice
+            <span style="color: #d76d26">for Business !</span>
           </h1>
-          <p>{{ $t('aboutinfo') }}</p>
+          <p>
+            Your trusted Odoo partner for seamless implementation and optimized
+            business processes. Our expert team brings extensive experience,
+            delivering tailored Odoo solutions that align with your unique needs
+            and goals.
+          </p>
           <router-link to="/aboutUs">
-            <button class="button">{{ $t('SeeMore') }}</button>
+            <button class="button">{{ $t('contact') }}</button>
           </router-link>
           <router-link
             to="/"
@@ -667,8 +581,8 @@
     </div>
     <!-- End Reasons -->
 
-    <!-- ======= Services Section ======= -->
-    <div class="Services p-5">
+    <!-- ======= Solutions Section ======= -->
+    <div class="Solutions p-5">
       <div class="container">
         <div
           class="aos-init aos-animate animate__animated animate__fadeInDown d-flex justify-content-between p-5 mt-5"
@@ -677,7 +591,7 @@
           data-aos-delay="100"
         >
           <h1 style="color: #fff">
-            <span style="color: #d76d26">Services </span>
+            <span style="color: #d76d26">Solutions </span>
 
             We Can Offer You !
           </h1>
@@ -1363,7 +1277,7 @@
         </div>
       </div>
     </div>
-    <!-- End Services -->
+    <!-- End Solutions -->
 
     <!-- ======= partners Section ======= -->
     <div class="text-center m-5" id="partners-section">
@@ -2423,13 +2337,13 @@ li:hover {
   background-color: #fff;
   border-radius: 10px;
 }
-.Services {
+.Solutions {
   background-image: url('../../assets/Frame\ 2147223740.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
-.Services button {
+.Solutions button {
   --secondary-color: rgb(255, 255, 255);
   --primary-color: #d76d26;
   --arrow-width: 10px;
@@ -2446,13 +2360,13 @@ li:hover {
   font-weight: bold;
 }
 
-.Services button .arrow-wrapper {
+.Solutions button .arrow-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Services button .arrow {
+.Solutions button .arrow {
   margin-top: 1px;
   width: var(--arrow-width);
   background: var(--primary-color);
@@ -2461,7 +2375,7 @@ li:hover {
   transition: 0.2s;
 }
 
-.Services button .arrow::before {
+.Solutions button .arrow::before {
   content: '';
   box-sizing: border-box;
   position: absolute;
@@ -2475,24 +2389,24 @@ li:hover {
   transform: rotate(-45deg);
 }
 
-.Services button:hover .arrow {
+.Solutions button:hover .arrow {
   background: var(--secondary-color);
 }
 
-.Services button:hover .arrow:before {
+.Solutions button:hover .arrow:before {
   right: 0;
 }
-.Services .card {
+.Solutions .card {
   background-image: url('../../assets/cardServices.png');
 }
-.Services .card:hover {
+.Solutions .card:hover {
   background-image: url('../../assets/cardServicess.png');
   color: #fff;
 }
-.Services .card:hover a {
+.Solutions .card:hover a {
   color: #fff !important;
 }
-.Services .card:hover svg {
+.Solutions .card:hover svg {
   fill: #fff !important;
 }
 
