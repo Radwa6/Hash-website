@@ -1279,6 +1279,10 @@
     </div>
     <!-- End Solutions -->
 
+    <!-- ======= LayoutFeedback Section ======= -->
+    <LayoutFeedback />
+    <!-- End LayoutFeedback -->
+
     <!-- ======= partners Section ======= -->
     <div class="text-center m-5" id="partners-section">
       <h1 style="font-weight: bold">
@@ -1647,10 +1651,11 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { onMounted, nextTick } from 'vue'
 import ImageSlider from '../common/ImageSlider.vue'
+import LayoutFeedback from './LayoutFeedback.vue'
 
 export default {
   name: 'layoutPage',
-  components: { ImageSlider },
+  components: { ImageSlider, LayoutFeedback },
 
   data() {
     return {
