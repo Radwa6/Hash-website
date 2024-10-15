@@ -175,8 +175,25 @@
                   to="/Contact"
                   class="d-inline-flex align-items-center m-5 mt-0 mb-0"
                 >
-                  <button class="btn-custom">
-                    {{ $t('contact') }}
+                  <button>
+                    <span class="span-mother">
+                      <span>c</span>
+                      <span>o</span>
+                      <span>n</span>
+                      <span>t</span>
+                      <span>a</span>
+                      <span>c</span>
+                      <span>t</span>
+                    </span>
+                    <span class="span-mother2">
+                      <span>c</span>
+                      <span>o</span>
+                      <span>n</span>
+                      <span>t</span>
+                      <span>a</span>
+                      <span>c</span>
+                      <span>t</span>
+                    </span>
                   </button>
                 </router-link>
 
@@ -276,34 +293,27 @@
             delivering tailored Odoo solutions that align with your unique needs
             and goals.
           </p>
-          <router-link to="/aboutUs">
-            <button class="button">{{ $t('contact') }}</button>
-          </router-link>
-          <router-link
-            to="/"
-            style="
-              background-color: transparent;
-              color: #404852;
-              text-decoration: none;
-            "
-          >
-            <a class="mt-4 no-underline">
-              <svg
-                width="21"
-                height="20"
-                viewBox="0 0 21 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                style="width: 5%; margin: 0 10px"
-              >
-                <path
-                  d="M10.5 0C16.0116 0 20.5 4.48625 20.5 10.0058C20.5 15.5137 16.0116 20 10.5 20C4.98842 20 0.5 15.5137 0.5 10.0058C0.5 4.48625 4.98842 0 10.5 0ZM9.361 6.02991C9.14865 6.02991 8.94595 6.07815 8.7529 6.17463C8.51158 6.3097 8.31853 6.52195 8.21236 6.77279C8.14479 6.94645 8.03861 7.46744 8.03861 7.47709C7.93243 8.04631 7.87452 8.9725 7.87452 9.99518C7.87452 10.9706 7.93243 11.8572 8.01931 12.4361C8.02896 12.4457 8.13514 13.0921 8.25097 13.314C8.46332 13.7192 8.87838 13.9701 9.32239 13.9701H9.361C9.65058 13.9604 10.2587 13.7096 10.2587 13.7C11.2819 13.2754 13.2992 11.9537 14.11 11.0757L14.168 11.0178C14.2741 10.9117 14.4093 10.7477 14.4382 10.7091C14.5927 10.5065 14.6699 10.2557 14.6699 10.0058C14.6699 9.72504 14.583 9.46454 14.4189 9.25229C14.3803 9.2137 14.2355 9.04969 14.1004 8.91462C13.3089 8.06561 11.2432 6.67631 10.1622 6.25181C9.99807 6.18524 9.58301 6.03956 9.361 6.02991Z"
-                  fill="#404852"
-                />
-              </svg>
-
-              {{ $t('WatchVideo') }}
-            </a>
+          <router-link to="/">
+            <button>
+              <span class="span-mother">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+              </span>
+              <span class="span-mother2">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+              </span>
+            </button>
           </router-link>
         </div>
         <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -2315,17 +2325,6 @@ li {
 li:hover {
   color: #d76d26;
 }
-/*--------------------------------------------------------------
-# about Section
---------------------------------------------------------------*/
-.about button {
-  background-color: #d76d26;
-  border-radius: 10px;
-  border: none;
-  transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s;
-  color: white;
-  padding: 10px 40px;
-}
 
 /*--------------------------------------------------------------
 # Choose Section
@@ -2424,5 +2423,101 @@ li:hover {
 .big-dotted-border {
   border-style: dashed;
   border-width: 3px;
+}
+/* From Uiverse.io by KINGFRESS */
+button {
+  font-weight: bold;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  width: 160px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #d76d26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .span-mother {
+  display: flex;
+  overflow: hidden;
+}
+
+button:hover .span-mother {
+  position: absolute;
+}
+
+button:hover .span-mother span {
+  transform: translateY(1.2em);
+}
+
+button .span-mother span:nth-child(1) {
+  transition: 0.2s;
+}
+
+button .span-mother span:nth-child(2) {
+  transition: 0.3s;
+}
+
+button .span-mother span:nth-child(3) {
+  transition: 0.4s;
+}
+
+button .span-mother span:nth-child(4) {
+  transition: 0.5s;
+}
+
+button .span-mother span:nth-child(5) {
+  transition: 0.6s;
+}
+
+button .span-mother span:nth-child(6) {
+  transition: 0.7s;
+}
+button .span-mother span:nth-child(7) {
+  transition: 0.8s;
+}
+
+button .span-mother2 {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+
+button .span-mother2 span {
+  transform: translateY(-1.2em);
+}
+
+button:hover .span-mother2 span {
+  transform: translateY(0);
+}
+
+button .span-mother2 span {
+  transition: 0.2s;
+}
+
+button .span-mother2 span:nth-child(2) {
+  transition: 0.3s;
+}
+
+button .span-mother2 span:nth-child(3) {
+  transition: 0.4s;
+}
+
+button .span-mother2 span:nth-child(4) {
+  transition: 0.5s;
+}
+
+button .span-mother2 span:nth-child(5) {
+  transition: 0.6s;
+}
+
+button .span-mother2 span:nth-child(6) {
+  transition: 0.7s;
+}
+button .span-mother2 span:nth-child(7) {
+  transition: 0.8s;
 }
 </style>

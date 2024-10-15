@@ -291,7 +291,7 @@ export default {}
   background-position: bottom;
   background-repeat: no-repeat;
   border-radius: 12px;
-  padding-bottom: 70px !important;
+  padding-bottom: 80px !important;
 }
 
 @media (max-width: 768px) {
