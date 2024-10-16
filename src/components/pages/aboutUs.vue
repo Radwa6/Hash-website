@@ -67,7 +67,7 @@
           <p>{{ $t('aboutinfo') }}</p>
         </div>
         <div
-          class="col-6 d-flex justify-content-end"
+          class="col-6 d-flex justify-content-center"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
@@ -271,7 +271,11 @@
       <div
         class="row pt-5 pb-5 d-flex justify-content-center align-items-center"
       >
-        <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          class="col-6 d-flex justify-content-center"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <img :src="imageUrl11" alt="image" class="img-fluid" />
         </div>
 
@@ -374,7 +378,17 @@ export default {
 
 <style scoped>
 @import 'aos/dist/aos.css';
-
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+p {
+  font-size: 26px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 34px;
+}
 .aboutUs {
   background-image: url('@/assets/bg.png');
   padding: 80px 0;

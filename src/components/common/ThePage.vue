@@ -103,7 +103,7 @@
           </router-link>
         </div>
         <div
-          class="col-6 d-flex justify-content-end"
+          class="col-6 d-flex justify-content-center"
           data-aos="fade-up"
           data-aos-duration="2000"
         >
