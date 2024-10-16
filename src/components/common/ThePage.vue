@@ -11,9 +11,13 @@
             style="min-height: 60vh"
           >
             <div
-              class="animate__animated animate__fadeInDown mt-5 m-4"
+              class="animate__animated animate__fadeInDown mt-5"
               data-il8n="task"
-              style="background-color: #00000011; text-align: start"
+              style="
+                background-color: #00000011;
+                text-align: start;
+                margin: 0 6%;
+              "
             >
               <h1 class="w-100">{{ $t('headerTitle') }}</h1>
               <p class="text mt-4">
@@ -41,7 +45,7 @@
     <!-- End Header -->
 
     <!-- ======= about Section ======= -->
-    <div class="about m-5" id="system-section">
+    <div class="about" id="system-section">
       <div
         class="row pt-5 pb-5 position-relative d-flex align-items-center justify-content-center"
       >
@@ -110,12 +114,12 @@
     <!-- End about -->
 
     <!-- ======= Services Section ======= -->
-    <SlickSlider id="servies-section" />
+    <ServicesSection id="servies-section" />
     <!-- End Services -->
 
     <!-- ======= process Section ======= -->
     <div
-      class="process container text-center pt-5 pb-5"
+      class="process text-center pt-5 pb-5"
       data-aos="fade-right"
       data-aos-duration="2000"
     >
@@ -133,12 +137,16 @@
         class="row mt-5 d-flex justify-content-center align-content-center"
         data-aos="fade-up"
         data-aos-duration="2000"
+        style="margin: 0 6%"
       >
         <div class="col-sm-3 mb-4">
           <div class="border-0 m-2">
-            <div class="memberdesign">
+            <div
+              class="memberdesign"
+              style="position: relative; display: inline-block"
+            >
               <div
-                class="p-3 pt-2 pb-2 d-flex justify-content-end"
+                class="p-3 pt-2 pb-2 d-flex justify-content-start"
                 style="
                   background-color: #202020;
                   z-index: 3;
@@ -146,8 +154,9 @@
                   height: 40px;
                   color: #fff;
                   border-radius: 50%;
-                  position: relative;
-                  margin: 0 14% 0;
+                  position: absolute;
+                  top: 10px;
+                  left: 10px;
                 "
               >
                 1
@@ -156,8 +165,7 @@
                 src="../../assets/process1.png"
                 alt="image"
                 class="img-fluid"
-                height="auto"
-                style="border-radius: 50%; margin-top: -20%"
+                style="border-radius: 50%"
               />
             </div>
 
@@ -188,9 +196,12 @@
 
         <div class="col-sm-3 mb-4">
           <div class="border-0 m-2">
-            <div class="memberdesign">
+            <div
+              class="memberdesign"
+              style="position: relative; display: inline-block"
+            >
               <div
-                class="p-3 pt-2 pb-2 d-flex justify-content-end"
+                class="p-3 pt-2 pb-2 d-flex justify-content-start"
                 style="
                   background-color: #df8317;
                   z-index: 3;
@@ -198,8 +209,9 @@
                   height: 40px;
                   color: #fff;
                   border-radius: 50%;
-                  position: relative;
-                  margin: 0 14% 0;
+                  position: absolute;
+                  top: 10px;
+                  left: 10px;
                 "
               >
                 2
@@ -209,7 +221,7 @@
                 alt="image"
                 class="img-fluid"
                 height="auto"
-                style="border-radius: 50%; margin-top: -20%"
+                style="border-radius: 50%"
               />
             </div>
 
@@ -240,9 +252,12 @@
 
         <div class="col-sm-3 mb-4">
           <div class="border-0 m-2">
-            <div class="memberdesign">
+            <div
+              class="memberdesign"
+              style="position: relative; display: inline-block"
+            >
               <div
-                class="p-3 pt-2 pb-2 d-flex justify-content-end"
+                class="p-3 pt-2 pb-2 d-flex justify-content-start"
                 style="
                   background-color: #202020;
                   z-index: 3;
@@ -250,8 +265,9 @@
                   height: 40px;
                   color: #fff;
                   border-radius: 50%;
-                  position: relative;
-                  margin: 0 14% 0;
+                  position: absolute;
+                  top: 10px;
+                  left: 10px;
                 "
               >
                 3
@@ -261,7 +277,7 @@
                 alt="image"
                 class="img-fluid"
                 height="auto"
-                style="border-radius: 50%; margin-top: -20%"
+                style="border-radius: 50%"
               />
             </div>
 
@@ -279,12 +295,12 @@
 
     <!-- ======= Portofolio Section ======= -->
     <div
-      class="Portofolio p-5"
+      class="Portofolio p-2 pt-5 pb-5"
       data-aos="fade-up"
       data-aos-duration="3000"
       style="background-color: #202020"
     >
-      <div class="container" id="Portofolio-section">
+      <div style="margin: 0 6%" id="Portofolio-section">
         <div
           class="aos-init aos-animate animate__animated animate__fadeInDown d-flex justify-content-between"
           data-il8n="Portofolio"
@@ -479,7 +495,7 @@
 
     <!-- ======= Member Section ======= -->
     <div
-      class="Member container text-center pt-5 pb-5"
+      class="Member text-center pt-5 pb-5"
       id="members-section"
       data-aos="fade-right"
       data-aos-duration="2000"
@@ -523,14 +539,14 @@ import teamSlider from '../common/teamSlider.vue'
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
-import SlickSlider from './ServicesSection.vue'
+import ServicesSection from './ServicesSection.vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { onMounted, nextTick } from 'vue'
 
 export default {
   name: 'ThePage',
-  components: { ImageSlider, SlickSlider, teamSlider },
+  components: { ImageSlider, ServicesSection, teamSlider },
 
   data() {
     return {
@@ -612,7 +628,11 @@ h1 {
   font-size: 50px;
 }
 p {
-  font-size: 30px;
+  font-size: 26px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 34px;
 }
 .navbarHeader {
   min-height: 50vh;
@@ -662,7 +682,9 @@ p {
   width: 70%;
   margin-top: 30px;
 }
-
+.about {
+  margin: 0 6%;
+}
 /* From Uiverse.io by zjssun */
 .button {
   position: relative;

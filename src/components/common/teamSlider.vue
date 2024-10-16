@@ -4,7 +4,7 @@
       :dots="true"
       :autoplay="true"
       :autoplaySpeed="2000"
-      :slidesToShow="5"
+      :slidesToShow="7"
       :slidesToScroll="1"
       :arrows="true"
       prevArrow="<button class='slick-prev'>‹</button>"
@@ -33,8 +33,16 @@
         },
       ]"
     >
-      <div v-for="member in team" :key="member.id" class="team-member">
-        <div class="border-0 m-2">
+      <div
+        v-for="member in team"
+        :key="member.id"
+        class="team-member d-flex justify-content-center align-items-center"
+        style="flex-direction: column; text-align: center; min-height: 300px"
+      >
+        <div
+          class="border-0 m-2 justify-content-center align-items-center"
+          style="display: flex; flex-direction: column"
+        >
           <svg
             class="memberdesignsvg"
             width="41"
@@ -42,6 +50,7 @@
             viewBox="0 0 41 41"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
+            style="margin-bottom: -10%"
           >
             <ellipse
               cx="20.1749"
@@ -174,7 +183,6 @@ export default {
   width: 180px;
   height: 180px;
   margin-top: -24%;
-  position: relative;
   z-index: 1;
 }
 

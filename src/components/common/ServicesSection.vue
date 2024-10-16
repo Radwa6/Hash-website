@@ -19,7 +19,7 @@
           class="card-wrapper d-flex justify-content-around align-items-stretch"
         >
           <div
-            class="card w-100 m-4"
+            class="card w-100 m-3"
             v-for="(card, index) in slides[0].cards"
             :key="index"
             style="width: 18rem; text-align: start"
@@ -197,6 +197,17 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+p {
+  font-size: 26px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 34px;
+}
 .Services {
   background-image: url('@/assets/Services.png');
 }
@@ -204,7 +215,6 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 100%; */
   display: inline-block;
   border: none;
 }
