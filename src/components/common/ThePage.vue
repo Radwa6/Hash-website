@@ -689,7 +689,6 @@ h5 {
 .button {
   position: relative;
   padding: 10px 46px;
-  font-size: 26px;
 
   border-radius: 6px;
   border: none;

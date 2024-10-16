@@ -16,8 +16,8 @@
             <div class="d-flex justify-content-start ml-5 mr-5">
               <div v-if="isScrolled">
                 <svg
-                  width="149"
-                  height="80"
+                  width="155"
+                  height="100"
                   viewBox="0 0 493 180"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -81,8 +81,8 @@
               </div>
               <div v-else>
                 <svg
-                  width="149"
-                  height="80"
+                  width="155"
+                  height="100"
                   viewBox="0 0 493 180"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -197,12 +197,12 @@
                 <li>{{ $t('projects') }}</li>
               </router-link>
 
-              <router-link
+              <!-- <router-link
                 :to="{ path: '/layoutPage' }"
                 active-class="active-link"
               >
                 <li>{{ $t('Odoo') }}</li>
-              </router-link>
+              </router-link> -->
 
               <router-link to="/Contact">
                 <button class="button">
@@ -210,7 +210,7 @@
                 </button>
               </router-link>
 
-              <a href="#" @click.prevent="toggleLanguage">{{
+              <a class="m-2" href="#" @click.prevent="toggleLanguage">{{
                 currentLanguage
               }}</a>
             </ul>
@@ -506,12 +506,12 @@ button:hover {
   display: inline-block;
   color: #000 !important;
   padding: 0 10px;
+  font-size: 22px !important;
 }
 .menu-area li a {
   color: #000;
   display: inline-block;
   padding: 10px 5px;
-  font-size: 18px;
   line-height: 1.5;
   font-weight: 500;
   -webkit-transition: all 0.3s ease;
