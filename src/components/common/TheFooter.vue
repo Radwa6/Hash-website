@@ -1,7 +1,7 @@
 <template>
   <div class="TheFooter" :dir="isRTL ? 'rtl' : 'ltr'">
-    <div class="row TheFooterr mb-5">
-      <div class="col-sm-5 mb-4">
+    <div class="row TheFooterr d-flex justify-content-center mb-5">
+      <div class="col-sm-4 mb-4">
         <router-link to="/ThePage">
           <svg
             width="149"
@@ -223,7 +223,7 @@
           </router-link>
         </ul>
       </div>
-      <div class="col-sm-3 mb-4">
+      <div class="col-sm-2 mb-4">
         <h1>{{ $t('contact_info') }}</h1>
         <ul>
           <li>

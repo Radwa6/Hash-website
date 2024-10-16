@@ -1342,8 +1342,8 @@
         </g>
       </svg>
 
-      <div class="row mb-5 ml-5 mr-5">
-        <div class="col-sm-5 mb-4">
+      <div class="row d-flex justify-content-center mb-5 ml-5 mr-5">
+        <div class="col-sm-4 mb-4">
           <router-link to="/ThePage">
             <svg
               width="70"
@@ -1547,7 +1547,7 @@
             </router-link>
           </ul>
         </div>
-        <div class="col-sm-3 mb-4">
+        <div class="col-sm-2 mb-4">
           <h1>{{ $t('contact_info') }}</h1>
           <ul class="m-0 p-0">
             <li>
