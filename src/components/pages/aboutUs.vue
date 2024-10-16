@@ -40,7 +40,7 @@
     >
       <h1 class="pt-5 pb-5" style="color: #fff">{{ $t('aboutus') }}</h1>
     </div>
-    <div class="about container">
+    <div class="about" style="margin: 0 6%">
       <div
         class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
       >
@@ -66,13 +66,21 @@
           </h1>
           <p>{{ $t('aboutinfo') }}</p>
         </div>
-        <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          class="col-6 d-flex justify-content-end"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <img :src="imageUrl1" alt="image" class="img-fluid" />
         </div>
       </div>
     </div>
 
-    <div class="Choose container hidden-section mt-5 mb-5" data-il8n="egyption">
+    <div
+      class="Choose hidden-section mt-5 mb-5"
+      data-il8n="egyption"
+      style="margin: 0 6%"
+    >
       <div class="text-center" data-aos="fade-down" data-aos-duration="2000">
         <h1 style="font-weight: bold">
           {{ $t('Chooseinfo') }}
@@ -259,7 +267,7 @@
       </div>
     </div>
 
-    <div class="value container">
+    <div class="value" style="margin: 0 6%">
       <div
         class="row pt-5 pb-5 d-flex justify-content-center align-items-center"
       >
