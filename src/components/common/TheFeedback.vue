@@ -239,7 +239,13 @@ export default {}
 .Feedback {
   background-color: #dfdfdf26;
 }
-
+p {
+  font-size: 26px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 34px;
+}
 @media (max-width: 768px) {
   svg {
     width: 3rem;

@@ -48,14 +48,10 @@
         />
       </div>
 
-      <div
-        class="projectinfo container"
-        data-aos="fade-up"
-        data-aos-duration="2000"
-      >
+      <div class="projectinfo" data-aos="fade-up" data-aos-duration="2000">
         <div class="row">
-          <div class="col-5 d-flex justify-content-end">
-            <div class="ProductInfo p-3 m-5 w-80">
+          <div class="col-5 d-flex justify-content-center">
+            <div class="ProductInfo p-3">
               <h2 style="font-weight: bold">{{ $t('projectInfo') }}</h2>
               <p>
                 <span style="font-weight: bold">{{ $t('projectName') }} : </span
@@ -88,7 +84,7 @@
             </div>
           </div>
 
-          <div _ngcontent-pbn-c75="" class="col-7 mt-5">
+          <div class="col-7 mt-5">
             <div
               _ngcontent-pbn-c75=""
               data-aos="fade-up"
@@ -112,9 +108,10 @@
         </div>
       </div>
       <div
-        class="ProjectGallary container mt-5 mb-5"
+        class="ProjectGallary mt-5 mb-5"
         data-aos="fade-up"
         data-aos-duration="2000"
+        style="margin: 0 6%"
       >
         <h1>{{ $t('projectGallery') }}</h1>
 
