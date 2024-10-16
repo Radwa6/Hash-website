@@ -14,12 +14,12 @@
     </div>
 
     <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
-      <div class="container" style="margin-top: -10%">
+      <div class="ml-5 mr-5" style="margin-top: -10%">
         <div
           class="card-wrapper d-flex justify-content-around align-items-stretch"
         >
           <div
-            class="m-2 card"
+            class="card w-100 m-4"
             v-for="(card, index) in slides[0].cards"
             :key="index"
             style="width: 18rem; text-align: start"

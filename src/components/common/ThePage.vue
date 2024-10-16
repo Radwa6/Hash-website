@@ -41,12 +41,10 @@
     <!-- End Header -->
 
     <!-- ======= about Section ======= -->
-    <div class="about container" id="system-section">
-      <div
-        class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
-      >
+    <div class="about m-5" id="system-section">
+      <div class="row pt-5 pb-5 position-relative d-flex align-items-center">
         <div
-          class="col-6 p-4 position-relative justify-content-center"
+          class="col-6 p-4"
           data-aos="fade-right"
           data-aos-duration="2000"
           style="text-align: start"
@@ -518,7 +516,7 @@ import teamSlider from '../common/teamSlider.vue'
 import Swiper from 'swiper'
 import 'swiper/swiper-bundle.min.css'
 
-import SlickSlider from './SlickSlider.vue'
+import SlickSlider from './ServicesSection.vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { onMounted, nextTick } from 'vue'

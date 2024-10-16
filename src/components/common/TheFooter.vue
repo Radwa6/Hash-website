@@ -353,7 +353,7 @@ export default {
 .TheFooter {
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 80px 80px 30px;
+  padding: 80px 0 30px;
   text-align: start;
   position: relative;
   background-color: #202020;
@@ -381,7 +381,7 @@ a:hover {
   margin-bottom: 20px;
 }
 p {
-  font-size: 18px;
+  font-size: 24px;
   color: #ffffff;
 }
 h1 {
@@ -389,20 +389,19 @@ h1 {
   margin-bottom: 30px;
   font: Cairo;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
 }
 ul {
   list-style: none;
   display: inline-block;
   margin: 0;
   padding: 0;
-  font-size: 24px;
 }
 li {
   margin-right: 20px;
   color: #ffffff;
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 50px;
 }
 a {
   text-decoration: none;
