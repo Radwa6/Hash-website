@@ -35,9 +35,14 @@
         },
       ]"
     >
-      <div v-for="event in translatedEvents" :key="event.id">
+      <div
+        v-for="event in translatedEvents"
+        :key="event.id"
+        class="d-flex justify-content-center align-items-center"
+        style="flex-direction: column; text-align: center"
+      >
         <div class="border-0 m-2">
-          <div>
+          <div class="d-flex justify-content-center">
             <img :src="event.image" :alt="event.name" class="img-fluid" />
           </div>
 
@@ -115,6 +120,17 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+p {
+  font-size: 22px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 26px;
+}
 .card-text {
   color: #858585;
 }
@@ -125,16 +141,6 @@ export default {
 .team-slider {
   width: 90%;
   margin: 0 auto;
-}
-
-h3 {
-  margin-top: 10px;
-  font-size: 18px;
-}
-
-p {
-  font-size: 14px;
-  color: gray;
 }
 
 @media (max-width: 540px) {
