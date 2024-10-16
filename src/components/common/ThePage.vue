@@ -11,7 +11,7 @@
             style="min-height: 60vh"
           >
             <div
-              class="animate__animated animate__fadeInDown mt-3"
+              class="animate__animated animate__fadeInDown mt-5 m-4"
               data-il8n="task"
               style="background-color: #00000011; text-align: start"
             >
@@ -42,7 +42,9 @@
 
     <!-- ======= about Section ======= -->
     <div class="about m-5" id="system-section">
-      <div class="row pt-5 pb-5 position-relative d-flex align-items-center">
+      <div
+        class="row pt-5 pb-5 position-relative d-flex align-items-center justify-content-center"
+      >
         <div
           class="col-6 p-4"
           data-aos="fade-right"
@@ -55,6 +57,7 @@
               background-color: #fee6c963;
               display: inline-block;
               padding: 3px 20px;
+              font-size: 24px;
               border-radius: 50px;
             "
           >
@@ -95,7 +98,11 @@
             </a>
           </router-link>
         </div>
-        <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+        <div
+          class="col-6 d-flex justify-content-end"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <img :src="imageUrl1" alt="image" class="img-fluid" />
         </div>
       </div>
@@ -600,7 +607,13 @@ export default {
   background-repeat: no-repeat;
   overflow: hidden;
 } */
-
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+}
 .navbarHeader {
   min-height: 50vh;
 }
@@ -638,14 +651,14 @@ export default {
 }
 .header h1 {
   font-weight: bold;
-  font-size: 52px;
+  font-size: 56px;
   width: 70%;
   color: #ffffff;
 }
 
 .header .text {
   color: #ffffff;
-  font-size: 22px;
+  font-size: 30px;
   width: 70%;
   margin-top: 30px;
 }
@@ -653,7 +666,9 @@ export default {
 /* From Uiverse.io by zjssun */
 .button {
   position: relative;
-  padding: 10px 42px;
+  padding: 10px 46px;
+  font-size: 26px;
+
   border-radius: 6px;
   border: none;
   color: #fff;
