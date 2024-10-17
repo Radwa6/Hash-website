@@ -607,7 +607,14 @@
     <!-- End Reasons -->
 
     <!-- ======= Solutions Section ======= -->
-    <div class="Solutions p-5">
+    <div class="Solutions">
+      <div
+        style="
+          clip-path: ellipse(56% 100% at 49% 0%);
+          background-color: #fff;
+          height: 100px;
+        "
+      ></div>
       <div class="container">
         <div
           class="aos-init aos-animate animate__animated animate__fadeInDown d-flex justify-content-between p-5 mt-5"
@@ -1301,6 +1308,13 @@
           </div>
         </div>
       </div>
+      <div
+        style="
+          clip-path: ellipse(56% 100% at 49% 100%);
+          background-color: #fff;
+          height: 100px;
+        "
+      ></div>
     </div>
     <!-- End Solutions -->
 
