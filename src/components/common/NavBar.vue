@@ -197,12 +197,12 @@
                 <li>{{ $t('projects') }}</li>
               </router-link>
 
-              <!-- <router-link
+              <router-link
                 :to="{ path: '/layoutPage' }"
                 active-class="active-link"
               >
                 <li>{{ $t('Odoo') }}</li>
-              </router-link> -->
+              </router-link>
 
               <router-link to="/Contact">
                 <button class="button">

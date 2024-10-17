@@ -324,7 +324,15 @@
     <!-- End about -->
 
     <!-- ======= Choose Section ======= -->
+
     <div class="Choose">
+      <div
+        style="
+          clip-path: ellipse(56% 100% at 49% 0%);
+          background-color: #fff;
+          height: 100px;
+        "
+      ></div>
       <div class="container">
         <div
           class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
@@ -472,6 +480,13 @@
           </div>
         </div>
       </div>
+      <div
+        style="
+          clip-path: ellipse(56% 100% at 49% 100%);
+          background-color: #fff;
+          height: 100px;
+        "
+      ></div>
     </div>
     <!-- End Choose -->
 
@@ -2330,7 +2345,7 @@ li:hover {
 # Choose Section
 --------------------------------------------------------------*/
 .Choose {
-  padding: 60px 0;
+  padding: 0 0;
   background-image: url('../../assets/Group 1261152795.png');
   background-size: cover;
   background-repeat: no-repeat;

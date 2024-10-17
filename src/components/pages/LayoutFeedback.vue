@@ -286,11 +286,13 @@ export default {}
   background-size: cover;
 }
 .feedback {
-  background-image: url('../../assets/Frame%202147223744.png');
-  background-size: cover;
+  /* background-image: url('../../assets/Frame%202147223744.png'); */
+  /* background-size: cover;
   background-position: bottom;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   border-radius: 12px;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 54% 78%, 50% 100%, 46% 77%, 0 75%);
+  background-color: #f8f8f8;
   padding-bottom: 80px !important;
 }
 
