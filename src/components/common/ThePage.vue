@@ -125,12 +125,12 @@
     >
       <div class="text-center" data-aos="fade-right" data-aos-duration="2000">
         <h1 style="font-weight: bold">
-          Our process covers
-          <span style="color: #df8317">everything!</span>
+          {{ $t('processhead') }}
+
+          <span style="color: #df8317">{{ $t('everything') }}!</span>
         </h1>
         <p>
-          Each step of our process is on delivering high-quality results, with
-          attention to every detail.
+          {{ $t('processpragraph') }}
         </p>
       </div>
       <div
@@ -170,10 +170,9 @@
             </div>
 
             <div class="card-body text-center mt-4">
-              <h5 class="card-title">Analysis & Design</h5>
+              <h5 class="card-title">{{ $t('Analysis') }}</h5>
               <p class="card-text mt-1">
-                Review this perception with the client and make the necessary
-                adjustments
+                {{ $t('Analysisinfo') }}
               </p>
             </div>
           </div>
@@ -226,10 +225,9 @@
             </div>
 
             <div class="card-body text-center mt-4">
-              <h5 class="card-title">Implementation</h5>
+              <h5 class="card-title">{{ $t('Implementation') }}</h5>
               <p class="card-text mt-1">
-                Implementation phase and duration varies depending on the size
-                of the project
+                {{ $t('Implementationinfo') }}
               </p>
             </div>
           </div>
@@ -282,11 +280,8 @@
             </div>
 
             <div class="card-body text-center mt-4">
-              <h5 class="card-title">Review and Closure</h5>
-              <p class="card-text mt-1">
-                The stage of delivering the final structure of the project and
-                reviewing it
-              </p>
+              <h5 class="card-title">{{ $t('Review') }}</h5>
+              <p class="card-text mt-1">{{ $t('Reviewinfo') }}</p>
             </div>
           </div>
         </div>

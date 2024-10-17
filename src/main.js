@@ -57,13 +57,17 @@ const messages = {
     Planing: 'Planing',
     Planinginfo:
       'We initially make planning on the full project visualization.',
-    Analysis: 'Analysis',
+    processhead: 'Our process covers',
+    everything: 'everything!',
+    processpragraph:
+      ' Each step of our process is on delivering high-quality results, with attention to every detail.',
+    Analysis: 'Analysis & Design',
     Analysisinfo:
       'Review this perception with the client and make the necessary adjustments.',
-    Devlopment: 'Devlopment',
-    Devlopmentinfo:
+    Implementation: 'Implementation',
+    Implementationinfo:
       'Implementation phase and duration varies depending on the project.',
-    Review: 'Review',
+    Review: 'Review and Closure',
     Reviewinfo: 'The stage of delivering the final structure of the project.',
     OurPortfolio: 'Our Portfolio',
     Portfolioinfo: ' We Have Completed',
@@ -231,11 +235,15 @@ const messages = {
 
     Planing: 'التخطيط',
     Planinginfo: 'نقوم في البداية بالتخطيط لرؤية كاملة للمشروع.',
-    Analysis: 'التحليل',
+    processhead: 'تغطي عمليتنا',
+    everything: 'كل شئ!',
+    processpragraph:
+      'تهدف كل خطوة من خطوات عمليتنا إلى تقديم نتائج عالية الجودة، مع الاهتمام بكل التفاصيل.',
+    Analysis: 'التحليل والتصميم',
     Analysisinfo: 'مراجعة هذه الرؤية مع العميل وإجراء التعديلات اللازمة.',
-    Devlopment: 'التطوير',
-    Devlopmentinfo: 'مرحلة التنفيذ، وتختلف مدتها حسب المشروع.',
-    Review: 'المراجعة',
+    Implementation: 'التنفيذ',
+    Implementationinfo: 'مرحلة التنفيذ، وتختلف مدتها حسب المشروع.',
+    Review: 'المراجعة والختام',
     Reviewinfo: ' مرحلة تسليم الهيكل النهائي للمشروع.',
     OurPortfolio: 'مشارعنا',
     Portfolioinfo: ' التى تم تنفيذها',
