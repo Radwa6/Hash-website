@@ -302,7 +302,7 @@
     >
       <div style="margin: 0 6%" id="Portofolio-section">
         <div
-          class="aos-init aos-animate animate__animated animate__fadeInDown d-flex justify-content-between"
+          class="aos-init aos-animate animate__animated animate__fadeInDown d-flex justify-content-between pt-5"
           data-il8n="Portofolio"
           data-aos="fade-up"
           data-aos-delay="100"

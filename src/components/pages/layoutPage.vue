@@ -324,7 +324,6 @@
     <!-- End about -->
 
     <!-- ======= Choose Section ======= -->
-
     <div class="Choose">
       <div
         style="
