@@ -353,7 +353,7 @@ export default {
 .TheFooter {
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 80px 0 30px;
+  padding: 80px 40px 30px 40px;
   text-align: start;
   position: relative;
   background-color: #202020;

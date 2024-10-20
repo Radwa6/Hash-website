@@ -6,7 +6,6 @@ import ContactPage from '@/components/user/Contact.vue'
 import aboutUs from '@/components/pages/aboutUs.vue'
 import allProjects from '@/components/pages/allProjects.vue'
 import projectDetails from '@/components/pages/projectDetails.vue'
-import layoutPage from '@/components/pages/layoutPage.vue'
 
 Vue.use(Router)
 
@@ -41,11 +40,6 @@ const routes = [
     path: '/projectDetails',
     name: 'projectDetails',
     component: projectDetails,
-  },
-  {
-    path: '/layoutPage',
-    name: 'layoutPage',
-    component: layoutPage,
   },
 ]
 
