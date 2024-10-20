@@ -51,11 +51,36 @@
               </div>
             </div>
             <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
               class="rounded-circle shadow-1-strong mb-4 mt-4"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 80px; border: 4px solid #df8317"
             />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
                 <h5>{{ $t('namemember1') }}</h5>
@@ -99,11 +124,36 @@
               </div>
             </div>
             <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
               class="rounded-circle shadow-1-strong mb-4 mt-4"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 80px; border: 4px solid #df8317"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 40px"
             />
+
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
                 <h5>{{ $t('namemember2') }}</h5>
@@ -147,11 +197,37 @@
               </div>
             </div>
             <img
-              class="rounded-circle shadow-1-strong mb-4 mt-4"
-              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+              class="rounded-circle shadow-1-strong m-3"
+              src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 40px"
             />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+
+            <img
+              class="rounded-circle shadow-1-strong mb-4 mt-4"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 80px; border: 4px solid #df8317"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
                 <h5>{{ $t('namemember3') }}</h5>
@@ -194,11 +270,36 @@
                 </svg>
               </div>
             </div>
+
             <img
-              class="rounded-circle shadow-1-strong mb-4 mt-4"
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 13.png"
+              alt="avatar"
+              style="width: 40px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
               src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
               alt="avatar"
-              style="width: 70px; border: 4px solid #df8317; padding: 3px"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong mb-4 mt-4"
+              src="../../assets/Ellipse 14.png"
+              alt="avatar"
+              style="width: 80px; border: 4px solid #df8317"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 15.png"
+              alt="avatar"
+              style="width: 50px"
+            />
+            <img
+              class="rounded-circle shadow-1-strong m-3"
+              src="../../assets/Ellipse 12.png"
+              alt="avatar"
+              style="width: 40px"
             />
             <div class="row d-flex justify-content-center">
               <div class="col-lg-8">
