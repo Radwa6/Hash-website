@@ -84,7 +84,7 @@
             </div>
           </div>
 
-          <div class="col-7 mt-5">
+          <div class="col-7 mt-4 p-5">
             <div
               _ngcontent-pbn-c75=""
               data-aos="fade-up"

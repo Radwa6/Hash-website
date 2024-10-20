@@ -226,7 +226,7 @@
       <div class="col-sm-2 mb-4">
         <h1>{{ $t('contact_info') }}</h1>
         <ul>
-          <li>
+          <li class="text-break">
             <svg
               width="24"
               height="25"
