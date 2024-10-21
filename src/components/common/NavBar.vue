@@ -197,13 +197,6 @@
                 <li>{{ $t('projects') }}</li>
               </router-link>
 
-              <!-- <router-link
-                :to="{ path: '/layoutPage' }"
-                active-class="active-link"
-              >
-                <li>{{ $t('Odoo') }}</li>
-              </router-link> -->
-
               <router-link to="/Contact">
                 <button class="button">
                   {{ $t('contact') }}
@@ -403,7 +396,7 @@ a :hover {
   transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s;
   color: white;
 }
-/* From Uiverse.io by zjssun */
+
 .button {
   position: relative;
   padding: 10px 42px;

@@ -210,7 +210,6 @@ export default {
   color: gray;
 }
 
-/* تخصيص الأسهم */
 .slick-prev,
 .slick-next {
   background-color: #ddd;

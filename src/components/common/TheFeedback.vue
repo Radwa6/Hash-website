@@ -8,7 +8,6 @@
         </h1>
       </div>
 
-      <!-- Carousel wrapper -->
       <div
         id="carouselExampleControlss"
         data-mdb-carousel-init

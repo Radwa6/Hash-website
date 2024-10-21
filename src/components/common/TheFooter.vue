@@ -71,8 +71,8 @@
           {{ $t('headerText') }}
         </p>
         <p style="color: #df8317">{{ $t('Contact') }}</p>
-        <a href=""
-          ><svg
+        <a href="">
+          <svg
             style="
               background-color: #df8317;
               border-radius: 50%;

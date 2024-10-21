@@ -1286,7 +1286,6 @@ export default {
   border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
-
   overflow: hidden;
 }
 .Project3 {
@@ -1303,7 +1302,6 @@ export default {
   border: 1px solid #f6f3f383;
   border-radius: 12px;
   transition: 0.2s ease-in-out;
-
   overflow: hidden;
 }
 .Project4 {
@@ -1558,11 +1556,11 @@ export default {
 .Project10:hover .overlay,
 .Project11:hover .overlay,
 .Project12:hover .overlay {
-  opacity: 1; /* إظهار الـ overlay عند التحويم */
+  opacity: 1;
 }
 .textBox {
   position: relative;
-  z-index: 2; /* التأكد من أن النص يبقى فوق الـ overlay */
-  color: white; /* جعل النص أبيض ليتناسب مع الـ overlay */
+  z-index: 2;
+  color: white;
 }
 </style>

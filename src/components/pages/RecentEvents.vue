@@ -170,11 +170,11 @@ h5 {
 
 .slick-prev,
 .slick-next {
-  color: black !important; /* تغيير لون الأسهم إلى الأسود */
+  color: black !important;
 }
 
 .slick-prev:hover,
 .slick-next:hover {
-  color: gray !important; /* تغيير لون الأسهم عند التمرير عليها */
+  color: gray !important;
 }
 </style>

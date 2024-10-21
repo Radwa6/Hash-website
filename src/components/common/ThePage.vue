@@ -287,6 +287,7 @@
         </div>
       </div>
     </div>
+    <!-- End process -->
 
     <!-- ======= Portofolio Section ======= -->
     <div
@@ -608,42 +609,23 @@ export default {
 <style scoped>
 @import 'aos/dist/aos.css';
 
-/* .navbarHeader {
-  min-height: 100vh;
-  position: relative;
-  background-image: url('/src/assets/Main\ Picture.jpg');
-  background-size: cover;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-} */
 h1 {
   font-weight: bold;
   font-size: 50px;
 }
+
 p {
   font-size: 26px;
 }
+
 h5 {
   font-weight: bold;
   font-size: 34px;
 }
+
 .navbarHeader {
   min-height: 50vh;
 }
-/* .bgheader {
-  min-height: calc(
-    100vh - 100px
-  );
-  background-image: url('/src/assets/Main Picture.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  padding-top: 150px;
-  padding-bottom: 150px; 
-} */
 
 .header {
   position: relative;
@@ -664,6 +646,7 @@ h5 {
   padding: 80px 180px;
   align-items: center;
 }
+
 .header h1 {
   font-weight: bold;
   font-size: 56px;
@@ -677,14 +660,15 @@ h5 {
   width: 70%;
   margin-top: 30px;
 }
+
 .about {
   margin: 0 6%;
 }
+
 /* From Uiverse.io by zjssun */
 .button {
   position: relative;
   padding: 10px 46px;
-
   border-radius: 6px;
   border: none;
   color: #fff;
@@ -775,6 +759,7 @@ h5 {
     background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
   }
 }
+
 button:hover {
   box-shadow: inset 0px 0px 15px rgba(49, 49, 49, 0.717);
   transform: scale(1.05);
@@ -806,7 +791,6 @@ button:hover {
   .header img {
     margin: 80px 0;
   }
-
   .about a {
     display: block;
     font-size: 10px;
@@ -814,7 +798,6 @@ button:hover {
   .header h1 {
     margin-top: 20%;
   }
-
   .header h1,
   h5 {
     font-size: 18px;
@@ -832,16 +815,11 @@ button:hover {
   p {
     font-size: 12px;
   }
-
   button {
     padding: 8px 24px;
     font-size: 10px;
   }
   .process svg {
-    /* transform: rotate(90deg);
-    margin: 0;
-    display: flex;
-    justify-content: center; */
     display: none;
   }
 }
@@ -854,7 +832,6 @@ button:hover {
     max-width: 100%;
     height: auto;
   }
-
   .about a {
     display: block;
     font-size: 10px;
@@ -862,7 +839,6 @@ button:hover {
   h1 {
     font-size: 16px;
   }
-
   p {
     font-size: 10px;
   }
@@ -871,12 +847,10 @@ button:hover {
     font-size: 18px;
     font-weight: bold;
   }
-
   .header p,
   .header .text {
     font-size: 12px;
   }
-
   .btn {
     width: 100%;
     padding: 0.75rem;
@@ -885,10 +859,6 @@ button:hover {
     width: 30%;
   }
   .process svg {
-    /* transform: rotate(90deg);
-    margin: 0;
-    display: flex;
-    justify-content: center; */
     display: none;
   }
 }
@@ -921,12 +891,10 @@ button:hover {
   min-height: 100%;
   border: none;
 }
-
 .card-body {
   display: flex;
   flex-direction: column;
 }
-
 .card img {
   height: auto;
   max-height: 200px;
