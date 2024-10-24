@@ -137,7 +137,6 @@ h5 {
 .card-title {
   font-weight: bold;
 }
-
 .team-slider {
   width: 90%;
   margin: 0 auto;

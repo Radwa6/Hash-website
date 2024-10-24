@@ -21,11 +21,8 @@ const messages = {
       'Convert your idea to reality with Hash Studio Inc through our customized solution.',
     SeeMore: 'See More',
     WatchVideo: 'Watch Video',
-
     viewPortfolio: 'View Portfolio',
-
     pages: 'Pages',
-
     about_us: 'ABOUT US',
     projects: 'Projects',
     others: 'Others',
@@ -38,12 +35,10 @@ const messages = {
       'Hash studio is a premier software agency offering integrated services, including business identity design, web solutions, programming, and hosting. With over 10 years of experience, our talented team of marketers, designers, and developers is dedicated to excellence and innovation.',
     abouth: 'Custom Software Built ',
     abouthh: 'for You !',
-
     //Portofolio
     OurrPortofolio: 'Our',
     OurPortofolio: 'Portofolio',
     ViewPortofolio: 'See All',
-
     VPNMobile: 'VPN Mobile App',
     MobileApp: 'Mobile App',
     StreamingMobile: 'Streaming Mobile App',
@@ -53,7 +48,6 @@ const messages = {
     MultimediaDesign: 'MultimediaDesign Platf...',
     WebDesign: 'Web Design',
     ParkingMobile: 'Parking Mobile App',
-
     Planing: 'Planing',
     Planinginfo:
       'We initially make planning on the full project visualization.',
@@ -95,7 +89,6 @@ const messages = {
     ui_ux_design: 'UI/UX Design',
     ui_ux_design_description:
       'We Are Professional In Graphics We Can Create Logos, Motion Graphics.',
-
     TeamMember: 'Team Member',
     View: 'View',
     'Our Creative Team Members': 'Our Creative Team Members',
@@ -110,7 +103,6 @@ const messages = {
     OurFeedback: 'Our Feedback',
     ClientSayaboutUs: 'Let’s hear What ',
     WhatOur: 'they says! ',
-
     namemember1: 'Abdulrahman Masoud',
     rolee1: 'Backend Developer',
     feedback1:
@@ -127,7 +119,6 @@ const messages = {
     rolee4: 'Mobile Apps',
     feedback4:
       'Hash Studio is the most intuitive and easy to use software product I have ever used.',
-
     RequestQuote: 'Request a Quote',
     arealways: 'are always',
     ready: 'ready to help you....',
@@ -154,7 +145,6 @@ const messages = {
     Chooseinfoo: 'Choosing Us!',
     Choosedescription:
       'Each step of our process is on delivering high-quality results, with attention to every detail.',
-
     Ustitle: 'Comprehensive Features',
     Uspragraph:
       ' we can provides flexible tools for easy creation, customization, and management of services.',
@@ -164,7 +154,6 @@ const messages = {
     Ustitlee: 'Expert Support',
     Uspragraphh:
       ' It provides dedicated support and guidance, ensuring users receive help at every step for successful service',
-
     OURVALUE: 'OUR VALUE',
     VALUE: 'Convert Dream To ',
     VALUEe: 'Reality !',
@@ -172,7 +161,6 @@ const messages = {
       'We transform ideas into reality with custom software solutions, delivering scalable, high-quality applications. From concept to deployment, we ensure your visions success',
     Recent: 'Recent',
     Events: 'Events!',
-
     Projectname1: 'TADWEEN',
     Projectname2: 'RASAEL',
     Projectname3: 'Etamen',
@@ -198,7 +186,6 @@ const messages = {
       'قم بتحويل فكرتك إلى حقيقة مع Hash Studio Inc من خلال الحل المخصص لدينا.',
     SeeMore: 'انظر المزيد ',
     WatchVideo: 'شاهد الفيديو ',
-
     viewPortfolio: 'عرض المحفظة',
     pages: 'الصفحات',
     about_us: 'من نحن',
@@ -207,7 +194,6 @@ const messages = {
     process: 'عملية',
     partners: 'شركاء النجاح',
     partner: 'أكثر من 20 شركة تعمل معنا..',
-
     members: 'الأعضاء',
     feedback: 'التغذية الراجعة',
     contact_info: 'معلومات الاتصال',
@@ -217,7 +203,6 @@ const messages = {
       'Hash studio هي وكالة برمجيات رائدة تقدم خدمات متكاملة، بما في ذلك تصميم هوية الأعمال وحلول الويب والبرمجة والاستضافة. مع أكثر من 10 سنوات من الخبرة، يكرس فريقنا الموهوب من المسوقين والمصممين والمطورين جهودهم للتميز والإبداع.',
     abouth: '  تم إنشاء برنامج مخصص ',
     abouthh: 'لك  !',
-
     //Portofolio
     OurPortofolio: 'نا ',
     OurrPortofolio: 'مشاريع',
@@ -232,7 +217,6 @@ const messages = {
     WebDesign: 'تصميم الويب',
     ParkingMobile: 'تطبيق ركن السيارات للموبايل',
     Our: '',
-
     Planing: 'التخطيط',
     Planinginfo: 'نقوم في البداية بالتخطيط لرؤية كاملة للمشروع.',
     processhead: 'تغطي عمليتنا',
@@ -255,7 +239,6 @@ const messages = {
     MachineLearning: 'التعلم الآلي',
     servicesinfo: 'الخدمات التي يمكن أن ',
     servicesinfoo: 'نقدمها!',
-
     offering: 'ما الذي ',
     Offering: 'نقدمه ',
     description: 'نقدم خدمات عالية الجودة في مجالات متنوعة.',
@@ -282,7 +265,6 @@ const messages = {
     OurFeedback: 'آراؤنا',
     WhatOur: 'ماذا يقول',
     ClientSayaboutUs: 'عملاؤنا عنا',
-
     namemember1: 'عبدالرحمن مسعود',
     rolee1: ' مطور الخلفية',
     feedback1:
@@ -299,7 +281,6 @@ const messages = {
     rolee4: 'تطبيقات الهواتف المحمولة',
     feedback4:
       'Hash Studio هو أكثر برامج سهولة في الاستخدام وفهمًا التي استخدمتها في حياتي.',
-
     Next: 'التالى',
     Prev: 'السابق',
     projectInfo: 'معلومات المنتج',
@@ -315,7 +296,6 @@ const messages = {
     Gadawelinfo:
       'هو نظام يسمح للشركات بإدارة جميع جوانب أعمالها على منصة واحدة، بما في ذلك: المخزون، والمالية، والتخطيط، والخدمات اللوجستية، والعمليات. يوفر نظام إدارة المخزون ERP معلومات لحظية حول المخزون لجميع أجزاء المؤسسة. هذه القدرة مهمة للشركات التي تخطط للتوسع، أو لديها سير عمل معقد أو سلاسل توريد، أو تحتاج إلى أتمتة متقدمة، أو تعمل بنظام "الوقت المناسب"، أو تبيع العديد من المنتجات، أو ببساطة ترغب في زيادة استثماراتها في المخزون.',
     Contact: 'للتواصل',
-
     Chooseinfo: 'لماذا يجب عليك ',
     Chooseinfoo: 'اختيارنا!',
     Choosedescription:
@@ -328,7 +308,6 @@ const messages = {
     Ustitlee: 'دعم خبراء',
     Uspragraphh:
       'يوفر الدعم والإرشاد المخصص، مما يضمن حصول المستخدمين على المساعدة في كل خطوة لتحقيق النجاح في الخدمة.',
-
     OURVALUE: 'قيمتنا',
     VALUE: 'حوّل الحلم إلى ',
     VALUEe: 'واقع !',
@@ -337,7 +316,6 @@ const messages = {
 
     Events: 'فعاليات',
     Recent: 'حديثه!',
-
     'Saudi Flag Day': 'يوم العلم السعودي',
     'On March 11, 1937, King Abdulaziz issued his order approving Shura Council Resolution No. 354...':
       'في 11 مارس 1937، أصدر الملك عبد العزيز أمره بالموافقة على قرار مجلس الشورى رقم 354...',
@@ -347,11 +325,8 @@ const messages = {
     'Anniversary of the pledge of allegiance': 'ذكرى البيعة',
     'Prince Mohammed bin Salman was pledged as Crown Prince on June 21, 2017...':
       'تمت البيعة للأمير محمد بن سلمان كولي للعهد في 21 يونيو 2017...',
-
     Projects: 'المشاريع',
-
     Graphics: 'رسوميات',
-
     Projectname1: 'تدوين',
     Projectname2: 'رسائل',
     Projectname3: 'اطمئن',

@@ -6,6 +6,7 @@ import ContactPage from '@/components/user/Contact.vue'
 import aboutUs from '@/components/pages/aboutUs.vue'
 import allProjects from '@/components/pages/allProjects.vue'
 import projectDetails from '@/components/pages/projectDetails.vue'
+import odooPage from '@/components/pages/odooPage.vue'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ const routes = [
     path: '/projectDetails',
     name: 'projectDetails',
     component: projectDetails,
+  },
+  {
+    path: '/odooPage',
+    name: 'odooPage',
+    component: odooPage,
   },
 ]
 

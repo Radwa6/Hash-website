@@ -53,13 +53,13 @@
   </div>
   <div v-else :dir="isRTL ? 'rtl' : 'ltr'">
     <div id="app">
-      <div v-if="$route.name !== 'layoutPage'">
+      <div v-if="$route.name !== 'odooPage'">
         <NavBar />
       </div>
       <div class="row">
         <router-view></router-view>
       </div>
-      <div v-if="$route.name !== 'layoutPage'" class="row">
+      <div v-if="$route.name !== 'odooPage'" class="row">
         <TheFooter ref="searchComponent"></TheFooter>
       </div>
 
