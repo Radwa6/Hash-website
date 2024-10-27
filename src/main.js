@@ -173,6 +173,19 @@ const messages = {
     Projectname10: 'Nartaki',
     Projectname11: 'Transportation App',
     Projectname12: 'Pasma',
+
+    //Odoooo
+    Apps: 'Apps',
+    Modules: 'Modules',
+    Industries: 'Industries',
+    'All your business': 'All your business',
+    'Operation in one place.': 'Operation in one place.',
+    'Manage your business—sales, invoicing, accounting, clients, workforce,':
+      'Manage your business—sales, invoicing, accounting, clients, workforce,',
+    'inventory, and operations—all in one place':
+      'inventory, and operations—all in one place',
+    'Get a Free Demo': 'Get a Free Demo',
+    'See Pricing': 'See Pricing',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -180,7 +193,7 @@ const messages = {
     about: 'معلومات عنا',
     aboutus: 'معلومات عنا',
     services: 'الخدمات',
-    contact: 'اتصل بنا',
+    contact: 'تواصل معنا',
     headerTitle: 'حوّل رؤيتك إلى واقع مع Data Ways',
     headerText:
       'قم بتحويل فكرتك إلى حقيقة مع Hash Studio Inc من خلال الحل المخصص لدينا.',
@@ -340,6 +353,19 @@ const messages = {
     Projectname11: 'سكك حديد مصر ',
     Projectname12: 'بصمه',
     ERPSystem: 'نظام تخطيط موارد المؤسسات',
+
+    //Odoooo
+    Apps: 'التطبيقات',
+    Modules: 'وحدات',
+    Industries: 'الصناعات',
+    'All your business': 'كل ما يخص عملك',
+    'Operation in one place.': ' في مكان واحد.',
+    'Manage your business—sales, invoicing, accounting, clients, workforce,':
+      'إدارة أعمالك - المبيعات، الفواتير، المحاسبة، العملاء، القوى العاملة،',
+    'inventory, and operations—all in one place':
+      'المخزون والعمليات - كلها في مكان واحد',
+    'Get a Free Demo': 'احصل على عرض مجاني',
+    'See Pricing': 'انظر التسعير ',
   },
 }
 

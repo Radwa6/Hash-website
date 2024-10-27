@@ -175,28 +175,28 @@
                     :to="{ path: '/ThePage', hash: '#system-section' }"
                     active-class="active-link"
                   >
-                    <li>Apps</li>
+                    <li>{{ $t('Apps') }}</li>
                   </router-link>
 
                   <router-link
                     :to="{ path: '/ThePage', hash: '#servies-section' }"
                     active-class="active-link"
                   >
-                    <li>Modules</li>
+                    <li>{{ $t('Modules') }}</li>
                   </router-link>
 
                   <router-link
                     :to="{ path: '/ThePage', hash: '#advantages-section' }"
                     active-class="active-link"
                   >
-                    <li>Industries</li>
+                    <li>{{ $t('Industries') }}</li>
                   </router-link>
 
                   <router-link
                     :to="{ path: '/Contact', hash: '#advantages-section' }"
                     active-class="active-link"
                   >
-                    <li>Contact Us</li>
+                    <li>{{ $t('contact') }}</li>
                   </router-link>
                 </ul>
 
@@ -260,13 +260,19 @@
         style="text-align: center"
       >
         <h1 class="mt-5">
-          All your business <br />
-          Operation in one place.
+          {{ $t('All your business') }}
+          <br />
+          {{ $t('Operation in one place.') }}
         </h1>
         <p class="mt-4">
-          Manage your business—sales, invoicing, accounting, clients, workforce,
+          {{
+            $t(
+              'Manage your business—sales, invoicing, accounting, clients, workforce,'
+            )
+          }}
+
           <br />
-          inventory, and operations—all in one place
+          {{ $t('inventory, and operations—all in one place') }}
         </p>
         <div class="mt-5 d-flex gap-3 justify-content-center">
           <router-link to="/">
