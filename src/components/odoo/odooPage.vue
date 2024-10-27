@@ -2489,6 +2489,7 @@ button .span-mother2 span:nth-child(7) {
 .hero {
   background-image: url('../../assets/odoo/Hero\ Section.png');
   background-size: cover;
+  background-position: center;
   color: #fff;
   padding: 40px 0 0;
 }
