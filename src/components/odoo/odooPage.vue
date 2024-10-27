@@ -223,12 +223,7 @@
                   >
                     <button
                       class="d-inline-flex"
-                      style="
-                        white-space: nowrap;
-                        padding: 10px 20px;
-                        border: none;
-                        cursor: pointer;
-                      "
+                      style="white-space: nowrap; cursor: pointer"
                     >
                       Get Demo
                     </button>
