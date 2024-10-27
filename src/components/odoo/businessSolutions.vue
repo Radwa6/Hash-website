@@ -102,7 +102,9 @@
                 {{ $t('File requests for leave and approvals') }}
               </p>
               <router-link to="/" style="text-decoration: none">
-                <button class="button">{{ $t('Get a Free Demo') }}</button>
+                <button class="button d-inline-block">
+                  {{ $t('Get a Free Demo') }}
+                </button>
               </router-link>
             </div>
             <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -199,7 +201,9 @@
                 {{ $t('Managing work hours and shift distribution') }}
               </p>
               <router-link to="/" style="text-decoration: none">
-                <button class="button">{{ $t('Get a Free Demo') }}</button>
+                <button class="button d-inline-block">
+                  {{ $t('Get a Free Demo') }}
+                </button>
               </router-link>
             </div>
           </div>
@@ -232,7 +236,9 @@
               }}
             </p>
             <router-link to="/" style="text-decoration: none">
-              <button class="button">{{ $t('Start Now') }}</button>
+              <button class="button d-inline-block">
+                {{ $t('Start Now') }}
+              </button>
             </router-link>
           </div>
           <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -267,7 +273,9 @@
               }}
             </p>
             <router-link to="/" style="text-decoration: none">
-              <button class="button">{{ $t('Start  Now') }}</button>
+              <button class="button d-inline-block">
+                {{ $t('Start  Now') }}
+              </button>
             </router-link>
           </div>
           <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -302,7 +310,9 @@
               }}
             </p>
             <router-link to="/" style="text-decoration: none">
-              <button class="button">{{ $t('Start  Now') }}</button>
+              <button class="button d-inline-block">
+                {{ $t('Start  Now') }}
+              </button>
             </router-link>
           </div>
           <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -398,7 +408,9 @@
               {{ $t('Compatible with all devices and operation systems') }}
             </p>
             <router-link to="/" style="text-decoration: none">
-              <button class="button">{{ $t('Start  Now') }}</button>
+              <button class="button d-inline-block">
+                {{ $t('Start  Now') }}
+              </button>
             </router-link>
           </div>
           <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -433,7 +445,9 @@
             </p>
 
             <router-link to="/" style="text-decoration: none">
-              <button class="button">{{ $t('Start  Now') }}</button>
+              <button class="button d-inline-block">
+                {{ $t('Start  Now') }}
+              </button>
             </router-link>
           </div>
           <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
@@ -497,7 +511,8 @@ button.active {
   color: white;
   border-radius: 2rem;
   cursor: pointer;
-  width: 160px;
+  /* width: 160px; */
+  padding: 10px 20px;
   height: 50px;
   border: none;
   border-radius: 30px;

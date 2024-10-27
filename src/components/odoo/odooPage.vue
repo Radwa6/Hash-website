@@ -276,7 +276,9 @@
         </p>
         <div class="mt-5 d-flex gap-3 justify-content-center">
           <router-link to="/">
-            <button class="button">{{ $t('Get a Free Demo') }}</button>
+            <button class="button d-inline-block">
+              {{ $t('Get a Free Demo') }}
+            </button>
           </router-link>
           <router-link to="/">
             <button style="background-color: #1a202c; color: #c3d4e9">
@@ -2401,8 +2403,9 @@ button {
   color: white;
   border-radius: 2rem;
   cursor: pointer;
-  width: 160px;
+  /* width: 160px; */
   height: 50px;
+  padding: 10px 20px;
   border: none;
   border-radius: 30px;
   background-color: #d76d26;
