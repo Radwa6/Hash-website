@@ -462,9 +462,9 @@ const messages = {
 
     'Our Business Modules': 'وحدات أعمالنا',
     'Business Modules in one Place': 'وحدات الأعمال في مكان واحد',
-    'Functioning seamlessly, whether individually or concurrently—utilize all features':
+    'Functioning seamlessly, whether individually or concurrently—utilize all features,':
       'تعمل بسلاسة، سواء بشكل فردي أو بالتزامن - استخدم جميع الميزات',
-    'or activate and deactivate as needed to fit your business requirements':
+    'or activate and deactivate as needed to fit your business requirements.':
       'أو قم بتفعيل وإلغاء التفعيل حسب الحاجة لتناسب متطلبات عملك',
 
     'Sales & Purchase': 'المبيعات والشراء',
