@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div :dir="isRTL ? 'rtl' : 'ltr'">
     <!-- ======= nav ======= -->
     <nav
       :class="{
@@ -291,22 +291,19 @@
 
     <!-- ======= CHOOSE Section ======= -->
     <div class="Choose p-5">
-      <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
-        WHY CHOOSE US
+      <p class="pt-5" style="color: #df8317; font-weight: bold">
+        {{ $t('WHY CHOOSE US') }}
       </p>
-      <h1>Committed as Your Business Partner</h1>
+      <h1>{{ $t('Committed as Your Business Partner') }}</h1>
       <div
-        class="row mt-5 d-flex align-content-center"
+        class="row mt-5"
         data-aos="fade-up"
         data-aos-duration="2000"
         style="margin: 0 6%"
       >
-        <div class="col-sm-4 mb-4 d-flex">
-          <div class="border-0 m-2 p-4 h-100">
-            <div
-              class="memberdesign d-flex justify-content-start"
-              style="display: inline-block"
-            >
+        <div class="col-sm-4 mb-4">
+          <div class="Support border-0 m-2 p-4 h-100">
+            <div style="display: inline-block">
               <p
                 style="
                   display: flex;
@@ -333,7 +330,7 @@
               </p>
             </div>
 
-            <div class="card-body text-start mt-4">
+            <div class="card-body mt-4">
               <h5 class="card-title">{{ $t('Free & Quick Support') }}</h5>
               <p class="card-text mt-5">
                 {{
@@ -346,15 +343,12 @@
           </div>
         </div>
 
-        <div class="col-sm-4 mb-4 d-flex">
+        <div class="col-sm-4 mb-4">
           <div
-            class="border-0 m-2 p-4 card h-100"
+            class="Support border-0 m-2 p- h-100"
             style="box-shadow: 0px 54px 80px -16px #dbdee5cc"
           >
-            <div
-              class="memberdesign d-flex justify-content-start"
-              style="display: inline-block"
-            >
+            <div style="display: inline-block">
               <p
                 style="
                   display: flex;
@@ -381,7 +375,7 @@
               </p>
             </div>
 
-            <div class="card-body text-start mt-4">
+            <div class="card-body mt-4">
               <h5 class="card-title">{{ $t('Personalized Experience') }}</h5>
               <p class="card-text mt-5">
                 {{
@@ -394,12 +388,9 @@
           </div>
         </div>
 
-        <div class="col-sm-4 mb-4 d-flex">
-          <div class="border-0 m-2 p-4 h-100">
-            <div
-              class="memberdesign d-flex justify-content-start"
-              style="display: inline-block"
-            >
+        <div class="col-sm-4 mb-4">
+          <div class="Support border-0 m-2 p-4 h-100">
+            <div style="display: inline-block">
               <p
                 style="
                   display: flex;
@@ -426,7 +417,7 @@
               </p>
             </div>
 
-            <div class="card-body text-start mt-4">
+            <div class="card-body mt-4">
               <h5 class="card-title">{{ $t('Safe & Secure') }}</h5>
               <p class="card-text mt-5">
                 {{
@@ -2485,5 +2476,9 @@ p {
 }
 .Business {
   background-color: #0d121f;
+}
+.Support {
+  text-align: start;
+  padding: 20px;
 }
 </style>

@@ -186,6 +186,16 @@ const messages = {
       'inventory, and operations—all in one place',
     'Get a Free Demo': 'Get a Free Demo',
     'See Pricing': 'See Pricing',
+
+    'WHY CHOOSE US': 'WHY CHOOSE US',
+    'Committed as Your Business Partner': 'Committed as Your Business Partner',
+    'Hash is hosted on secure servers, with 256-bit SSL encryption technology, so is your data in full, private, protected, with constant auto-backups for increased security.':
+      'Hash is hosted on secure servers, with 256-bit SSL encryption technology, so is your data in full, private, protected, with constant auto-backups for increased security.',
+    'Curated with personalization prioritized, create from scratch or find fully customizable templates, field entries, report filtering, customizable system.':
+      'Curated with personalization prioritized, create from scratch or find fully customizable templates, field entries, report filtering, customizable system.',
+    'Personalized Experience': 'Personalized Experience',
+    'Free & Quick Support': 'Free & Quick Support',
+    'Safe & Secure': 'Safe & Secure',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -366,6 +376,16 @@ const messages = {
       'المخزون والعمليات - كلها في مكان واحد',
     'Get a Free Demo': 'احصل على عرض مجاني',
     'See Pricing': 'انظر التسعير ',
+
+    'WHY CHOOSE US': 'لماذا تختارنا؟',
+    'Committed as Your Business Partner': 'ملتزمون بأن نكون شريكك التجاري',
+    'Hash is hosted on secure servers, with 256-bit SSL encryption technology, so is your data in full, private, protected, with constant auto-backups for increased security.':
+      'يتم استضافة Hash على خوادم آمنة، مع تقنية تشفير SSL 256 بت، وبالتالي فإن بياناتك كاملة وخاصة ومحمية، مع نسخ احتياطية تلقائية مستمرة لتحسين الأمان.',
+    'Curated with personalization prioritized, create from scratch or find fully customizable templates, field entries, report filtering, customizable system.':
+      'تم إعدادها مع إعطاء الأولوية للتخصيص، وإنشاء قوالب قابلة للتخصيص بالكامل من الصفر أو العثور عليها، وإدخالات الحقول، وتصفية التقارير، والنظام القابل للتخصيص.',
+    'Personalized Experience': 'تجربة شخصية',
+    'Free & Quick Support': 'دعم مجاني وسريع',
+    'Safe & Secure': 'آمن ومضمون',
   },
 }
 
