@@ -196,6 +196,64 @@ const messages = {
     'Personalized Experience': 'Personalized Experience',
     'Free & Quick Support': 'Free & Quick Support',
     'Safe & Secure': 'Safe & Secure',
+    'ODOO INTRGRATION': 'ODOO INTRGRATION',
+    'Optimise inventory management': 'Optimise inventory management',
+    'Our platform helps your business in managing expenses. These are some of the':
+      'Our platform helps your business in managing expenses. These are some of the',
+    'reasons why you should use our platform in managing business finances.':
+      'reasons why you should use our platform in managing business finances.',
+    'Synchronise Odoo & Hash Studio': 'Synchronise Odoo & Hash Studio',
+    'Seamlessly synchronize Odoo with Hash Studio for integrated business solutions.':
+      'Seamlessly synchronize Odoo with Hash Studio for integrated business solutions.',
+    'Customise your forecasting methods': 'Customise your forecasting methods',
+    'Customize and refine your forecasting methods to align perfectly with your unique business needs.':
+      'Customize and refine your forecasting methods to align perfectly with your unique business needs.',
+    'Start optimising your inventory': 'Start optimising your inventory',
+    'Start optimizing your inventory now to streamline operations, reduce costs, and maximize profitability.':
+      'Start optimizing your inventory now to streamline operations, reduce costs, and maximize profitability.',
+
+    'Our Business Modules': 'Our Business Modules',
+    'Business Modules in one Place': 'Business Modules in one Place',
+    'Functioning seamlessly, whether individually or concurrently—utilize all features,':
+      'Functioning seamlessly, whether individually or concurrently—utilize all features,',
+    'or activate and deactivate as needed to fit your business requirements.':
+      'or activate and deactivate as needed to fit your business requirements.',
+    'Sales & Purchase': 'Sales & Purchase',
+    'Invoicing, sales commission management, insurance management, promotional offers':
+      'Invoicing, sales commission management, insurance management, promotional offers',
+    Inventory: 'Inventory',
+    'Stock Tracking, Barcode, Purchases, Suppliers, Warehouses,Stocktaking, Requisitions':
+      'Stock Tracking, Barcode, Purchases, Suppliers, Warehouses,Stocktaking, Requisitions',
+    'Human Resourse': 'Human Resourse',
+    'Employee database, payroll, contracts, attendance, multi-shifts, requests, and loans.':
+      'Employee database, payroll, contracts, attendance, multi-shifts, requests, and loans.',
+    Manufacturing: 'Manufacturing',
+    'Manufacturing converts raw materials into finished products through various processes.':
+      'Manufacturing converts raw materials into finished products through various processes.',
+    'Point Of Sale': 'Point Of Sale',
+    'systems streamline transactions, manage inventory, and provide sales analytics.':
+      'systems streamline transactions, manage inventory, and provide sales analytics.',
+    Accounting: 'Accounting',
+    'Expenses, tax, treasuries, cheque cycle, accounts, cost centers, and financial reports.':
+      'Expenses, tax, treasuries, cheque cycle, accounts, cost centers, and financial reports.',
+    'Projects & Tasks': 'Projects & Tasks',
+    'Manage projects and tasks by assigning responsibilities, setting deadlines, and tracking progress.':
+      'Manage projects and tasks by assigning responsibilities, setting deadlines, and tracking progress.',
+    'Employee Management': 'Employee Management',
+    'Manage employees by overseeing hiring, performance, payroll, and development for optimal productivity and engagement.':
+      'Manage employees by overseeing hiring, performance, payroll, and development for optimal productivity and engagement.',
+    Subscriptions: 'Subscriptions',
+    'Manage subscriptions by tracking plans, payment details, renewal dates, and customer information for seamless billing and service delivery.':
+      'Manage subscriptions by tracking plans, payment details, renewal dates, and customer information for seamless billing and service delivery.',
+    'Order Mangement': 'Order Mangement',
+    'Add products with SKUs, organize by category, set pricing, inventory with stock and tracking options.':
+      'Add products with SKUs, organize by category, set pricing, inventory with stock and tracking options.',
+    'Client & Suppliers': 'Client & Suppliers',
+    'Maintain a database of suppliers and clients, track balances, and generate detailed transaction statements.':
+      'Maintain a database of suppliers and clients, track balances, and generate detailed transaction statements.',
+    Expenses: 'Expenses',
+    'Control your finances and manage expenses with Systems real-time tracking and insightful reports.':
+      'Control your finances and manage expenses with Systems real-time tracking and insightful reports.',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -386,6 +444,76 @@ const messages = {
     'Personalized Experience': 'تجربة شخصية',
     'Free & Quick Support': 'دعم مجاني وسريع',
     'Safe & Secure': 'آمن ومضمون',
+    'ODOO INTRGRATION': 'تكامل ODOO',
+    'Optimise inventory management': 'إدارة المخزون بشكل مثالي',
+    'Our platform helps your business in managing expenses. These are some of the':
+      'تساعد منصتنا عملك في إدارة النفقات. إليك بعض الأسباب التي تجعلك تستخدم منصتنا في إدارة الشؤون المالية.',
+    'reasons why you should use our platform in managing business finances.':
+      'الأسباب التي تجعلك تستخدم منصتنا في إدارة الشؤون المالية.',
+    'Synchronise Odoo & Hash Studio': 'التزامن بين Odoo و Hash Studio',
+    'Seamlessly synchronize Odoo with Hash Studio for integrated business solutions.':
+      'قم بالتزامن السلس بين Odoo و Hash Studio للحصول على حلول تجارية متكاملة.',
+    'Customise your forecasting methods': 'تخصيص أساليب التنبؤ',
+    'Customize and refine your forecasting methods to align perfectly with your unique business needs.':
+      'قم بتخصيص وتحسين أساليب التنبؤ الخاصة بك لتتناسب تمامًا مع احتياجات عملك الفريدة.',
+    'Start optimising your inventory': 'ابدأ في تحسين إدارة المخزون',
+    'Start optimizing your inventory now to streamline operations, reduce costs, and maximize profitability.':
+      'ابدأ في تحسين إدارة المخزون الآن لتبسيط العمليات، وتقليل التكاليف، وزيادة الربحية.',
+
+    'Our Business Modules': 'وحدات أعمالنا',
+    'Business Modules in one Place': 'وحدات الأعمال في مكان واحد',
+    'Functioning seamlessly, whether individually or concurrently—utilize all features':
+      'تعمل بسلاسة، سواء بشكل فردي أو بالتزامن - استخدم جميع الميزات',
+    'or activate and deactivate as needed to fit your business requirements':
+      'أو قم بتفعيل وإلغاء التفعيل حسب الحاجة لتناسب متطلبات عملك',
+
+    'Sales & Purchase': 'المبيعات والشراء',
+    'Invoicing, sales commission management, insurance management, promotional offers':
+      'الفواتير، إدارة عمولات المبيعات، إدارة التأمين، العروض الترويجية',
+
+    Inventory: 'المخزون',
+    'Stock Tracking, Barcode, Purchases, Suppliers, Warehouses,Stocktaking, Requisitions':
+      'تتبع المخزون، الرموز الشريطية، المشتريات، الموردين، المستودعات، جرد المخزون، الطلبات',
+
+    'Human Resourse': 'الموارد البشرية',
+    'Employee database, payroll, contracts, attendance, multi-shifts, requests, and loans.':
+      'قاعدة بيانات الموظفين، الرواتب، العقود، الحضور، الشifts المتعددة، الطلبات، والقروض',
+
+    Manufacturing: 'التصنيع',
+    'Manufacturing converts raw materials into finished products through various processes.':
+      'يقوم التصنيع بتحويل المواد الخام إلى منتجات نهائية من خلال عمليات مختلفة',
+
+    'Point Of Sale': 'نقطة البيع',
+    'systems streamline transactions, manage inventory, and provide sales analytics.':
+      'أنظمة تسهيل المعاملات، إدارة المخزون، وتوفير تحليلات المبيعات',
+
+    Accounting: 'المحاسبة',
+    'Expenses, tax, treasuries, cheque cycle, accounts, cost centers, and financial reports.':
+      'المصاريف، الضرائب، الخزائن، دورة الشيكات، الحسابات، مراكز التكلفة، والتقارير المالية',
+
+    'Projects & Tasks': 'المشاريع والمهام',
+    'Manage projects and tasks by assigning responsibilities, setting deadlines, and tracking progress.':
+      'إدارة المشاريع والمهام من خلال تعيين المسؤوليات، تحديد المواعيد النهائية، وتتبع التقدم',
+
+    'Employee Management': 'إدارة الموظفين',
+    'Manage employees by overseeing hiring, performance, payroll, and development for optimal productivity and engagement.':
+      'إدارة الموظفين من خلال الإشراف على التوظيف، الأداء، الرواتب، والتطوير لتحقيق الإنتاجية والمشاركة المثلى',
+
+    Subscriptions: 'الاشتراكات',
+    'Manage subscriptions by tracking plans, payment details, renewal dates, and customer information for seamless billing and service delivery.':
+      'إدارة الاشتراكات من خلال تتبع الخطط، تفاصيل الدفع، تواريخ التجديد، ومعلومات العملاء لفوترة سلسة وتقديم الخدمة',
+
+    'Order Mangement': 'إدارة الطلبات',
+    'Add products with SKUs, organize by category, set pricing, inventory with stock and tracking options.':
+      'إضافة المنتجات برموز SKU، تنظيمها حسب الفئة، تحديد الأسعار، والمخزون مع خيارات التتبع',
+
+    'Client & Suppliers': 'العملاء والموردين',
+    'Maintain a database of suppliers and clients, track balances, and generate detailed transaction statements.':
+      'الحفاظ على قاعدة بيانات الموردين والعملاء، تتبع الأرصدة، وتوليد بيانات تفصيلية للمعاملات',
+
+    Expenses: 'المصاريف',
+    'Control your finances and manage expenses with Systems real-time tracking and insightful reports.':
+      'التحكم في شؤونك المالية وإدارة المصاريف من خلال التتبع في الوقت الفعلي والتقارير المفيدة',
   },
 }
 

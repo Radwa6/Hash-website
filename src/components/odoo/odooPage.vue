@@ -436,13 +436,21 @@
     <!-- ======= Integration Section ======= -->
     <div class="Integration p-5">
       <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
-        ODOO INTRGRATION
+        {{ $t('ODOO INTRGRATION') }}
       </p>
-      <h1>Optimise inventory management</h1>
+      <h1>{{ $t('Optimise inventory management') }}</h1>
       <p>
-        Our platform helps your business in managing expenses. These are some of
-        the <br />
-        reasons why you should use our platform in managing business finances.
+        {{
+          $t(
+            'Our platform helps your business in managing expenses. These are some of the'
+          )
+        }}
+        <br />
+        {{
+          $t(
+            'reasons why you should use our platform in managing business finances.'
+          )
+        }}
       </p>
       <div
         class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
@@ -484,13 +492,16 @@
                   />
                 </svg>
               </div>
-              <div class="pl-4 pr-4 text-start">
+              <div class="pl-4 pr-4">
                 <h5 style="font-weight: bold">
-                  Synchronise Odoo & Hash Studio
+                  {{ $t('Synchronise Odoo & Hash Studio') }}
                 </h5>
                 <p>
-                  Seamlessly synchronize Odoo with Hash Studio for integrated
-                  business solutions.
+                  {{
+                    $t(
+                      'Seamlessly synchronize Odoo with Hash Studio for integrated business solutions.'
+                    )
+                  }}
                 </p>
               </div>
             </div>
@@ -530,11 +541,14 @@
               </div>
               <div class="pl-4 pr-4">
                 <h5 style="font-weight: bold">
-                  Customise your forecasting methods
+                  {{ $t('Customise your forecasting methods') }}
                 </h5>
                 <p>
-                  Customize and refine your forecasting methods to align
-                  perfectly with your unique business needs.
+                  {{
+                    $t(
+                      'Customize and refine your forecasting methods to align perfectly with your unique business needs.'
+                    )
+                  }}
                 </p>
               </div>
             </div>
@@ -574,11 +588,14 @@
               </div>
               <div class="pl-4 pr-4">
                 <h5 style="font-weight: bold">
-                  Start optimising your inventory
+                  {{ $t('Start optimising your inventory') }}
                 </h5>
                 <p>
-                  Start optimizing your inventory now to streamline operations,
-                  reduce costs, and maximize profitability.
+                  {{
+                    $t(
+                      'Start optimizing your inventory now to streamline operations, reduce costs, and maximize profitability.'
+                    )
+                  }}
                 </p>
               </div>
             </div>
@@ -600,13 +617,21 @@
     <!-- ======= Modules Section ======= -->
     <div class="Modules p-5">
       <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
-        Our Business Modules
+        {{ $t('Our Business Modules') }}
       </p>
-      <h1 style="color: #fff">Business Modules in one Place</h1>
+      <h1 style="color: #fff">{{ $t('Business Modules in one Place') }}</h1>
       <p>
-        Functioning seamlessly, whether individually or concurrently—utilize all
-        features,<br />
-        or activate and deactivate as needed to fit your business requirements.
+        {{
+          $t(
+            'Functioning seamlessly, whether individually or concurrently—utilize all features,'
+          )
+        }}
+        <br />
+        {{
+          $t(
+            'or activate and deactivate as needed to fit your business requirements.'
+          )
+        }}
       </p>
       <div class="row" style="color: #fff">
         <div class="col-4 pt-5">
@@ -651,10 +676,13 @@
               </clipPath>
             </defs>
           </svg>
-          <h4 class="mt-4">Sales & Purchase</h4>
+          <h4 class="mt-4">{{ $t('Sales & Purchase') }}</h4>
           <p style="color: #ffffff">
-            Invoicing, sales commission management, insurance management,
-            promotional offers
+            {{
+              $t(
+                'Invoicing, sales commission management, insurance management, promotional offers'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -730,10 +758,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Inventory</h4>
+          <h4 class="mt-4">{{ $t('Inventory') }}</h4>
           <p style="color: #ffffff">
-            Stock Tracking, Barcode, Purchases, Suppliers, Warehouses,
-            Stocktaking, Requisitions
+            {{
+              $t(
+                'Stock Tracking, Barcode, Purchases, Suppliers, Warehouses,Stocktaking, Requisitions'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -779,10 +810,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Human Resourse</h4>
+          <h4 class="mt-4">{{ $t('Human Resourse') }}</h4>
           <p style="color: #ffffff">
-            Employee database, payroll, contracts, attendance, multi-shifts,
-            requests, and loans.
+            {{
+              $t(
+                'Employee database, payroll, contracts, attendance, multi-shifts, requests, and loans.'
+              )
+            }}
           </p>
         </div>
 
@@ -821,10 +855,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Manufacturing</h4>
+          <h4 class="mt-4">{{ $t('Manufacturing') }}</h4>
           <p style="color: #ffffff">
-            Manufacturing converts raw materials into finished products through
-            various processes.
+            {{
+              $t(
+                'Manufacturing converts raw materials into finished products through various processes.'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -898,10 +935,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Point Of Sale</h4>
+          <h4 class="mt-4">{{ $t('Point Of Sale') }}</h4>
           <p style="color: #ffffff">
-            systems streamline transactions, manage inventory, and provide sales
-            analytics.
+            {{
+              $t(
+                'systems streamline transactions, manage inventory, and provide sales analytics.'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -947,10 +987,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Accounting</h4>
+          <h4 class="mt-4">{{ $t('Accounting') }}</h4>
           <p style="color: #ffffff">
-            Expenses, tax, treasuries, cheque cycle, accounts, cost centers, and
-            financial reports.
+            {{
+              $t(
+                'Expenses, tax, treasuries, cheque cycle, accounts, cost centers, and financial reports.'
+              )
+            }}
           </p>
         </div>
 
@@ -984,10 +1027,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Projects & Tasks</h4>
+          <h4 class="mt-4">{{ $t('Projects & Tasks') }}</h4>
           <p style="color: #ffffff">
-            Manage projects and tasks by assigning responsibilities, setting
-            deadlines, and tracking progress.
+            {{
+              $t(
+                'Manage projects and tasks by assigning responsibilities, setting deadlines, and tracking progress.'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -1009,10 +1055,13 @@
             />
           </svg>
 
-          <h4 class="mt-4">Employee Management</h4>
+          <h4 class="mt-4">{{ $t('Employee Management') }}</h4>
           <p style="color: #ffffff">
-            Manage employees by overseeing hiring, performance, payroll, and
-            development for optimal productivity and engagement.
+            {{
+              $t(
+                'Manage employees by overseeing hiring, performance, payroll, and development for optimal productivity and engagement.'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -1033,11 +1082,13 @@
             />
           </svg>
 
-          <h4 class="mt-4">Subscriptions</h4>
+          <h4 class="mt-4">{{ $t('Subscriptions') }}</h4>
           <p style="color: #ffffff">
-            Manage subscriptions by tracking plans, payment details, renewal
-            dates, and customer information for seamless billing and service
-            delivery.
+            {{
+              $t(
+                'Manage subscriptions by tracking plans, payment details, renewal dates, and customer information for seamless billing and service delivery.'
+              )
+            }}
           </p>
         </div>
 
@@ -1092,10 +1143,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Order Mangement</h4>
+          <h4 class="mt-4">{{ $t('Order Mangement') }}</h4>
           <p style="color: #ffffff">
-            Add products with SKUs, organize by category, set pricing, inventory
-            with stock and tracking options.
+            {{
+              $t(
+                'Add products with SKUs, organize by category, set pricing, inventory with stock and tracking options.'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -1148,10 +1202,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Client & Suppliers</h4>
+          <h4 class="mt-4">{{ $t('Client & Suppliers') }}</h4>
           <p style="color: #ffffff">
-            Maintain a database of suppliers and clients, track balances, and
-            generate detailed transaction statements.
+            {{
+              $t(
+                'Maintain a database of suppliers and clients, track balances, and generate detailed transaction statements.'
+              )
+            }}
           </p>
         </div>
         <div class="col-4 pt-5">
@@ -1219,10 +1276,13 @@
             </defs>
           </svg>
 
-          <h4 class="mt-4">Expenses</h4>
+          <h4 class="mt-4">{{ $t('Expenses') }}</h4>
           <p style="color: #ffffff">
-            Control your finances and manage expenses with System's real-time
-            tracking and insightful reports.
+            {{
+              $t(
+                'Control your finances and manage expenses with Systems real-time tracking and insightful reports.'
+              )
+            }}
           </p>
         </div>
       </div>
