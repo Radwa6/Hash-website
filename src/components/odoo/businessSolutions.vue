@@ -4,7 +4,7 @@
       class="titles-container d-flex gap-3 align-items-center justify-content-center pt-5"
     >
       <button
-        v-for="(title, index) in titles"
+        v-for="(title, index) in $t('titles')"
         :key="index"
         @click="activeIndex = index"
         :class="{ active: activeIndex === index }"

@@ -1294,9 +1294,9 @@
     <!-- ======= Solutions Section ======= -->
     <div class="Solutions p-5">
       <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
-        Discover Our Modules
+        {{ $t('Discover Our Modules') }}
       </p>
-      <h1>Consolidated Business Solutions</h1>
+      <h1>{{ $t('Consolidated Business Solutions') }}</h1>
 
       <businessSolutions />
     </div>
@@ -1305,12 +1305,15 @@
     <!-- ======= feedback Section ======= -->
     <div class="feedback p-5">
       <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
-        WHAT THEY SAY
+        {{ $t('WHAT THEY SAY') }}
       </p>
-      <h1>Our Users Share Their Experiences</h1>
+      <h1>{{ $t('Our Users Share Their Experiences') }}</h1>
       <p>
-        Here are some testimonials from our users after working with us to
-        manage their business expense
+        {{
+          $t(
+            'Here are some testimonials from our users after working with us to manage their business expense'
+          )
+        }}
       </p>
       <odooFeadback />
     </div>

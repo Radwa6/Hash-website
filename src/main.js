@@ -254,6 +254,13 @@ const messages = {
     Expenses: 'Expenses',
     'Control your finances and manage expenses with Systems real-time tracking and insightful reports.':
       'Control your finances and manage expenses with Systems real-time tracking and insightful reports.',
+
+    'Discover Our Modules': 'Discover Our Modules',
+    'Consolidated Business Solutions': 'Consolidated Business Solutions',
+    'WHAT THEY SAY': 'WHAT THEY SAY',
+    'Our Users Share Their Experiences': 'Our Users Share Their Experiences',
+    'Here are some testimonials from our users after working with us to manage their business expense':
+      'Here are some testimonials from our users after working with us to manage their business expense',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -514,6 +521,22 @@ const messages = {
     Expenses: 'المصاريف',
     'Control your finances and manage expenses with Systems real-time tracking and insightful reports.':
       'التحكم في شؤونك المالية وإدارة المصاريف من خلال التتبع في الوقت الفعلي والتقارير المفيدة',
+
+    'Discover Our Modules': 'استكشف وحداتنا',
+    'Consolidated Business Solutions': 'حلول أعمال موحدة',
+    'WHAT THEY SAY': 'ماذا يقولون',
+    'Our Users Share Their Experiences': 'مستخدمونا يشاركون تجاربهم',
+    'Here are some testimonials from our users after working with us to manage their business expense':
+      'إليك بعض الشهادات من مستخدمينا بعد العمل معنا لإدارة نفقات أعمالهم',
+    'Human Resource': 'الموارد البشرية',
+    titles: [
+      'الموارد البشرية',
+      'المبيعات والمشتريات',
+      'التصنيع',
+      'المحاسبة',
+      'نقاط البيع',
+      'إدارة المخزون',
+    ],
   },
 }
 
