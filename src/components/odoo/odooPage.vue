@@ -93,9 +93,9 @@
               </p>
             </div>
 
-            <div class="card-body mt-4">
+            <div class="card-body mt-3">
               <h5 class="card-title">{{ $t('Free & Quick Support') }}</h5>
-              <p class="card-text mt-5">
+              <p class="card-text mt-4">
                 {{
                   $t(
                     'Hash is hosted on secure servers, with 256-bit SSL encryption technology, so is your data in full, private, protected, with constant auto-backups for increased security.'
@@ -138,9 +138,9 @@
               </p>
             </div>
 
-            <div class="card-body mt-4">
+            <div class="card-body mt-3">
               <h5 class="card-title">{{ $t('Personalized Experience') }}</h5>
-              <p class="card-text mt-5">
+              <p class="card-text mt-4">
                 {{
                   $t(
                     'Curated with personalization prioritized, create from scratch or find fully customizable templates, field entries, report filtering, customizable system.'
@@ -180,9 +180,9 @@
               </p>
             </div>
 
-            <div class="card-body mt-4">
+            <div class="card-body mt-3">
               <h5 class="card-title">{{ $t('Safe & Secure') }}</h5>
-              <p class="card-text mt-5">
+              <p class="card-text mt-4">
                 {{
                   $t(
                     'Hash is hosted on secure servers, with 256-bit SSL encryption technology, so is your data in full, private, protected, with constant auto-backups for increased security.'
@@ -1060,6 +1060,22 @@ p {
   h1 {
     font-size: 18px;
     font-weight: bold;
+  }
+  h5 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .Support span {
+    width: 24px !important;
+    height: 24px !important;
+  }
+  .Support {
+    padding: 5px !important;
+    margin: 0 !important;
+  }
+  .Support svg {
+    width: 24px !important;
+    height: 24px !important;
   }
 }
 </style>

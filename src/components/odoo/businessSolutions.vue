@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div
-      class="titles-container d-flex gap-3 align-items-center justify-content-center pt-5"
+      class="titles-container d-flex gap-3 align-items-center justify-content-center pt-4"
     >
       <button
         v-for="(title, index) in $t('titles')"
@@ -15,12 +15,12 @@
 
     <div class="content-container mt-4">
       <div v-if="activeIndex === 0">
-        <div class="row p-5" style="margin: 0 6%">
+        <div class="row" style="margin: 0 6%">
           <div
             class="row pt-5 pb-5 d-flex align-items-center justify-content-center"
           >
             <div
-              class="col-6 p-4"
+              class="col-lg-6 col-12 p-2"
               data-aos="fade-right"
               data-aos-duration="2000"
               style="text-align: start"
@@ -107,7 +107,11 @@
                 </button>
               </router-link>
             </div>
-            <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+            <div
+              class="col-lg-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <img :src="imageUrl1" alt="image" class="img-fluid" />
             </div>
           </div>
@@ -115,11 +119,15 @@
           <div
             class="row pt-5 pb-5 d-flex align-items-center justify-content-center"
           >
-            <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+            <div
+              class="col-lg-6 col-12"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <img :src="imageUrl1" alt="image" class="img-fluid" />
             </div>
             <div
-              class="col-6 p-4"
+              class="col-lg-6 col-12 p-2"
               data-aos="fade-right"
               data-aos-duration="2000"
               style="text-align: start"
@@ -520,5 +528,49 @@ button.active {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 10px !important;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .titles-container button {
+    font-size: 6px;
+    padding: 5px !important;
+    height: 30px;
+  }
+  button {
+    font-size: 6px !important;
+  }
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 10px !important;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .titles-container button {
+    font-size: 6px;
+    padding: 5px !important;
+    height: 30px;
+  }
+  button {
+    font-size: 6px !important;
+  }
 }
 </style>

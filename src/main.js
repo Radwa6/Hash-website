@@ -223,7 +223,7 @@ const messages = {
       'Invoicing, sales commission management, insurance management, promotional offers',
     Inventory: 'Inventory',
     'Stock Tracking, Barcode, Purchases, Suppliers, Warehouses,Stocktaking, Requisitions':
-      'Stock Tracking, Barcode, Purchases, Suppliers, Warehouses,Stocktaking, Requisitions',
+      'Stock Tracking, Barcode, Purchases, Suppliers, Warehouses, Stocktaking, Requisitions',
     'Human Resourse': 'Human Resourse',
     'Employee database, payroll, contracts, attendance, multi-shifts, requests, and loans.':
       'Employee database, payroll, contracts, attendance, multi-shifts, requests, and loans.',
