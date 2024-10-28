@@ -29,7 +29,7 @@
                 {{ $t('Employee Management') }}
               </p>
               <h1 style="font-weight: bold" class="mt-2 mb-2">
-                {{ $t('Best System for superior client ') }}
+                {{ $t('Best System for superior client') }}
                 <span style="color: #df8317">{{ $t('care!') }}</span>
               </h1>
               <p>
@@ -129,7 +129,7 @@
               </p>
               <h1 style="font-weight: bold" class="mt-2 mb-2">
                 {{ $t('Oversee employee project') }}
-                <span style="color: #df8317">{{ $t(' management!') }}</span>
+                <span style="color: #df8317">{{ $t('management!') }}</span>
               </h1>
               <p>
                 <svg
@@ -224,7 +224,7 @@
               {{ $t('Sale & Purchase Management') }}
             </p>
             <h1 style="font-weight: bold" class="mt-2 mb-2">
-              {{ $t('Monitor your sales & purchases ') }}
+              {{ $t('Monitor your sales & purchases') }}
               <span style="color: #df8317">{{ $t('instantly!') }}</span>
             </h1>
 
@@ -262,7 +262,7 @@
             </p>
             <h1 style="font-weight: bold" class="mt-2 mb-2">
               {{ $t('Keep your manufacturing data updated') }}
-              <span style="color: #df8317">{{ $t(' live !') }}</span>
+              <span style="color: #df8317">{{ $t('live !') }}</span>
             </h1>
 
             <p>
@@ -298,8 +298,8 @@
               {{ $t('Accounting Management') }}
             </p>
             <h1 style="font-weight: bold" class="mt-2 mb-2">
-              {{ $t('Get live visibility of your accounting ') }}
-              <span style="color: #df8317">{{ $t(' records!') }}</span>
+              {{ $t('Get live visibility of your accounting') }}
+              <span style="color: #df8317">{{ $t('records!') }}</span>
             </h1>
 
             <p>
@@ -335,7 +335,7 @@
               {{ $t('Point Of Sale System') }}
             </p>
             <h1 style="font-weight: bold" class="mt-2 mb-2">
-              {{ $t('Keep tabs on your POS in ') }}
+              {{ $t('Keep tabs on your POS in') }}
               <span style="color: #df8317">{{ $t('real-time!') }}</span>
             </h1>
             <p>
@@ -433,13 +433,13 @@
               {{ $t('Inventory Management') }}
             </p>
             <h1 style="font-weight: bold" class="mt-2 mb-2">
-              {{ $t('Stay updated on inventory levels ') }}
+              {{ $t('Stay updated on inventory levels') }}
               <span style="color: #df8317">{{ $t('continuously!') }}</span>
             </h1>
             <p>
               {{
                 $t(
-                  ' Inventory Management helps you organize products, track stock in real-time, manage multiple warehouses, send purchase orders, and assign staff—all with easy, professional tools.'
+                  'Inventory Management helps you organize products, track stock in real-time, manage multiple warehouses, send purchase orders, and assign staff—all with easy, professional tools.'
                 )
               }}
             </p>

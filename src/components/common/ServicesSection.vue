@@ -14,12 +14,12 @@
     </div>
 
     <div class="col-12 mb-5" data-aos="fade-up" data-aos-duration="2000">
-      <div class="ml-5 mr-5" style="margin-top: -10%">
+      <div style="margin: -10% 3% 0">
         <div
           class="card-wrapper d-flex justify-content-around align-items-stretch"
         >
           <div
-            class="card w-100 m-3"
+            class="card w-100 m-2"
             v-for="(card, index) in slides[0].cards"
             :key="index"
             style="width: 18rem; text-align: start"
@@ -312,6 +312,11 @@ h5 {
   .Offering p {
     font-size: 10px;
     text-align: start;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 16px;
   }
 }
 </style>

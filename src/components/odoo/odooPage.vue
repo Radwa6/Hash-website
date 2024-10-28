@@ -1318,7 +1318,10 @@
         customized solutions.
       </p>
 
-      <div class="d-flex justify-content-center mt-5">
+      <div
+        class="d-flex justify-content-center mt-5"
+        style="text-align: left; direction: ltr"
+      >
         <div
           class="big-dotted-border d-flex flex-column justify-content-center align-items-center"
           style="

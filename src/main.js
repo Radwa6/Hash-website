@@ -261,6 +261,74 @@ const messages = {
     'Our Users Share Their Experiences': 'Our Users Share Their Experiences',
     'Here are some testimonials from our users after working with us to manage their business expense':
       'Here are some testimonials from our users after working with us to manage their business expense',
+    titles: [
+      'Human Resource',
+      'Sales & Purchases',
+      'Manufacturing',
+      'Accounting',
+      'Point Of Sale',
+      'Inventory Management',
+    ],
+    'Best System for superior client': 'Best System for superior client',
+    'care!': 'care!',
+    'Oversee daily team task updates': 'Oversee daily team task updates',
+    'Skillful resolution of employee cases':
+      'Skillful resolution of employee cases',
+    'File requests for leave and approvals':
+      'File requests for leave and approvals',
+    'Projects Management': 'Projects Management',
+    'Oversee employee project': 'Oversee employee project',
+    'management!': 'management!',
+    'Administer projects for employees': 'Administer projects for employees',
+    'Attendance &Employees Management': 'Attendance &Employees Management',
+    'Managing work hours and shift distribution':
+      'Managing work hours and shift distribution',
+
+    'Sale & Purchase Management': 'Sale & Purchase Management',
+    'Monitor your sales & purchases': 'Monitor your sales & purchases',
+    'instantly!': 'instantly!',
+    'Manage your Invoices with Hash Cloud ERP—track stock, issue invoices, manage payments, and get detailed reports on purchases , Sales and suppliers.':
+      'Manage your Invoices with Hash Cloud ERP—track stock, issue invoices, manage payments, and get detailed reports on purchases , Sales and suppliers.',
+    'Start Now': 'Start Now',
+
+    'Manfacturing Management': 'Manfacturing Management',
+    'Keep your manufacturing data updated':
+      'Keep your manufacturing data updated',
+    'live !': 'live !',
+    'Track manufacturing revenues, costs, and profits; manage production and inventory; and generate reports—all without needing an accountant.':
+      'Track manufacturing revenues, costs, and profits; manage production and inventory; and generate reports—all without needing an accountant.',
+
+    'Accounting Management': 'Accounting Management',
+    'Get live visibility of your accounting':
+      'Get live visibility of your accounting',
+    'records!': 'records!',
+    'Track revenues, expenses, and profits; manage payments and invoices; and generate reports—all without needing an accountant.':
+      'Track revenues, expenses, and profits; manage payments and invoices; and generate reports—all without needing an accountant.',
+
+    'Point Of Sale System': 'Point Of Sale System',
+    'Keep tabs on your POS in': 'Keep tabs on your POS in',
+    'real-time!': 'real-time!',
+    'Supports units, barcode, and serial number':
+      'Supports units, barcode, and serial number',
+    'Printers, barcode , scales, and cash drawers':
+      'Printers, barcode , scales, and cash drawers',
+    'Compatible with all devices and operation systems':
+      'Compatible with all devices and operation systems',
+
+    'Inventory Management': 'Inventory Management',
+    'Stay updated on inventory levels': 'Stay updated on inventory levels',
+    'continuously!': 'continuously!',
+    'Inventory Management helps you organize products, track stock in real-time, manage multiple warehouses, send purchase orders, and assign staff—all with easy, professional tools.':
+      'Inventory Management helps you organize products, track stock in real-time, manage multiple warehouses, send purchase orders, and assign staff—all with easy, professional tools.',
+
+    'I never imagined that managing my business expenses could be so easy with hash team! I have been using this platform for three months, and I am still loving it':
+      'I never imagined that managing my business expenses could be so easy with hash team! I have been using this platform for three months, and I am still loving it',
+
+    'I have been using the system to manage my business expenses for just one month, and the results have been incredibly satisfying! My organized than before. Thank you to the entire team!':
+      'I have been using the system to manage my business expenses for just one month, and the results have been incredibly satisfying! My organized than before. Thank you to the entire team!',
+
+    'This is simply the best! I didn’t realize there was a platform like this to help manage business expenses. I highly recommend it for anyone with a large business!':
+      'This is simply the best! I didn’t realize there was a platform like this to help manage business expenses. I highly recommend it for anyone with a large business!',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -537,6 +605,62 @@ const messages = {
       'نقاط البيع',
       'إدارة المخزون',
     ],
+    'Best System for superior client': 'أفضل نظام لخدمة العملاء المتميزين',
+    'care!': 'اهتمام!',
+    'Oversee daily team task updates':
+      'الإشراف على تحديثات مهام الفريق اليومية',
+    'Skillful resolution of employee cases': 'حل ماهر لحالات الموظفين',
+    'File requests for leave and approvals': 'تقديم طلبات الإجازات والموافقات',
+    'Projects Management': 'إدارة المشاريع',
+    'Oversee employee project': 'الإشراف على مشاريع الموظفين',
+    'management!': 'إدارة!',
+    'Administer projects for employees': 'إدارة المشاريع للموظفين',
+    'Attendance &Employees Management': 'إدارة الحضور والموظفين',
+    'Managing work hours and shift distribution':
+      'إدارة ساعات العمل وتوزيع الورديات',
+
+    'Sale & Purchase Management': 'إدارة المبيعات والمشتريات',
+    'Monitor your sales & purchases': 'راقب مبيعاتك ومشترياتك',
+    'instantly!': 'فوراً!',
+    'Manage your Invoices with Hash Cloud ERP—track stock, issue invoices, manage payments, and get detailed reports on purchases , Sales and suppliers.':
+      'قم بإدارة فواتيرك باستخدام Hash Cloud ERP—تتبع المخزون، إصدار الفواتير، إدارة المدفوعات، واحصل على تقارير مفصلة عن المشتريات والمبيعات والموردين.',
+    'Start Now': 'ابدأ الآن',
+    'Manfacturing Management': 'إدارة التصنيع',
+    'Keep your manufacturing data updated':
+      'حافظ على تحديث بيانات التصنيع الخاصة بك',
+    'live !': 'مباشرة!',
+    'Track manufacturing revenues, costs, and profits; manage production and inventory; and generate reports—all without needing an accountant.':
+      'تتبع إيرادات التصنيع وتكاليفه وأرباحه؛ قم بإدارة الإنتاج والمخزون؛ وولّد التقارير—وكل ذلك دون الحاجة إلى محاسب.',
+
+    'Accounting Management': 'إدارة الحسابات',
+    'Get live visibility of your accounting': 'احصل على رؤية فورية لحساباتك',
+    'records!': 'السجلات!',
+    'Track revenues, expenses, and profits; manage payments and invoices; and generate reports—all without needing an accountant.':
+      'تتبع الإيرادات والمصروفات والأرباح؛ قم بإدارة المدفوعات والفواتير؛ وولّد التقارير—وكل ذلك دون الحاجة إلى محاسب.',
+
+    'Point Of Sale System': 'نظام نقاط البيع',
+    'Keep tabs on your POS in': 'تابع نظام نقاط البيع الخاص بك في',
+    'real-time!': 'الوقت الفعلي!',
+    'Supports units, barcode, and serial number':
+      'يدعم الوحدات، الباركود، والأرقام التسلسلية',
+    'Printers, barcode , scales, and cash drawers':
+      'الطابعات، الباركود، الميزان، وأدراج النقود',
+    'Compatible with all devices and operation systems':
+      'متوافق مع جميع الأجهزة وأنظمة التشغيل',
+
+    'Inventory Management': 'إدارة المخزون',
+    'Stay updated on inventory levels': 'ابقَ على اطلاع بمستويات المخزون',
+    'continuously!': 'بشكل مستمر!',
+    'Inventory Management helps you organize products, track stock in real-time, manage multiple warehouses, send purchase orders, and assign staff—all with easy, professional tools.':
+      'تساعدك إدارة المخزون في تنظيم المنتجات، وتتبع المخزون في الوقت الفعلي، وإدارة مستودعات متعددة، وإرسال أوامر الشراء، وتعيين الموظفين—وكل ذلك باستخدام أدوات سهلة واحترافية.',
+    'I never imagined that managing my business expenses could be so easy with hash team! I have been using this platform for three months, and I am still loving it':
+      'لم أكن أتخيل أبدًا أن إدارة نفقاتي التجارية يمكن أن تكون بهذه السهولة مع فريق هاش! لقد كنت أستخدم هذه المنصة لمدة ثلاثة أشهر، وما زلت أحبها.',
+
+    'I have been using the system to manage my business expenses for just one month, and the results have been incredibly satisfying! My organized than before. Thank you to the entire team!':
+      'لقد كنت أستخدم النظام لإدارة نفقاتي التجارية منذ شهر واحد فقط، وكانت النتائج مرضية للغاية! أصبحت أموالي أكثر تنظيمًا من قبل. شكرًا للفريق بأكمله!',
+
+    'This is simply the best! I didn’t realize there was a platform like this to help manage business expenses. I highly recommend it for anyone with a large business!':
+      'هذا ببساطة الأفضل! لم أكن أدرك أن هناك منصة مثل هذه تساعد في إدارة النفقات التجارية. أوصي بشدة بها لأي شخص لديه عمل كبير!',
   },
 }
 
