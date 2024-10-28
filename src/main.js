@@ -329,6 +329,23 @@ const messages = {
 
     'This is simply the best! I didn’t realize there was a platform like this to help manage business expenses. I highly recommend it for anyone with a large business!':
       'This is simply the best! I didn’t realize there was a platform like this to help manage business expenses. I highly recommend it for anyone with a large business!',
+
+    'Business Industries': 'Business Industries',
+    'Whatever your industry, it’s the right fit!':
+      'Whatever your industry, it’s the right fit!',
+    'Crafted to align with different industries through a wide selection of customized solutions.':
+      'Crafted to align with different industries through a wide selection of customized solutions.',
+    Constraction: 'Constraction',
+    Restaurants: 'Restaurants',
+    Companies: 'Companies',
+    Stores: 'Stores',
+    'Real State': 'Real State',
+
+    'With Us': 'Start  With Us  Now',
+    'Start Track Your Business Expenses Today':
+      'Start Track Your Business Expenses Today',
+    'Are you ready to make your business more organized? Contact With Us Now':
+      'Are you ready to make your business more organized? Contact With Us Now',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -661,6 +678,22 @@ const messages = {
 
     'This is simply the best! I didn’t realize there was a platform like this to help manage business expenses. I highly recommend it for anyone with a large business!':
       'هذا ببساطة الأفضل! لم أكن أدرك أن هناك منصة مثل هذه تساعد في إدارة النفقات التجارية. أوصي بشدة بها لأي شخص لديه عمل كبير!',
+
+    'Business Industries': 'صناعات الأعمال',
+    'Whatever your industry, it’s the right fit!':
+      'مهما كانت صناعتك، فهي الملائمة الصحيحة!',
+    'Crafted to align with different industries through a wide selection of customized solutions.':
+      'مصممة لتتناسب مع صناعات مختلفة من خلال مجموعة واسعة من الحلول المخصصة.',
+    Constraction: 'البناء',
+    Restaurants: 'مطاعم',
+    Companies: 'شركات',
+    Stores: 'متاجر',
+    'Real State': 'العقارات',
+
+    'With Us': 'ابدأ معنا الآن',
+    'Start Track Your Business Expenses Today': 'ابدأ بتتبع نفقات عملك اليوم',
+    'Are you ready to make your business more organized? Contact With Us Now':
+      'هل أنت مستعد لجعل عملك أكثر تنظيمًا؟ اتصل بنا الآن',
   },
 }
 
