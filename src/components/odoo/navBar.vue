@@ -240,17 +240,53 @@
 </template>
 
 <script>
+import ScrollReveal from 'scrollreveal'
+import Swiper from 'swiper'
+import 'swiper/swiper-bundle.min.css'
+
 export default {
   name: 'odooPage',
   components: {},
   data() {
     return {
+      isScrolled: false,
       mobileMenu: false,
       currentLanguage: 'English',
     }
   },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
 
+    const scrollReveal = ScrollReveal({
+      reset: true,
+      mobile: true,
+      easing: 'ease-in-out',
+      duration: 800,
+      delay: 0,
+    })
+    scrollReveal.reveal('.hidden-section', {
+      origin: 'bottom',
+      distance: '50%',
+      duration: 1000,
+      opacity: 0,
+    })
+
+    new Swiper('.swiper-container', {})
+
+    scrollReveal.reveal('.hidden-section', {
+      origin: 'bottom',
+      distance: '50%',
+      duration: 1000,
+      opacity: 0,
+    })
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
   methods: {
+    handleScroll() {
+      this.isScrolled = window.scrollY > 100
+    },
     toggleMenu() {
       this.mobileMenu = !this.mobileMenu
     },
