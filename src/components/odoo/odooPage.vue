@@ -41,7 +41,13 @@
             </button>
           </router-link>
         </div>
-        <img class="mt-5" src="../../assets/odoo/Dashboard.png" alt="" />
+        <div class="px-4">
+          <img
+            class="dashboard mt-5 img-fluid"
+            src="../../assets/odoo/Dashboard.png"
+            alt=""
+          />
+        </div>
       </div>
     </div>
     <!-- End Hero -->
@@ -758,7 +764,9 @@
     </div>
     <!-- End Integration -->
 
+    <!-- ======= TheFooter Section ======= -->
     <theFooter />
+    <!-- End TheFooter -->
   </div>
 </template>
 
@@ -1021,5 +1029,37 @@ p {
 .Support {
   text-align: start;
   padding: 20px;
+}
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 10px !important;
+  }
+  button {
+    font-size: 10px !important;
+  }
+  h5 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 10px !important;
+  }
+  button {
+    font-size: 10px !important;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
 }
 </style>
