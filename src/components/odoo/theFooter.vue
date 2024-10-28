@@ -250,7 +250,7 @@
       </div>
       <hr style="color: #ffffff" />
 
-      <div class="TheFooterr d-flex justify-content-between p-5 ml-3 mr-3">
+      <div class="TheFooterr d-flex justify-content-between p-2 ml-3 mr-3">
         <p style="font-weight: bold">
           {{ $t('Privacy Policcentery | Terms & Conditions | Cookie Policy') }}
         </p>
@@ -362,5 +362,15 @@ a {
 }
 li:hover {
   color: #d76d26;
+}
+@media (max-width: 480px) {
+  .TheFooterr p {
+    font-size: 10px !important;
+  }
+}
+@media (max-width: 768px) {
+  .TheFooterr p {
+    font-size: 10px !important;
+  }
 }
 </style>

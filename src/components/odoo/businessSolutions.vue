@@ -223,7 +223,7 @@
           style="margin: 0 6%"
         >
           <div
-            class="col-6 p-4"
+            class="col-lg-6 col-12 p-2"
             data-aos="fade-right"
             data-aos-duration="2000"
             style="text-align: start"
@@ -249,7 +249,11 @@
               </button>
             </router-link>
           </div>
-          <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+          <div
+            class="col-lg-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <img :src="imageUrl3" alt="image" class="img-fluid" />
           </div>
         </div>
@@ -260,7 +264,7 @@
           style="margin: 0 6%"
         >
           <div
-            class="col-6 p-4"
+            class="col-lg-6 col-12 p-2"
             data-aos="fade-right"
             data-aos-duration="2000"
             style="text-align: start"
@@ -286,7 +290,11 @@
               </button>
             </router-link>
           </div>
-          <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+          <div
+            class="col-lg-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <img :src="imageUrl4" alt="image" class="img-fluid" />
           </div>
         </div>
@@ -297,7 +305,7 @@
           style="margin: 0 6%"
         >
           <div
-            class="col-6 p-4"
+            class="col-lg-6 col-12 p-2"
             data-aos="fade-right"
             data-aos-duration="2000"
             style="text-align: start"
@@ -323,7 +331,11 @@
               </button>
             </router-link>
           </div>
-          <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+          <div
+            class="col-lg-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <img :src="imageUrl5" alt="image" class="img-fluid" />
           </div>
         </div>
@@ -334,7 +346,7 @@
           style="margin: 0 6%"
         >
           <div
-            class="col-6 p-4"
+            class="col-lg-6 col-12 p-2"
             data-aos="fade-right"
             data-aos-duration="2000"
             style="text-align: start"
@@ -421,7 +433,11 @@
               </button>
             </router-link>
           </div>
-          <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+          <div
+            class="col-lg-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <img :src="imageUrl6" alt="image" class="img-fluid" />
           </div>
         </div>
@@ -432,7 +448,7 @@
           style="margin: 0 6%"
         >
           <div
-            class="col-6 p-4"
+            class="col-lg-6 col-12 p-2"
             data-aos="fade-right"
             data-aos-duration="2000"
             style="text-align: start"
@@ -458,7 +474,11 @@
               </button>
             </router-link>
           </div>
-          <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
+          <div
+            class="col-lg-6 col-12"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <img :src="imageUrl7" alt="image" class="img-fluid" />
           </div>
         </div>
