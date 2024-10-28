@@ -336,9 +336,9 @@ const messages = {
     'Crafted to align with different industries through a wide selection of customized solutions.':
       'Crafted to align with different industries through a wide selection of customized solutions.',
     Constraction: 'Constraction',
-    Restaurants: 'Restaurants',
+    E_commerce: 'E_commerce',
     Companies: 'Companies',
-    Stores: 'Stores',
+    Factories: 'Factories',
     'Real State': 'Real State',
 
     'With Us': 'Start  With Us  Now',
@@ -346,6 +346,21 @@ const messages = {
       'Start Track Your Business Expenses Today',
     'Are you ready to make your business more organized? Contact With Us Now':
       'Are you ready to make your business more organized? Contact With Us Now',
+
+    'Manage your business—sales, invoicing, accounting, clients, workforce, inventory, and operations—all in one place':
+      'Manage your business—sales, invoicing, accounting, clients, workforce, inventory, and operations—all in one place',
+    'Business Modules': 'Business Modules',
+    'Odoo Integration': 'Odoo Integration',
+    'Client Feedback': 'Client Feedback',
+    'Sales & Purshace': 'Sales & Purshace',
+    'Follow Us': 'Follow Us',
+    LinkedIn: 'LinkedIn',
+    Twitter: 'Twitter',
+    Instagram: 'Instagram',
+    Facebook: 'Facebook',
+    YouTube: 'YouTube',
+    'Privacy Policcentery | Terms & Conditions | Cookie Policy':
+      'Privacy Policcentery | Terms & Conditions | Cookie Policy',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -685,15 +700,28 @@ const messages = {
     'Crafted to align with different industries through a wide selection of customized solutions.':
       'مصممة لتتناسب مع صناعات مختلفة من خلال مجموعة واسعة من الحلول المخصصة.',
     Constraction: 'البناء',
-    Restaurants: 'مطاعم',
+    E_commerce: 'التجارة الإلكترونية',
     Companies: 'شركات',
-    Stores: 'متاجر',
+    Factories: 'المصانع',
     'Real State': 'العقارات',
 
     'With Us': 'ابدأ معنا الآن',
     'Start Track Your Business Expenses Today': 'ابدأ بتتبع نفقات عملك اليوم',
     'Are you ready to make your business more organized? Contact With Us Now':
       'هل أنت مستعد لجعل عملك أكثر تنظيمًا؟ اتصل بنا الآن',
+    'Manage your business—sales, invoicing, accounting, clients, workforce, inventory, and operations—all in one place':
+      'إدارة أعمالك - المبيعات، والفوترة، والمحاسبة، والعملاء، والقوى العاملة، والمخزون، والعمليات - كل ذلك في مكان واحد',
+    'Business Modules': 'وحدات الأعمال',
+    'Odoo Integration': 'تكامل أودو',
+    'Client Feedback': 'آراء العملاء',
+    'Follow Us': 'تابعنا',
+    LinkedIn: 'لينكدإن',
+    Twitter: 'تويتر',
+    Instagram: 'إنستغرام',
+    Facebook: 'فيسبوك',
+    YouTube: 'يوتيوب',
+    'Privacy Policcentery | Terms & Conditions | Cookie Policy':
+      'سياسة الخصوصية | الشروط والأحكام | سياسة الكوكيز',
   },
 }
 
