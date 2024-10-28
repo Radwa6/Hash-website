@@ -168,7 +168,7 @@
               <div class="menu-area" :class="{ show: mobileMenu }">
                 <ul class="m-0">
                   <router-link to="/odooPage" active-class="active-link">
-                    <li>Odoo</li>
+                    <li>{{ $t('Odoo') }}</li>
                   </router-link>
 
                   <router-link
