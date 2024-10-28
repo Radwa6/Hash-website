@@ -225,7 +225,7 @@
                       class="d-inline-flex"
                       style="white-space: nowrap; cursor: pointer"
                     >
-                      Get Demo
+                      {{ $t('Get Demo') }}
                     </button>
                   </router-link>
                 </div>

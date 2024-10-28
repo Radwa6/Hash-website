@@ -177,6 +177,8 @@ const messages = {
     //Odoooo
     Apps: 'Apps',
     Odoo: 'Odoo',
+    'Get Demo': 'Get Demo',
+
     Modules: 'Modules',
     Industries: 'Industries',
     'All your business': 'All your business',
@@ -533,6 +535,7 @@ const messages = {
     //Odoooo
     Apps: 'التطبيقات',
     Odoo: 'اودو',
+    'Get Demo': 'عرض ',
 
     Modules: 'وحدات',
     Industries: 'الصناعات',
