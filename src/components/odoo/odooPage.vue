@@ -7,7 +7,7 @@
     <!-- ======= Hero Section ======= -->
     <div
       class="hero d-flex flex-column justify-content-between"
-      style="min-height: 70vh; position: relative"
+      style="min-height: 40vh; position: relative"
     >
       <div
         class="animate__animated animate__fadeInDown mt-5 text-center"
