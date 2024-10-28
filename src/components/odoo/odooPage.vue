@@ -6,50 +6,47 @@
 
     <!-- ======= Hero Section ======= -->
     <div
-      class="hero d-flex align-items-center justify-content-center"
-      style="min-height: 70vh"
+      class="hero d-flex flex-column justify-content-between"
+      style="min-height: 70vh; position: relative"
     >
       <div
-        class="animate__animated animate__fadeInDown mt-5"
+        class="animate__animated animate__fadeInDown mt-5 text-center"
         data-il8n="task"
-        style="text-align: center"
       >
         <h1 class="mt-5">
-          {{ $t('All your business') }}
+          {{ $t('Discover the power') }}
           <br />
-          {{ $t('Operation in one place.') }}
+          {{ $t('of your business with ERP') }}
         </h1>
         <p class="mt-4">
           {{
             $t(
-              'Manage your business—sales, invoicing, accounting, clients, workforce,'
+              'Central Management - Accounts, Sales, Customers, Supply Chain, Human Resources'
             )
           }}
-
           <br />
-          {{ $t('inventory, and operations—all in one place') }}
+          {{ $t('Inventory, Production, Manufacturing, Purchasing-Reports') }}
         </p>
+
         <div class="mt-5 d-flex gap-3 justify-content-center">
           <router-link to="/">
             <button class="button d-inline-block">
               {{ $t('Get a Free Demo') }}
             </button>
           </router-link>
-          <router-link to="/" style="text-decoration: none">
-            <button style="background-color: #1a202c; color: #c3d4e9">
-              {{ $t('See Pricing') }}
-            </button>
-          </router-link>
-        </div>
-        <div class="px-4">
-          <img
-            class="dashboard mt-5 img-fluid"
-            src="../../assets/odoo/Dashboard.png"
-            alt=""
-          />
         </div>
       </div>
+
+      <div class="d-flex justify-content-center px-4 pt-5" style="width: 100%">
+        <img
+          class="dashboard img-fluid"
+          src="../../assets/odoo/Dashboard.png"
+          alt="Dashboard Image"
+          style="width: 80%; height: auto; display: block"
+        />
+      </div>
     </div>
+
     <!-- End Hero -->
 
     <!-- ======= CHOOSE Section ======= -->

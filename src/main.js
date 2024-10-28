@@ -181,12 +181,12 @@ const messages = {
 
     Modules: 'Modules',
     Industries: 'Industries',
-    'All your business': 'All your business',
-    'Operation in one place.': 'Operation in one place.',
+    'Discover the power': 'Discover the power',
+    'of your business with ERP': 'of your business with ERP',
     'Manage your business—sales, invoicing, accounting, clients, workforce,':
       'Manage your business—sales, invoicing, accounting, clients, workforce,',
-    'inventory, and operations—all in one place':
-      'inventory, and operations—all in one place',
+    'Inventory, Production, Manufacturing, Purchasing-Reports':
+      'Inventory, Production, Manufacturing, Purchasing-Reports',
     'Get a Free Demo': 'Get a Free Demo',
     'See Pricing': 'See Pricing',
 
@@ -350,8 +350,8 @@ const messages = {
     'Are you ready to make your business more organized? Contact With Us Now':
       'Are you ready to make your business more organized? Contact With Us Now',
 
-    'Manage your business—sales, invoicing, accounting, clients, workforce, inventory, and operations—all in one place':
-      'Manage your business—sales, invoicing, accounting, clients, workforce, inventory, and operations—all in one place',
+    'Central Management - Accounts, Sales, Customers, Supply Chain, Human Resources':
+      'Central Management - Accounts, Sales, Customers, Supply Chain, Human Resources',
     'Business Modules': 'Business Modules',
     'Odoo Integration': 'Odoo Integration',
     'Client Feedback': 'Client Feedback',
@@ -535,16 +535,16 @@ const messages = {
     //Odoooo
     Apps: 'التطبيقات',
     Odoo: 'اودو',
-    'Get Demo': 'عرض ',
+    'Get Demo': 'اطلب عرض ',
 
     Modules: 'وحدات',
     Industries: 'الصناعات',
-    'All your business': 'كل ما يخص عملك',
-    'Operation in one place.': ' في مكان واحد.',
-    'Manage your business—sales, invoicing, accounting, clients, workforce,':
-      'إدارة أعمالك - المبيعات، الفواتير، المحاسبة، العملاء، القوى العاملة،',
-    'inventory, and operations—all in one place':
-      'المخزون والعمليات - كلها في مكان واحد',
+    'Discover the power': 'اكتشف قوه عملك ',
+    'of your business with ERP': ' مع نظام تخطيط موارد المؤسسات ',
+    'Central Management - Accounts, Sales, Customers, Supply Chain, Human Resources':
+      'إدارة مركزيه - الحسابات، المبيعات، العملاء ،سلسله الامداد ،  الموارد البشريه',
+    'Inventory, Production, Manufacturing, Purchasing-Reports':
+      'المخزون، الانتاج ،التصنيع ، المشتريات-التقارير ',
     'Get a Free Demo': 'احصل على عرض مجاني',
     'See Pricing': 'انظر التسعير ',
 
