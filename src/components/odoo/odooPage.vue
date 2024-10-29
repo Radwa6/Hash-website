@@ -390,7 +390,7 @@
     <!-- End Solutions -->
 
     <!-- ======= feedback Section ======= -->
-    <div class="feedback">
+    <div class="feedback py-5">
       <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
         {{ $t('WHAT THEY SAY') }}
       </p>
