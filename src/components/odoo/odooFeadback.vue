@@ -13,7 +13,7 @@
         <div class="carousel-item active">
           <div class="container">
             <div class="row">
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -42,7 +42,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -73,7 +73,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -109,7 +109,7 @@
         <div class="carousel-item">
           <div class="container">
             <div class="row">
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -138,7 +138,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -169,7 +169,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -205,7 +205,7 @@
         <div class="carousel-item">
           <div class="container">
             <div class="row">
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -234,7 +234,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -265,7 +265,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-4 d-flex mt-3">
+              <div class="col-4 d-flex mt-3">
                 <div class="card bg-dark text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
@@ -399,5 +399,49 @@ export default {}
 }
 .card-body {
   text-align: start;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 10px !important;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .card-body {
+    padding: 5px !important;
+  }
+  .border-secondary img {
+    width: 2rem !important;
+  }
+}
+@media (max-width: 480px) {
+  p {
+    font-size: 10px !important;
+  }
+
+  h5 {
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .col-4 {
+    padding: 5px !important;
+  }
+  .card-body {
+    padding: 5px !important;
+  }
+  .border-secondary img {
+    width: 2rem !important;
+    margin: 0 2px !important;
+  }
+  .border-secondary p {
+    font-size: 5px !important;
+  }
 }
 </style>

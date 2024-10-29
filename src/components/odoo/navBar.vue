@@ -427,6 +427,7 @@ a :hover {
   border: none;
   transition: padding 0.3s, box-shadow 0.3s, font-size 0.3s;
   color: white;
+  padding: 10px 20px;
 }
 .btn-custom {
   white-space: nowrap;
