@@ -12,8 +12,8 @@
         <nav
           class="navigation d-flex justify-content-between align-content-center"
         >
-          <router-link to="/ThePage" class="logo w-50">
-            <div class="d-flex justify-content-start ml-5 mr-5">
+          <router-link to="/ThePage" class="logo">
+            <div class="d-flex justify-content-start ml-3 mr-3">
               <div v-if="isScrolled">
                 <svg
                   width="155"
@@ -171,7 +171,7 @@
             class="menu-area"
             :class="{ show: mobileMenu, allProjects: isProjectPage }"
           >
-            <ul class="">
+            <ul class="mx-5" style="white-space: nowrap; cursor: pointer">
               <router-link to="/ThePage" exact-active-class="active-link">
                 <li>{{ $t('home') }}</li>
               </router-link>
@@ -205,12 +205,15 @@
               </router-link>
 
               <router-link to="/Contact">
-                <button class="button">
+                <button
+                  class="button"
+                  style="white-space: nowrap; cursor: pointer"
+                >
                   {{ $t('contact') }}
                 </button>
               </router-link>
 
-              <a class="m-2" href="#" @click.prevent="toggleLanguage">{{
+              <a href="#" @click.prevent="toggleLanguage">{{
                 currentLanguage
               }}</a>
             </ul>
@@ -363,20 +366,7 @@ a :hover {
   justify-content: space-between;
   padding: 0 40px;
 }
-.menu-area {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  position: relative;
-}
+
 .marginauto {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -392,9 +382,7 @@ a :hover {
   -ms-flex-pack: end;
   justify-content: end;
 }
-.menu-area ul {
-  width: 100%;
-}
+
 .menu-area button {
   background-color: #df8317;
   padding: 10px 5%;
@@ -506,7 +494,6 @@ button:hover {
   display: inline-block;
   color: #000 !important;
   padding: 0 10px;
-  font-size: 22px !important;
 }
 .menu-area li a {
   color: #000;
@@ -677,7 +664,7 @@ button:hover {
     padding: 0px;
   }
   .mobilebtn {
-    display: block;
+    display: block !important;
     background-color: rgba(255, 255, 255, 0);
   }
 
