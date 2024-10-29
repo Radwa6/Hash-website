@@ -221,7 +221,7 @@ const messages = {
       'Functioning seamlessly, whether individually or concurrently—utilize all features,',
     'or activate and deactivate as needed to fit your business requirements.':
       'or activate and deactivate as needed to fit your business requirements.',
-    'Sales & Purchase': 'Sales & Purchase',
+    Accounting: 'Accounting',
     'Invoicing, sales commission management, insurance management, promotional offers':
       'Invoicing, sales commission management, insurance management, promotional offers',
     Inventory: 'Inventory',
@@ -236,7 +236,6 @@ const messages = {
     'Point Of Sale': 'Point Of Sale',
     'systems streamline transactions, manage inventory, and provide sales analytics.':
       'systems streamline transactions, manage inventory, and provide sales analytics.',
-    Accounting: 'Accounting',
     'Expenses, tax, treasuries, cheque cycle, accounts, cost centers, and financial reports.':
       'Expenses, tax, treasuries, cheque cycle, accounts, cost centers, and financial reports.',
     'Projects & Tasks': 'Projects & Tasks',
@@ -364,6 +363,12 @@ const messages = {
     YouTube: 'YouTube',
     'Privacy Policcentery | Terms & Conditions | Cookie Policy':
       'Privacy Policcentery | Terms & Conditions | Cookie Policy',
+
+    Timesheets: 'Timesheets',
+    'Help Disk': 'Help Disk',
+    Dashboard: 'Dashboard',
+    HR: 'HR',
+    Rental: 'Rental',
   },
   ar: {
     welcome: 'مرحبًا بك في موقعنا',
@@ -580,7 +585,6 @@ const messages = {
     'or activate and deactivate as needed to fit your business requirements.':
       'أو قم بتفعيل وإلغاء التفعيل حسب الحاجة لتناسب متطلبات عملك',
 
-    'Sales & Purchase': 'المبيعات والشراء',
     'Invoicing, sales commission management, insurance management, promotional offers':
       'الفواتير، إدارة عمولات المبيعات، إدارة التأمين، العروض الترويجية',
 
