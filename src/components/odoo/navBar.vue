@@ -200,7 +200,7 @@
                   </router-link>
                 </ul>
 
-                <div class="d-flex align-items-center">
+                <div class="order d-flex flex-colum align-items-center">
                   <a href="#" @click.prevent="toggleLanguage">{{
                     currentLanguage
                   }}</a>
@@ -222,7 +222,7 @@
                     class="d-inline-flex align-items-center m-5 mt-0 mb-0"
                   >
                     <button
-                      class="d-inline-flex"
+                      class="d-flex align-items-center justify-content-center"
                       style="white-space: nowrap; cursor: pointer"
                     >
                       {{ $t('Get Demo') }}
@@ -591,6 +591,10 @@ a :hover {
     width: 100%;
     color: #000 !important;
   }
+  .menu-area .order {
+    flex-direction: column !important;
+    padding-bottom: 20px;
+  }
   .menu-area.show {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -617,6 +621,7 @@ a :hover {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     position: relative;
+    padding: 10px 0;
   }
   .sub,
   .mega {
@@ -649,7 +654,7 @@ a :hover {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 10px 0 !important;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;

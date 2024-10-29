@@ -10,7 +10,7 @@
     <div id="app" :dir="isRTL ? 'rtl' : 'ltr'">
       <header class="header-area">
         <nav
-          class="navigation d-flex justify-content-between align-content-center"
+          class="navigation mx-5 d-flex justify-content-between align-content-center"
         >
           <router-link to="/ThePage" class="logo">
             <div class="d-flex justify-content-start ml-3 mr-3">
@@ -171,7 +171,7 @@
             class="menu-area"
             :class="{ show: mobileMenu, allProjects: isProjectPage }"
           >
-            <ul class="mx-5" style="white-space: nowrap; cursor: pointer">
+            <ul style="white-space: nowrap; cursor: pointer">
               <router-link to="/ThePage" exact-active-class="active-link">
                 <li>{{ $t('home') }}</li>
               </router-link>
@@ -213,9 +213,12 @@
                 </button>
               </router-link>
 
-              <a href="#" @click.prevent="toggleLanguage">{{
-                currentLanguage
-              }}</a>
+              <a
+                class="Language mx-3"
+                href="#"
+                @click.prevent="toggleLanguage"
+                >{{ currentLanguage }}</a
+              >
             </ul>
           </div>
         </nav>
@@ -364,7 +367,7 @@ a :hover {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0 40px;
+  padding: 0 4%;
 }
 
 .marginauto {
@@ -675,6 +678,9 @@ button:hover {
     -webkit-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
+  }
+  .menu-area .Language {
+    margin: 0 !important;
   }
   .menu-area.show button {
     width: 90%;

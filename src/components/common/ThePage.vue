@@ -7,7 +7,7 @@
           class="header d-flex align-items-center justify-content-center ml-5 mr-5"
         >
           <div
-            class="d-flex align-items-center justify-content-center"
+            class="mx-4 d-flex align-items-center justify-content-center"
             style="min-height: 60vh"
           >
             <div
