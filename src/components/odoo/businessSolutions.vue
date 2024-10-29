@@ -124,7 +124,7 @@
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <img :src="imageUrl1" alt="image" class="img-fluid" />
+              <img :src="imageUrl2" alt="image" class="img-fluid" />
             </div>
             <div
               class="col-lg-6 col-12 p-2"
