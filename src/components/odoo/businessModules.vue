@@ -20,7 +20,11 @@
         }}
       </p>
       <div class="row px-4 py-3" style="color: #fff">
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="50"
@@ -68,7 +72,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="50"
@@ -146,7 +154,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -169,7 +181,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -217,7 +233,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -293,7 +313,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -333,7 +357,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -365,7 +393,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -397,7 +429,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -445,7 +481,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -487,7 +527,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="37"
@@ -518,7 +562,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -588,7 +636,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -623,7 +675,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -655,7 +711,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -687,7 +747,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -712,7 +776,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -744,7 +812,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -776,7 +848,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -832,7 +908,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -857,7 +937,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -884,7 +968,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -934,7 +1022,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
@@ -957,7 +1049,11 @@
           </div>
         </div>
 
-        <div class="col-4 col-lg-2 p-2">
+        <div
+          class="col-4 col-lg-2 p-2"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <div class="py-4" style="background-color: #141c30">
             <svg
               width="51"
