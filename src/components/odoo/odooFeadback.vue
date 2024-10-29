@@ -14,7 +14,7 @@
           <div class="container">
             <div class="row">
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -43,7 +43,7 @@
               </div>
 
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -74,7 +74,7 @@
               </div>
 
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -110,7 +110,7 @@
           <div class="container">
             <div class="row">
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -139,7 +139,7 @@
               </div>
 
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -170,7 +170,7 @@
               </div>
 
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -206,7 +206,7 @@
           <div class="container">
             <div class="row">
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -235,7 +235,7 @@
               </div>
 
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -266,7 +266,7 @@
               </div>
 
               <div class="col-4 d-flex mt-3">
-                <div class="card bg-dark text-white w-100">
+                <div class="card text-white w-100">
                   <div
                     class="card-body d-flex flex-column justify-content-between"
                   >
@@ -400,7 +400,9 @@ export default {}
 .card-body {
   text-align: start;
 }
-
+.card {
+  background-color: #1a202c;
+}
 @media (max-width: 767px) {
   p {
     font-size: 10px !important;
