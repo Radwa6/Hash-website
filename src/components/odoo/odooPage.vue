@@ -758,10 +758,10 @@
     <!-- ======= Start Business Section ======= -->
     <div class="Business p-5">
       <div
-        class="row pt-5 pb-5 position-relative d-flex justify-content-center align-items-center"
+        class="row py-5 position-relative d-flex justify-content-center align-items-center"
       >
         <div
-          class="col-lg-6 col-12 p-4 position-relative justify-content-center"
+          class="col-lg-6 col-12 px-5 position-relative justify-content-center"
           style="text-align: start"
           data-aos="fade-right"
           data-aos-duration="2000"
