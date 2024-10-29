@@ -16,7 +16,7 @@ const messages = {
     aboutus: 'About Us',
     services: 'Services',
     contact: 'Contact Us',
-    headerTitle: 'Transform Your Vision into Reality With Data Ways',
+    headerTitle: 'Transform Your Vision into Reality With Hash studio',
     headerText:
       'Convert your idea to reality with Hash Studio Inc through our customized solution.',
     SeeMore: 'See More',
@@ -377,7 +377,7 @@ const messages = {
     aboutus: 'معلومات عنا',
     services: 'الخدمات',
     contact: 'تواصل معنا',
-    headerTitle: 'حوّل رؤيتك إلى واقع مع Data Ways',
+    headerTitle: 'حوّل رؤيتك إلى واقع مع hash studio',
     headerText:
       'قم بتحويل فكرتك إلى حقيقة مع Hash Studio Inc من خلال الحل المخصص لدينا.',
     SeeMore: 'انظر المزيد ',

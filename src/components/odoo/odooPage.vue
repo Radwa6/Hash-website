@@ -408,21 +408,25 @@
 
     <!-- ======= Industries Section ======= -->
     <div class="Industries p-5">
-      <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
-        {{ $t('Business Industries') }}
-      </p>
-      <h1>{{ $t('Whatever your industry, it’s the right fit!') }}</h1>
-      <p style="margin-bottom: 7%">
-        {{
-          $t(
-            'Crafted to align with different industries through a wide selection of customized solutions.'
-          )
-        }}
-      </p>
+      <div data-aos="fade-down" data-aos-duration="2000">
+        <p class="Choose pt-5" style="color: #df8317; font-weight: bold">
+          {{ $t('Business Industries') }}
+        </p>
+        <h1>{{ $t('Whatever your industry, it’s the right fit!') }}</h1>
+        <p style="margin-bottom: 7%">
+          {{
+            $t(
+              'Crafted to align with different industries through a wide selection of customized solutions.'
+            )
+          }}
+        </p>
+      </div>
 
       <div
         class="d-flex justify-content-center mt-5 pb-5"
         style="text-align: left; direction: ltr"
+        data-aos="fade-up"
+        data-aos-duration="2000"
       >
         <div
           class="big-dotted-border d-flex flex-column justify-content-center align-items-center"
@@ -759,6 +763,8 @@
         <div
           class="col-lg-6 col-12 p-4 position-relative justify-content-center"
           style="text-align: start"
+          data-aos="fade-right"
+          data-aos-duration="2000"
         >
           <p style="color: #df8317; display: inline-block; font-size: 24px">
             {{ $t('With Us') }}
