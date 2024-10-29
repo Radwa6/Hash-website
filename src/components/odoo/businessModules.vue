@@ -1018,7 +1018,9 @@
               />
             </svg>
 
-            <h4 class="mt-4">{{ $t('Social Marketing') }}</h4>
+            <h4 class="mt-4" style="white-space: nowrap; cursor: pointer">
+              {{ $t('Social Marketing') }}
+            </h4>
           </div>
         </div>
 
@@ -1080,7 +1082,9 @@
               </defs>
             </svg>
 
-            <h4 class="mt-4">{{ $t('Email Marketing') }}</h4>
+            <h4 class="mt-4" style="white-space: nowrap; cursor: pointer">
+              {{ $t('Email Marketing') }}
+            </h4>
           </div>
         </div>
       </div>
@@ -1166,7 +1170,7 @@ p {
   font-size: 20px;
 }
 h4 {
-  font-size: 22px;
+  font-size: 20px;
 }
 @media (max-width: 480px) {
   h1 {
@@ -1175,11 +1179,6 @@ h4 {
   }
   p {
     font-size: 10px !important;
-  }
-
-  h4 {
-    font-size: 12px;
-    font-weight: bold;
   }
 }
 @media (max-width: 768px) {
@@ -1192,8 +1191,7 @@ h4 {
     font-weight: bold;
   }
   h4 {
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 10px !important;
   }
 }
 </style>

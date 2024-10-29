@@ -8,6 +8,7 @@
         :key="index"
         @click="activeIndex = index"
         :class="{ active: activeIndex === index }"
+        style="white-space: nowrap; cursor: pointer"
       >
         {{ title }}
       </button>
@@ -549,6 +550,37 @@ button.active {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 1368px) {
+  .titles-container button {
+    font-size: 12px;
+    padding: 7px !important;
+    height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 10px !important;
+  }
+
+  h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .titles-container button {
+    font-size: 6px;
+    padding: 2px !important;
+    height: 30px;
+  }
+  button {
+    font-size: 6px !important;
+  }
+}
 @media (max-width: 480px) {
   h1 {
     font-size: 18px;
@@ -564,29 +596,7 @@ button.active {
   }
   .titles-container button {
     font-size: 6px;
-    padding: 5px !important;
-    height: 30px;
-  }
-  button {
-    font-size: 6px !important;
-  }
-}
-@media (max-width: 768px) {
-  p {
-    font-size: 10px !important;
-  }
-
-  h1 {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  h4 {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .titles-container button {
-    font-size: 6px;
-    padding: 5px !important;
+    padding: 1px !important;
     height: 30px;
   }
   button {
